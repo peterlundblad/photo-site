@@ -1,0 +1,39 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$background: #130F41;
+$black: #000;
+$white: #fff;
+$typepography: Space Mono, Courier;
+
+
+
+body {
+    background-color: $background;
+    color: $white;
+    font-family: $typepography;
+    font-weight: 100;
+    max-width: 1000px;
+    margin: 2em auto;
+}
+
+a {
+    color: $white;
+    text-transform: uppercase;
+}
+
+nav a {
+    margin-left: 30px;
+}
+
+h1,h2 {
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

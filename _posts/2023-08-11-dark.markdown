@@ -1,0 +1,9 @@
+---
+title: Capturing the dark
+date: 2023-08-11 16:43:54 Z
+categories:
+- jekyll
+- update
+---
+
+the darkness was void until the dawn appeared 
