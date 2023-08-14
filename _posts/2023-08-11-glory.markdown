@@ -1,0 +1,9 @@
+---
+title: Glory Upon the Heavens
+date: 2023-08-11 16:43:54 Z
+categories:
+- jekyll
+- update
+---
+
+there upon the heavens a voice spoke in the night

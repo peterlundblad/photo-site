@@ -1,6 +1,0 @@
----
-title:  "Photo Time"
-date:   2023-08-11 18:43:54 +0200
-categories: jekyll update
----
-let us begin
