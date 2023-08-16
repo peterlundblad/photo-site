@@ -4,4 +4,4 @@ permalink: "/contact/"
 layout: default
 ---
 
-email: contact@peterlundblad.com
+[contact@peterlundblad.com](mailto:contact@peterlundblad.com)
