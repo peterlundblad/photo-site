@@ -27,4 +27,11 @@ header {
   justify-content: space-between;
 }
 
+div.post p {
+  max-width: 700px;
+}
+div.post img {
+  max-width: 1000px;
+}
+
 /*# sourceMappingURL=app.css.map */

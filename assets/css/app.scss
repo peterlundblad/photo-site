@@ -37,3 +37,15 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
+div.post {
+
+    p {
+        max-width: 700px;
+    }
+
+    img {
+        max-width: 1000px;
+    }
+
+}
