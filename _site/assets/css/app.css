@@ -15,6 +15,7 @@ a {
 
 nav a {
   margin-left: 30px;
+  text-decoration: none;
 }
 
 h1, h2 {
@@ -32,6 +33,11 @@ div.post p {
 }
 div.post img {
   max-width: 1000px;
+}
+
+nav a.selected {
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
 }
 
 /*# sourceMappingURL=app.css.map */
