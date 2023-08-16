@@ -1,9 +1,6 @@
 ---
 title: Glory Upon the Heavens
-date: 2023-08-11 16:43:54 Z
-categories:
-- jekyll
-- update
+date: 2023-08-11 16:43:00 Z
 ---
 
 ![7Z2A2764.jpg](/assets/images/7Z2A2764.jpg)
