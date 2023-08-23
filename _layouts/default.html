@@ -3,18 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>Lundblad Studios</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="/assets/css/app.css"
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/css/app.css">
     </head>
 
+    {% include header.html %}
+
     <body>
+        <div class="container">
+            {% include photos.html %}
 
-        {% include header.html %}
-
-        <section>
-            {{ content }}
-        </section>
-       
+            <!-- <section class="blog-content">
+                {{ content }}
+            </section> -->
+        </div>
     </body>
+
+    {% include footer.html %}
 
 </html>

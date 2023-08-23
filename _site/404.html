@@ -3,27 +3,73 @@
     <head>
         <meta charset="utf-8">
         <title>Lundblad Studios</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="/assets/css/app.css"
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/css/app.css">
     </head>
 
-    <body>
+    <header>   
+    <div class="container">
+        <section class="logo">
+            <a href="/">
+                <img src="/assets/images/LS-logomark-white.svg" alt="Lundblad Studios Logomark">
+            </a>
+            <h1>Lundblad Studios</h1>
+        </section>
+    
+        <nav>
+            <a href="/"  >Work</a>
+            <a href="/about/" >About</a>
+            <a href="/contact/" >Contact</a>
 
-        <header>    
-    <a href="/">
-        <img src="/assets/images/LS-logomark-white.svg" alt="Lundblad Studios Logomark">
-    </a>
-    <h1>Lundblad Studios</h1>
-    <nav>
-        <a href="/"  >Work</a>
-        <a href="/about/" >About</a>
-        <a href="/contact/" >Contact</a>
-
-    </nav>
+        </nav>
+    </div>
 </header>
 
-        <section>
-            <style type="text/css" media="screen">
+    <body>
+        <div class="container">
+            <div class="row"> 
+    <div class="column">
+      <img src="/assets/images/IMG_0771.jpg">
+      <img src="/assets/images/IMG_0302.jpg">
+      <img src="/assets/images/IMG_0617.jpg">
+      <img src="/assets/images/IMG_0412.jpg">
+      <img src="/assets/images/IMG_0449.jpg">
+      <img src="/assets/images/IMG_0500.jpg">
+      <img src="/assets/images/IMG_0933.jpg">
+    </div>
+    <div class="column">
+        <img src="/assets/images/7Z2A2764.jpg">
+        <img src="/assets/images/IMG_0351-Edit-2.jpg">
+        <img src="/assets/images/IMG_0505.jpg">
+        <img src="/assets/images/IMG_0947.jpg">
+        <img src="/assets/images/IMG_0904.jpg">
+        <img src="/assets/images/IMG_0037.jpg">
+        <img src="/assets/images/IMG_1399.jpg">
+    </div>  
+    <div class="column">
+        <img src="/assets/images/IMG_0833.jpg">
+        <img src="/assets/images/IMG_0900.jpg">
+        <img src="/assets/images/IMG_0371.jpg">
+        <img src="/assets/images/IMG_0302.jpg">
+        <img src="/assets/images/IMG_1066.jpg">
+        <img src="/assets/images/IMG_0308.jpg">
+        <img src="/assets/images/IMG_0505.jpg">
+        
+    </div>
+    <div class="column">
+        <img src="/assets/images/IMG_1399.jpg">
+        <img src="/assets/images/IMG_0904.jpg">
+        <img src="/assets/images/IMG_0484.jpg">
+        <img src="/assets/images/IMG_0674.jpg">
+        <img src="/assets/images/IMG_0699.jpg">
+        <img src="/assets/images/IMG_0302.jpg">
+        <img src="/assets/images/IMG_0594.jpg">
+        
+    </div>
+  </div>
+
+            <!-- <section class="blog-content">
+                <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -44,8 +90,60 @@
   <p>The requested page could not be found.</p>
 </div>
 
-        </section>
-       
+            </section> -->
+        </div>
     </body>
+
+    <footer>
+    <section class="footer-content">
+        <div class="email-list">
+            <h6>Subscribe to my zine</h6>
+            <p>Digital musings, direct to your inbox.</p>
+            <form
+                action="https://buttondown.email/api/emails/embed-subscribe/lanyard"
+                method="post"
+                target="popupwindow"
+                onsubmit="window.open('https://buttondown.email/lanyard', 'popupwindow')"
+                class="embeddable-buttondown-form"
+            >
+                <input type="email" name="email" id="bd-email" placeholder="Your email address" required>
+                <input type="hidden" value="1" name="embed"></input>
+                <input type="submit" value="Subscribe" class="button"></input>
+            </form>
+        </div>
+        <div class="rule"></div>
+        <div class="ext-links">
+            <ul class="footer-nav">
+                
+                <li><a href="colophon.html">Colophon</a></li> 
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="rule"></div>
+            <div class="social">
+            <a href="https://dribbble.com/peterlundblad" target="_blank">
+                <img src="/assets/images/icon-dribbble.svg" alt="logo for Dribbble.com">
+            </a>
+            <a href="https://www.instagram.com/peterlundblad/" target="_blank">
+                <img src="assets/images/icon-instagram.svg" alt="logo for Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/peterlundblad/" target="_blank">
+                <img src="assets/images/icon-linkedin.svg" alt="logo for Linkedin">
+            </a>
+            <a href="https://github.com/peterlundblad/" target="_blank">
+                <img src="assets/images/icon-github1.svg" alt="logo for GitHub">
+                </a>
+            </div>
+        </div>
+    </section>
+        <p id="copyright">
+            <script>
+                const currentYear = new Date().getFullYear();
+                document.getElementById("copyright").textContent = `© ${currentYear}`;
+            </script>
+            PCL. All Rights Reserved. <span>Made in SF, CA.</span>
+        </p>
+    </footer>
 
 </html>

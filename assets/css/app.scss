@@ -1,43 +1,76 @@
 ---
 ---
 
+{% include norms.css %}
+
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-$background: #130F41;
+$background: #05041d;
 $black: #000;
 $white: #fff;
+$grey: #181d3c;
+$purple: #2F22C8;
+$gradient: linear-gradient(16deg, $grey 0, $background 100%);
 $typepography: Space Mono, Courier;
 
+* {
+    box-sizing: border-box;
+  }
+  
+//   body {
+//     margin: 0;
+//     font-family: Arial;
+//   }
+  
+//   .header {
+//     text-align: center;
+//     padding: 32px;
+//   }
 
+.logo {
+    display: flex;
+    align-items: center;
+    transform: translate(0px, 3px);
 
-body {
+    h1 {
+        font-size: 1.4em;
+        padding-left: 1em;
+    }
+}
+
+header, body {
     background-color: $background;
     color: $white;
     font-family: $typepography;
     font-weight: 100;
-    max-width: 1000px;
-    margin: 2em auto;
+   
+   
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    padding: 0 2rem;
 }
 
 a {
     color: $white;
-    text-transform: uppercase;
 }
 
 nav a {
     margin-left: 30px;
     text-decoration: none;
+    font-weight: 400;
 }
 
 h1,h2 {
     font-weight: 400;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 div.post {
 
@@ -53,5 +86,206 @@ div.post {
 
 nav a.selected {
  text-decoration: none;
- border-bottom: 2px solid $white;
+ border-bottom: 5px solid $purple;
+}
+
+.row {
+display: -ms-flexbox; /* IE10 */
+display: flex;
+-ms-flex-wrap: wrap; /* IE10 */
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Create four equal columns that sit next to each other */
+.column {
+-ms-flex: 25%; /* IE10 */
+flex: 25%;
+max-width: 25%;
+padding: 0 6px;
+}
+
+.column img {
+margin-top: 12px;
+vertical-align: middle;
+width: 100%;
+}
+
+
+
+.blog-content {
+display: block;
+}
+
+
+footer {
+    padding: 25px;
+    background-color: $grey;
+    color: #fff;
+    height: 20rem;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer-nav {
+    list-style: none;
+    float: left;
+    margin: -0.1em 2em 0 0;
+    text-align: right;
+    color: #fff;
+    border-right: 1px solid;
+    padding-right: 3em;
+  }
+  .footer-nav a:hover {
+    border-bottom: 2px solid $purple;
+    padding-bottom: 2px;
+    transition: padding-bottom 0.3s;
+    padding-left: initial;
+  }
+  .footer-nav * {
+    margin-bottom: 0.5rem;
+    padding-top: 0.2rem;
+    transform: translateY(2px);
+  }
+  footer span {
+    color: #fff;
+    font-weight: 500;
+  }
+  #copyright {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0.7rem;
+    text-align: left;
+  }
+  .ext-links {
+    display: flex;
+    align-items: center;
+  }
+  footer p {
+    padding-top: 2px;
+  }
+  .ext-links a {
+    padding-left: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #bd-email {
+    color: #666b7a;
+    height: 2.5rem;
+    width: 18em;
+    margin-bottom: 0.5rem;
+    border-radius: 12px;
+    border-style: none;
+    padding-left: 1em;
+  }
+
+  .button {
+    background-color: $purple;
+    box-shadow: 0 2px 2px 0 rgba(17, 64, 87, 0.1),
+      0 10px 20px 0 rgba(3, 48, 29, 0.09);
+    font-family: "Work Sans", Helvectia, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 1rem 2em;
+    border-radius: 12px;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.3s;
+    margin: 0 auto;
+    width: 30%;
+    max-width: 18em;
+    min-width: 13em;
+    border-style: none;
+  }
+  .button:hover {
+    transform: scale(1.07, 1.07);
+  }
+  .button:active {
+    box-shadow: inset 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .email-list .button {
+    display: list-item;
+    width: 20em;
+    height: 2.5rem;
+    max-width: initial;
+    margin: initial;
+    padding: initial;
+  }
+
+  .email-list {
+    text-align: left;
+    display: inline-block;
+    margin: 3.75rem 1.2em 3.75rem 0;
+  }
+  .email-list h6 {
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 500;
+    margin: initial;
+  }
+  .email-list p {
+    margin: 0 0 0.8rem 0;
+  }
+  label {
+    color: #7e8a9a;
+    margin-bottom: 0.25em;
+  }
+
+
+  #buttondown {
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
+  .rule {
+    display: none;
+    border: 1px solid #fff;
+    margin: 90px auto;
+    max-width: 450px;
+  }
+  .mobile {
+    display: none;
+  }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    .footer-content {
+        flex-direction: column;
+      }
+      footer {
+        height: initial;
+      }
+      .ext-links {
+        transform: translateX(-12%);
+      }
+      #copyright {
+        margin: 3rem auto 0 auto;
+        text-align: center;
+      }
+}
+
+  
+  
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+}
 }
