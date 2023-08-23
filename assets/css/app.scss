@@ -16,25 +16,17 @@ $typepography: Space Mono, Courier;
 * {
     box-sizing: border-box;
   }
-  
-//   body {
-//     margin: 0;
-//     font-family: Arial;
-//   }
-  
-//   .header {
-//     text-align: center;
-//     padding: 32px;
-//   }
+
 
 .logo {
     display: flex;
     align-items: center;
     transform: translate(0px, 3px);
 
-    h1 {
+    h2 {
         font-size: 1.4em;
-        padding-left: 1em;
+        padding-left: 1.2em;
+        
     }
 }
 
@@ -56,6 +48,14 @@ header, body {
     padding: 0 2rem;
 }
 
+.container-hero img {
+  display: flex;
+  margin: 0 auto;
+  flex: 100%;
+  max-width: 100%;
+}
+
+
 a {
     color: $white;
 }
@@ -66,11 +66,27 @@ nav a {
     font-weight: 400;
 }
 
-h1,h2 {
-    font-weight: 400;
+h1 {
+  font-family: $typepography;
+  font-size: 8.125rem;
+  font-style: normal;
+  font-weight: 500;
+  text-align: right;
+  line-height: normal;
+  letter-spacing: -0.325rem;
+  align-items: flex-end;
 }
 
+h2 {
+  font-weight: 400;
+}
 
+p {
+margin-left: 20rem;
+margin-top: 4rem;
+ text-align: right;
+
+}
 
 div.post {
 
@@ -94,7 +110,7 @@ display: -ms-flexbox; /* IE10 */
 display: flex;
 -ms-flex-wrap: wrap; /* IE10 */
 flex-wrap: wrap;
-padding: 0 4px;
+// padding: 0 4px;
 }
 
 /* Create four equal columns that sit next to each other */
