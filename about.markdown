@@ -3,6 +3,7 @@ title: About
 permalink: "/about/"
 layout: default
 ---
+
 <div class="container-hero">
     <h1>About</h1>
     <img class="hero" src="/assets/images/IMG_1135-crop.jpg">
