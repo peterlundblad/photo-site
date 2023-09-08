@@ -3,6 +3,7 @@ title: Contact
 permalink: "/contact/"
 layout: default
 ---
+
 <h1>{{ page.title }}</h1>
 <p>Step into a world where emotions and aesthetics meld seamlessly. I breathe life into fleeting moments, crafting timeless keepsakes. Whether it's the delicate dance of two souls or the artistry of expression on the runway, my work will capture and embody your unique vision</p>
 
