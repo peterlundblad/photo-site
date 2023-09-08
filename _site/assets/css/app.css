@@ -247,11 +247,14 @@ header, body {
   padding: 0 2rem;
 }
 
+.container-hero {
+  margin: 2rem 2rem 14rem 2rem;
+}
+
 .container-hero img {
   display: flex;
-  margin: 0 auto;
-  flex: 100%;
-  max-width: 100%;
+  margin: 3rem auto 0rem auto;
+  width: 100%;
 }
 
 a {
@@ -280,9 +283,9 @@ h2 {
 }
 
 p {
-  margin-left: 20rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   text-align: right;
+  padding-left: 21rem;
 }
 
 div.post p {
@@ -295,6 +298,12 @@ div.post img {
 nav a.selected {
   text-decoration: none;
   border-bottom: 5px solid #2F22C8;
+}
+
+.contact {
+  text-decoration: none;
+  border-bottom: 5px solid #2F22C8;
+  font-size: 1.6rem;
 }
 
 .row {
@@ -476,6 +485,9 @@ label {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
+  .logo h2 {
+    display: none;
+  }
   .column {
     -ms-flex: 50%;
     flex: 50%;
@@ -531,6 +543,7 @@ label {
   }
   p {
     text-align: right;
+    padding-left: 2rem;
   }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -549,6 +562,7 @@ label {
   }
   p {
     margin-left: 1rem;
+    padding-left: 1rem;
   }
 }
 

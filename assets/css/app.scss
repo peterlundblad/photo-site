@@ -46,11 +46,14 @@ header, body {
     padding: 0 2rem;
 }
 
+.container-hero {
+  margin: 2rem 2rem 14rem 2rem;
+}
+
 .container-hero img {
   display: flex;
-  margin: 0 auto;
-  flex: 100%;
-  max-width: 100%;
+  margin: 3rem auto 0rem auto;
+  width: 100%;
 }
 
 
@@ -80,11 +83,12 @@ h2 {
 }
 
 p {
-margin-left: 20rem;
-margin-top: 4rem;
- text-align: right;
-
+  margin-top: 2rem;
+  text-align: right;
+  padding-left: 21rem;
 }
+
+
 
 div.post {
 
@@ -101,6 +105,12 @@ div.post {
 nav a.selected {
  text-decoration: none;
  border-bottom: 5px solid $purple;
+}
+
+.contact {
+  text-decoration: none;
+  border-bottom: 5px solid $purple;
+  font-size: 1.6rem;
 }
 
 .row {
@@ -274,6 +284,14 @@ footer {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
+
+  .logo {
+  
+    h2 {
+        display: none;
+        
+    }
+  }
   .column {
     -ms-flex: 50%;
     flex: 50%;
@@ -311,7 +329,6 @@ footer {
     }
   }
 
-
   .ext-links {
     transform: translateX(0);
     display: flex;
@@ -334,6 +351,7 @@ footer {
   
 p {
   text-align: right;
+  padding-left: 2rem;
 }
 
 }
@@ -365,6 +383,7 @@ h1 {
 
 p {
   margin-left: 1rem;
+  padding-left: 1rem;
 }
 
 }
