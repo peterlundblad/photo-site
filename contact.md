@@ -3,6 +3,7 @@ title: Contact
 permalink: "/contact/"
 layout: default
 ---
+
 <h1>{{ page.title }}</h1>
 <p>Enter a realm where emotions and aesthetics merge effortlessly. Life is breathed into fleeting moments, crafting them into timeless keepsakes. Whether it's the tender dance of two souls or the artistry of expression on the runway, Peter's work captures and embodies a unique vision.</p>
 
