@@ -16,7 +16,7 @@
 [build.processing.html]
   pretty_urls = true
 [build.processing.images]
-  compress = true
+  compress = false
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"
@@ -25,7 +25,7 @@ package = "@netlify/plugin-sitemap"
 
 package = "netlify-plugin-cloudinary"
   [plugins.inputs]
-  cloudName = "squid"
+    cloudName = "squid"
   
   # Skip all post processing in deploy previews,
 # ignoring any other settings
