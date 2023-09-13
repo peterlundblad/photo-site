@@ -19,12 +19,13 @@
   compress = false
 
 [[plugins]]
-  package = "netlify-plugin-cloudinary"
+  package = "./netlify-plugin-cloudinary"
 
   [plugins.inputs]
   cloudName = "squid"
 
-package = "@netlify/plugin-sitemap"
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
   [plugins.inputs]
     buildDir = "public"
   
