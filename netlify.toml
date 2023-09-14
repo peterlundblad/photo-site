@@ -6,7 +6,7 @@
 
   # If skip_processing = true, all other settings are ignored
 [build.processing]
-  skip_processing = true
+  skip_processing = false
 [build.processing.css]
   bundle = true
   minify = false
@@ -16,10 +16,7 @@
 [build.processing.html]
   pretty_urls = true
 [build.processing.images]
-  compress = false
-
-[[plugins]]
-package = "netlify-plugin-image-optim"
+  compress = true
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
