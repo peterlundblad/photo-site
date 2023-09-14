@@ -19,10 +19,7 @@
   compress = false
 
 [[plugins]]
-  package = "netlify-plugin-cloudinary"
-
-  [plugins.inputs]
-  cloudName = "squid"
+package = "netlify-plugin-image-optim"
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"

@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "cloudinary": "^1.40.0",
+    "dotenv": "^16.3.1",
     "netlify-plugin-cloudinary": "^1.8.0"
   }
 }
