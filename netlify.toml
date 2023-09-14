@@ -19,7 +19,7 @@
   compress = false
 
 [[plugins]]
-  package = "./netlify-plugin-cloudinary"
+  package = "netlify-plugin-cloudinary"
 
   [plugins.inputs]
   cloudName = "squid"
