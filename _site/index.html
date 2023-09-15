@@ -58,48 +58,48 @@
     <body>
         <div class="row"> 
     <div class="column">
-      <img src="/assets/images/IMG_2731.jpg">
-      <img src="/assets/images/IMG_2381.jpg">
-      <img src="/assets/images/IMG_0617.jpg">
-      <img src="/assets/images/IMG_3189.jpg">
-      <img src="/assets/images/IMG_0449.jpg">
-      <img src="/assets/images/IMG_0500.jpg">
-      <img src="/assets/images/IMG_0933.jpg">
+      <img src="/assets/images/IMG_2731.jpg" alt="portrait of a lady in white wedding dress">
+      <img src="/assets/images/IMG_2381.jpg" alt="three women in white dresses in front of a blue car" loading="lazy">
+      <img src="/assets/images/IMG_0617.jpg" alt="a field of sunflowers with dramatic clouds above" loading="lazy">
+      <img src="/assets/images/IMG_3189.jpg" alt="portrait of lady in white wedding dress" loading="lazy">
+      <img src="/assets/images/IMG_0449.jpg" alt="portrait of a bride with a sunflower bouquet" loading="lazy">
+      <img src="/assets/images/IMG_0500.jpg" alt="a woman with sunglasses and red lipstick" loading="lazy">
+      <img src="/assets/images/IMG_0933.jpg" alt="a sunflower field in france" loading="lazy">
     </div>
+
+   
     <div class="column">
-        <img src="/assets/images/20140412-IMG_3967.jpg">
-        <img src="/assets/images/IMG_3838.jpg">
-        <img src="/assets/images/image-asset-1.jpeg">
-        <img src="/assets/images/image-asset-2.jpeg">
-        <img src="/assets/images/IMG_0947.jpg">
-        <img src="/assets/images/IMG_0037.jpg">
-        <img src="/assets/images/image-asset-3.jpeg">
+        <img src="/assets/images/20140412-IMG_3967.jpg"  alt="a young couple kissing under an oak tree" loading="lazy">
+        <img src="/assets/images/IMG_3838.jpg" alt="three women standing in a windowsill" loading="lazy">
+        <img src="/assets/images/image-asset-1.jpeg" alt="a bride in a white dress" loading="lazy">
+        <img src="/assets/images/image-asset-2.jpeg" alt="a macro shot of wedding rings and leaf" loading="lazy">
+        <img src="/assets/images/IMG_0947.jpg" alt="a sunflower growing in a field" loading="lazy">
+        <img src="/assets/images/IMG_0037.jpg" alt="a young woman sitting by the river Seine" loading="lazy">
+        <img src="/assets/images/image-asset-3.jpeg" alt="a bride and groom posing under a tree" loading="lazy">
     </div>  
     <div class="column">
-        <img src="/assets/images/IMG_1399.jpg">
-        <img src="/assets/images/IMG_1778.jpg">
-        <img src="/assets/images/IMG_0371.jpg">
-        <img src="/assets/images/IMG_0302.jpg">
-        <img src="/assets/images/IMG_1066.jpg">
-        <img src="/assets/images/IMG_2191.jpg">
-        <img src="/assets/images/IMG_0308.jpg">
+        <img src="/assets/images/IMG_1399.jpg" alt="a medieval skyline showing a cathedral and red roofs" loading="lazy">
+        <img src="/assets/images/IMG_1778.jpg" alt="a classic old car in an old village" loading="lazy">
+        <img src="/assets/images/IMG_0371.jpg" alt="two women carrying a basket full of produce" loading="lazy">
+        <img src="/assets/images/IMG_0302.jpg" alt="rolled hay bails in the french countryside" loading="lazy">
+        <img src="/assets/images/IMG_1066.jpg" alt="a women at dusk singing in a small european village" loading="lazy">
+        <img src="/assets/images/IMG_2191.jpg" alt="three women in white dresses in an old cathedral" loading="lazy">
+        <img src="/assets/images/IMG_0308.jpg" alt="a corn growing in a field" loading="lazy">
         
         
     </div>
     <div class="column">
-        <img src="/assets/images/IMG_3608.jpg">
-        <img src="/assets/images/IMG_0904.jpg">
-        <img src="/assets/images/IMG_0484.jpg">
-        <img src="/assets/images/IMG_0412.jpg">
-        <img src="/assets/images/IMG_0699.jpg">
-        <img src="/assets/images/IMG_0302.jpg">
-        <img src="/assets/images/image-asset-7.jpeg">
+        <img src="/assets/images/IMG_3608.jpg" alt="a portrait of a bride out on an upper terrace" loading="lazy">
+        <img src="/assets/images/IMG_0904.jpg" alt="a vibrant photograph of sunflowers" loading="lazy">
+        <img src="/assets/images/IMG_0484.jpg" alt="a woman exploring a medieval city" loading="lazy">
+        <img src="/assets/images/IMG_0412.jpg" alt="a rustic fence in the coutryside" loading="lazy">
+        <img src="/assets/images/IMG_0699.jpg" alt="two fields with dramatic storm clouds in the distance" loading="lazy">
+        <img src="/assets/images/IMG_4222.jpg" alt="a bride and groom in Presidio Park" loading="lazy">
+        <img src="/assets/images/image-asset-7.jpeg" alt="white wedding cake with floral elements" loading="lazy">
         
     </div>
   </div>
-    </body>
-
-    <footer>
+        <footer>
     <section class="footer-content">
         <div class="email-list">
             <h6>Subscribe to my zine</h6>
@@ -150,5 +150,153 @@
             PCL. All Rights Reserved. <span>Made in SF, CA.</span>
         </p>
 </footer>
+    </body>
 
+  
+    <!-- <script>
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+      define(function() {
+        return factory(root);
+      });
+    } else if (typeof exports === 'object') {
+      module.exports = factory;
+    } else {
+      root.echo = factory(root);
+    }
+  })(this, function (root) {
+  
+    'use strict';
+  
+    var echo = {};
+  
+    var callback = function () {};
+  
+    var offset, poll, delay, useDebounce, unload;
+  
+    var isHidden = function (element) {
+      return (element.offsetParent === null);
+    };
+    
+    var inView = function (element, view) {
+      if (isHidden(element)) {
+        return false;
+      }
+  
+      var box = element.getBoundingClientRect();
+      return (box.right >= view.l && box.bottom >= view.t && box.left <= view.r && box.top <= view.b);
+    };
+  
+    var debounceOrThrottle = function () {
+      if(!useDebounce && !!poll) {
+        return;
+      }
+      clearTimeout(poll);
+      poll = setTimeout(function(){
+        echo.render();
+        poll = null;
+      }, delay);
+    };
+  
+    echo.init = function (opts) {
+      opts = opts || {};
+      var offsetAll = opts.offset || 0;
+      var offsetVertical = opts.offsetVertical || offsetAll;
+      var offsetHorizontal = opts.offsetHorizontal || offsetAll;
+      var optionToInt = function (opt, fallback) {
+        return parseInt(opt || fallback, 10);
+      };
+      offset = {
+        t: optionToInt(opts.offsetTop, offsetVertical),
+        b: optionToInt(opts.offsetBottom, offsetVertical),
+        l: optionToInt(opts.offsetLeft, offsetHorizontal),
+        r: optionToInt(opts.offsetRight, offsetHorizontal)
+      };
+      delay = optionToInt(opts.throttle, 250);
+      useDebounce = opts.debounce !== false;
+      unload = !!opts.unload;
+      callback = opts.callback || callback;
+      echo.render();
+      if (document.addEventListener) {
+        root.addEventListener('scroll', debounceOrThrottle, false);
+        root.addEventListener('load', debounceOrThrottle, false);
+      } else {
+        root.attachEvent('onscroll', debounceOrThrottle);
+        root.attachEvent('onload', debounceOrThrottle);
+      }
+    };
+  
+    echo.render = function (context) {
+      var nodes = (context || document).querySelectorAll('[data-echo], [data-echo-background]');
+      var length = nodes.length;
+      var src, elem;
+      var view = {
+        l: 0 - offset.l,
+        t: 0 - offset.t,
+        b: (root.innerHeight || document.documentElement.clientHeight) + offset.b,
+        r: (root.innerWidth || document.documentElement.clientWidth) + offset.r
+      };
+      for (var i = 0; i < length; i++) {
+        elem = nodes[i];
+        if (inView(elem, view)) {
+  
+          if (unload) {
+            elem.setAttribute('data-echo-placeholder', elem.src);
+          }
+  
+          if (elem.getAttribute('data-echo-background') !== null) {
+            elem.style.backgroundImage = 'url(' + elem.getAttribute('data-echo-background') + ')';
+          }
+          else if (elem.src !== (src = elem.getAttribute('data-echo'))) {
+            elem.src = src;
+          }
+  
+          if (!unload) {
+            elem.removeAttribute('data-echo');
+            elem.removeAttribute('data-echo-background');
+          }
+  
+          callback(elem, 'load');
+        }
+        else if (unload && !!(src = elem.getAttribute('data-echo-placeholder'))) {
+  
+          if (elem.getAttribute('data-echo-background') !== null) {
+            elem.style.backgroundImage = 'url(' + src + ')';
+          }
+          else {
+            elem.src = src;
+          }
+  
+          elem.removeAttribute('data-echo-placeholder');
+          callback(elem, 'unload');
+        }
+      }
+      if (!length) {
+        echo.detach();
+      }
+    };
+  
+    echo.detach = function () {
+      if (document.removeEventListener) {
+        root.removeEventListener('scroll', debounceOrThrottle);
+      } else {
+        root.detachEvent('onscroll', debounceOrThrottle);
+      }
+      clearTimeout(poll);
+    };
+  
+    return echo;
+  
+  });
+</script>
+<script>
+    echo.init({
+      offset: 2500,
+      throttle: 250,
+      unload: false,
+      callback: function (element, op) {
+        //console.log(element, 'has been', op + 'ed')
+      }
+    });
+</script> -->
 </html>
