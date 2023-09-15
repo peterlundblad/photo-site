@@ -7,7 +7,7 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p>Stories whisper, narratives beckon, and every frame unveils a world waiting to be savored.</p>
 
-<p>Enter a realm where raw emotions and fleeting moments solidify into priceless memories. Life emerges from fleeting moments, and an artian crafts them into tangible keepsakes. Whether it's the tender dance of two souls or the artistry of expression on the runway, Lundblad Studios captures and embodies your unique vision.</p>
+<p>Life emerges from fleeting moments, and an artisan crafts them into tangible keepsakes. Whether it's the tender dance of two souls or the artistry of expression on the runway, Lundblad Studios will capture and embody your unique vision.</p>
 
 <p>Let's start dreaming.</p>
 
