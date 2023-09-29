@@ -228,14 +228,27 @@ th {
 }
 .logo img {
   transform: translateY(5px);
+  filter: drop-shadow(0px 2px 20px #2F22C8);
 }
 .logo h2 {
   font-size: 1.4em;
   padding-left: 1.2em;
 }
 
+.menu-toggle {
+  display: none;
+}
+
+.menu {
+  display: block;
+}
+
+.menu-esc {
+  display: none;
+}
+
 header, body {
-  background-color: #05041d;
+  background-color: #07051e;
   color: #fff;
   font-family: Space Mono, Courier;
   font-weight: 100;
@@ -253,11 +266,58 @@ header, body {
 .container-hero {
   margin: 2rem 2rem 14rem 2rem;
 }
-
 .container-hero img {
   display: flex;
   margin: 3rem auto 0rem auto;
   width: 100%;
+}
+
+.hamburger {
+  display: none;
+}
+
+.blog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.blog-item {
+  text-align: center;
+  margin: 10px;
+  background-color: #000;
+  border-radius: 5px;
+  position: relative;
+  z-index: -1;
+}
+.blog-item img {
+  margin: 0;
+  width: 500px;
+}
+
+.blog-item h3 {
+  opacity: 0;
+  transition: opacity 0.6s;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+  color: #fff;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+}
+
+.blog-item:hover h3 {
+  opacity: 1;
+}
+
+.blog-item img:hover {
+  opacity: 0.3;
+  transition: opacity 0.5s, transform 0.6s ease-in-out;
 }
 
 a {
@@ -269,10 +329,19 @@ nav a {
   text-decoration: none;
   font-weight: 400;
 }
+nav ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+nav li {
+  list-style: none;
+  display: list-item;
+}
 
 h1 {
   font-family: Space Mono, Courier;
-  font-size: 8.125rem;
+  font-size: 7rem;
   font-style: normal;
   font-weight: 500;
   text-align: right;
@@ -283,12 +352,14 @@ h1 {
 
 h2 {
   font-weight: 400;
+  text-align: right;
+  font-size: 3rem;
 }
 
 p {
   margin-top: 2rem;
   text-align: right;
-  padding-left: 21rem;
+  padding-left: 20rem;
 }
 
 div.post p {
@@ -296,6 +367,24 @@ div.post p {
 }
 div.post img {
   max-width: 1000px;
+}
+
+.PageNavigation {
+  font-size: 14px;
+  text-align: right;
+}
+.PageNavigation img {
+  width: 30px;
+  display: inline;
+  margin-left: 10rem;
+}
+.PageNavigation a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.PageNavigation .next {
+  text-align: right;
 }
 
 nav a.selected {
@@ -592,6 +681,67 @@ label {
   }
   .contact {
     font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .menu {
+    background-color: #07051e;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    transform: translateY(0%);
+  }
+  nav {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 100vh;
+    flex-direction: column;
+    gap: 40px;
+    transform: translateY(-3%);
+  }
+  nav a {
+    font-size: 3rem;
+    margin: 0;
+  }
+  nav ul {
+    flex-flow: column;
+    align-items: center;
+    margin-left: -1.5rem;
+    margin-top: 7rem;
+  }
+  nav li {
+    margin-bottom: 3rem;
+  }
+  nav a:hover {
+    border-bottom: 5px solid #2F22C8;
+    padding-bottom: 2px;
+    transition: padding-bottom 0.3s;
+    padding-left: initial;
+  }
+  .menu-esc {
+    display: block;
+    position: absolute;
+    right: 3.5%;
+    top: 7%;
+    z-index: 1;
+  }
+  .menu-esc:hover {
+    filter: brightness(95%);
+    transform: scale(1.2);
+  }
+  .hamburger {
+    display: block;
+    transform: translate(0px, 6px);
+  }
+  .logo {
+    transform: translate(0px, 0px);
+  }
+  .footer-nav li {
+    margin: 2.5rem 0;
+    font-size: 2.5rem;
   }
 }
 

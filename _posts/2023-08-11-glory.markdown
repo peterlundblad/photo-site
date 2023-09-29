@@ -1,8 +1,9 @@
 ---
 title: Glory Upon the Heavens
-date: 2023-08-11 16:43:00 Z
+date: 2023-08-11 16:43:00
+featured_image: ../assets/images/IMG_0634.jpg
 ---
-
-![7Z2A2764.jpg](/assets/images/7Z2A2764.jpg)
 there upon the heavens a voice spoke in the night
+![Alt text](/assets/images/IMG_0634.jpg)
+
 

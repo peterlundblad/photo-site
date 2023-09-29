@@ -1,6 +1,6 @@
 ---
-title: time eternal
-date: 2023-08-14 12:38:00
+title: light at dusk
+date: 2023-08-15 12:38:00
 featured_image: /assets/images/7Z2A2764.jpg
 ---
 As twilight's veil doth gently fall,

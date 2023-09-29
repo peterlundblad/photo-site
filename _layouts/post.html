@@ -1,21 +1,40 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+    {% include head.html %}
 
-<h2>
-    {{ page.title }}
-</h2>
+    {% include header.html %}
 
-<div class="post">
-    {{ content }}
-</div>
+    <body>
+    <div class="container-hero">
+    <h1>{{ page.title }}</h1>
+        {{ content }}
 
-<div class="PageNavigation">
-    {% if page.previous.url %}
-      <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-    {% endif %}
-    {% if page.next.url %}
-      <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-    {% endif %}
-  </div>
-  
+        <div class="PageNavigation">
+            {% if page.previous.url %}
+                <a class="prev" href="{{page.previous.url}}">
+                    <img src="/assets/images/previous-arrow-active.svg">
+                </a>
+
+                {% else %}  
+       
+                    <img src="/assets/images/previous-arrow-inactive.svg">
+        
+            {% endif %}
+            {% if page.next.url %}
+                <a class="next" href="{{page.next.url}}">
+                    <img src="/assets/images/next-arrow-active.svg">
+                </a>
+                {% else %}  
+       
+                <img src="/assets/images/next-arrow-inactive.svg">
+            {% endif %}
+        </div>
+    </div>
+
+        {% include footer.html %}
+
+    </body>
+    
+    
+
+</html>
