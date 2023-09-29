@@ -14,6 +14,7 @@ $black: #000;
 $white: #fff;
 $grey: #181d3c;
 $shadow: drop-shadow(0px 2px 20px $mainColor);
+$border: 5px solid $mainColor;
 
 
 $gradient: linear-gradient(16deg, $grey 0, $background 100%);
@@ -230,12 +231,12 @@ div.post {
 
 nav a.selected {
  text-decoration: none;
- border-bottom: 5px solid $mainColor;
+ border-bottom: $border;
 }
 
 .contact {
   text-decoration: none;
-  border-bottom: 5px solid $mainColor;
+  border-bottom: $border;
   font-size: 1.6rem;
 }
 
@@ -296,7 +297,7 @@ footer {
     padding-right: 3em;
   }
   .footer-nav a:hover {
-    border-bottom: 5px solid $mainColor;
+    border-bottom: $border;
     padding-bottom: 2px;
     transition: padding-bottom 0.3s;
     padding-left: initial;
@@ -356,7 +357,7 @@ footer {
     transition-duration: 0.3s;
     margin: 0 auto;
     width: 30%;
-    max-width: 18em;
+    max-width: 20rem;
     min-width: 13em;
     border-style: none;
   }
@@ -446,7 +447,9 @@ footer {
   }
 
   .email-list .button {
-   margin: 0 auto;
+   margin: 0.5rem auto;
+   width: 20rem;
+   height: 3.5rem;
     }
 
   #copyright {
@@ -456,6 +459,9 @@ footer {
   .button {
     width: 50vw;
     min-width: 10em;
+    font-size: 1.5rem;
+    font-family: $typepography;
+    font-weight: 400;
   }
   .social {
     display: flex;
@@ -499,6 +505,16 @@ p {
   padding-left: 2rem;
 }
 
+
+#bd-email{
+width: 20rem;
+height: 3.5rem;
+text-align: center;
+padding: 0px;
+font-size: 1.5rem;
+  
+}
+
 }
 
 
@@ -540,12 +556,29 @@ p {
   margin-left: 1rem;
   padding-left: 1rem;
 }
-.email-list p {
+.email-list {
+margin: 3.75rem auto 0.5rem auto;
+p {
   text-align: center;
 }
 
+.button {
+  width: 100%;
+}
+
+}
 .contact {
   font-size: 1.3rem;
+}
+
+footer {
+  padding: 0;
+} 
+
+#bd-email {
+height: 3.5rem;
+width: 100%;
+
 }
 
 
@@ -581,7 +614,7 @@ p {
       flex-flow: column;
       align-items: center;
       margin-left: -1.5rem;
-      margin-top: 7rem;
+      margin-top: 5rem;
        
     }
 
@@ -591,7 +624,7 @@ p {
 
   }
    nav a:hover {
-    border-bottom: 5px solid $mainColor;
+    border-bottom: $border;
     padding-bottom: 2px;
     transition: padding-bottom 0.3s;
     padding-left: initial;
@@ -617,14 +650,17 @@ p {
 
    }
 
-   .logo {
-    transform: translate(0px, 0px);
-   }
+.logo {
+transform: translate(0px, 0px);
+}
+
+  .footer-content {
+    margin: 0 1rem;
+  }
   
 .footer-nav li {
   margin: 2.5rem 0;
   font-size: 2.5rem;
 }
-
 
 }

@@ -516,7 +516,7 @@ footer p {
   transition-duration: 0.3s;
   margin: 0 auto;
   width: 30%;
-  max-width: 18em;
+  max-width: 20rem;
   min-width: 13em;
   border-style: none;
 }
@@ -602,7 +602,9 @@ label {
     height: initial;
   }
   .email-list .button {
-    margin: 0 auto;
+    margin: 0.5rem auto;
+    width: 20rem;
+    height: 3.5rem;
   }
   #copyright {
     margin: 3rem auto 0 auto;
@@ -611,6 +613,9 @@ label {
   .button {
     width: 50vw;
     min-width: 10em;
+    font-size: 1.5rem;
+    font-family: Space Mono, Courier;
+    font-weight: 400;
   }
   .social {
     display: flex;
@@ -650,6 +655,13 @@ label {
     text-align: right;
     padding-left: 2rem;
   }
+  #bd-email {
+    width: 20rem;
+    height: 3.5rem;
+    text-align: center;
+    padding: 0px;
+    font-size: 1.5rem;
+  }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -676,11 +688,24 @@ label {
     margin-left: 1rem;
     padding-left: 1rem;
   }
+  .email-list {
+    margin: 3.75rem auto 0.5rem auto;
+  }
   .email-list p {
     text-align: center;
   }
+  .email-list .button {
+    width: 100%;
+  }
   .contact {
     font-size: 1.3rem;
+  }
+  footer {
+    padding: 0;
+  }
+  #bd-email {
+    height: 3.5rem;
+    width: 100%;
   }
 }
 @media screen and (max-width: 450px) {
@@ -710,7 +735,7 @@ label {
     flex-flow: column;
     align-items: center;
     margin-left: -1.5rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
   nav li {
     margin-bottom: 3rem;
@@ -738,6 +763,9 @@ label {
   }
   .logo {
     transform: translate(0px, 0px);
+  }
+  .footer-content {
+    margin: 0 1rem;
   }
   .footer-nav li {
     margin: 2.5rem 0;
