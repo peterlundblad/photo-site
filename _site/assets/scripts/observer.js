@@ -1,6 +1,7 @@
 //applies fade in and fade out to tagged items
 //make sure to apply css animations
 
+//1 create a constant named observer
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
@@ -15,7 +16,8 @@ const observer = new IntersectionObserver(
   },
   {
     rootMargin: '0px',
-    threshold: [0, 0.1, 1],
+    //this defines when to run the script from beginning to end
+    threshold: [0, 0.05, 1],
   },
 )
 
