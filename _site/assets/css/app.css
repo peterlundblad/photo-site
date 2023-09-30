@@ -614,7 +614,7 @@ label {
 @media screen and (max-width: 900px) and (prefers-reduced-motion: no-preference) {
   .in-view {
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration: 1.8s;
     animation-delay: 0s;
     animation-fill-mode: both;
   }
@@ -754,8 +754,8 @@ label {
     position: fixed;
     top: 0;
     left: 0;
-    display: none;
-    transform: translateX(-30%);
+    opacity: 0;
+    transform: translateX(-10%);
   }
   nav {
     display: flex;
@@ -799,7 +799,12 @@ label {
     display: block;
     transform: translate(0px, 3px);
   }
+  .hamburger {
+    display: block;
+    transform: translate(0px, 3px);
+  }
   .logo {
+    z-index: 2;
     transform: translate(0px, 0px);
   }
   .footer-content {

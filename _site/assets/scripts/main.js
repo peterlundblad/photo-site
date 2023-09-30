@@ -1,21 +1,26 @@
 $(document).on('click', '.hamburger', function () {
-    $('.menu').show();
+  $(".logo").animate({
+    opacity: '0'
+  }, 200);    // Sets the duration to in milliseconds
 
-    $(".menu").animate({
-      left: '30%',
-      opacity: '1',
-    },
-    );
+  $(".menu").animate({
+      left: '10%',
+      opacity: '1'
+    }, 400);    // Sets the duration to in milliseconds
 
   });
+  
+
+
 
 
   $(document).on('click', '.menu-esc', function () {
+    $(".logo").animate({
+      opacity: '1'
+    }, 400);    // Sets the duration to in milliseconds 
     $(".menu").animate({
-      left: '-30%',
-      opacity: '0',
-    },
-    );
-    // $('.menu').hide();
-
+      left: '-10%',
+      opacity: '0'
+    }, 400);    // Sets the duration in milliseconds
+    
   });

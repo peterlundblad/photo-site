@@ -20,7 +20,7 @@
     transform: translate(0, 0);
   }
 }
-
+// this allows users with accessiblity pref to have motion turned off
 @media (prefers-reduced-motion: no-preference) {
   .in-view {
     // animation: fade .7s .3s both;
@@ -463,7 +463,7 @@ footer {
   @media (prefers-reduced-motion: no-preference) {
     .in-view {
       animation-name: fade;
-      animation-duration: 2s;
+      animation-duration: 1.8s;
       animation-delay: 0s;
       animation-fill-mode: both;
     }
@@ -644,8 +644,8 @@ width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    display: none;
-    transform: translateX(-30%);
+    opacity: 0;
+    transform: translateX(-10%);
    }
 
   nav {
@@ -694,6 +694,12 @@ width: 100%;
   transform: scale(1.2);
 }
 
+.hamburger {
+  display: block;
+  transform: translate(0px, 3px);
+
+ }
+
    .hamburger {
     display: block;
     transform: translate(0px, 3px);
@@ -701,6 +707,7 @@ width: 100%;
    }
 
 .logo {
+z-index: 2;  
 transform: translate(0px, 0px);
 }
 
