@@ -217,6 +217,24 @@ th {
   padding: 0;
 }
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translate(0, 2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .in-view {
+    animation: fade 0.7s 0.1s both;
+  }
+  .not-in-view {
+    opacity: 0;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -241,6 +259,7 @@ th {
 
 .menu {
   display: block;
+  z-index: 1;
 }
 
 .menu-esc {
@@ -537,11 +556,12 @@ footer p {
 
 .email-list .button {
   display: list-item;
-  width: 20em;
+  width: 18rem;
   height: 2.5rem;
   max-width: initial;
   padding: initial;
   margin: initial;
+  font-size: 1.2rem;
 }
 
 .email-list {
@@ -660,7 +680,7 @@ label {
     height: 3.5rem;
     text-align: center;
     padding: 0px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -717,7 +737,7 @@ label {
     top: 0;
     left: 0;
     display: none;
-    transform: translateY(0%);
+    transform: translateX(-30%);
   }
   nav {
     display: flex;
@@ -759,7 +779,7 @@ label {
   }
   .hamburger {
     display: block;
-    transform: translate(0px, 6px);
+    transform: translate(0px, 3px);
   }
   .logo {
     transform: translate(0px, 0px);

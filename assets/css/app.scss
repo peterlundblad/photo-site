@@ -5,6 +5,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translate(0, 2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .in-view {
+    animation: fade .7s .1s both;
+  }
+
+  .not-in-view {
+    opacity: 0;
+  }
+}
+
+//SCSS Variables
 $purple: #2F22C8;
 //makes the main color darker or lighter
 $darkPurple: scale-color($purple, $lightness: -85%);
@@ -19,6 +41,8 @@ $border: 5px solid $mainColor;
 
 $gradient: linear-gradient(16deg, $grey 0, $background 100%);
 $typepography: Space Mono, Courier;
+
+
 
 * {
     box-sizing: border-box;
@@ -51,6 +75,7 @@ $typepography: Space Mono, Courier;
 
  .menu {
   display: block;
+  z-index: 1;
 
  }
 
@@ -376,12 +401,15 @@ footer {
 
   .email-list .button {
     display: list-item;
-    width: 20em;
+    width: 18rem;
     height: 2.5rem;
     max-width: initial;
     padding: initial;
     margin: initial;
+    font-size: 1.2rem;
   }
+
+
 
   .email-list {
     text-align: left;
@@ -511,7 +539,7 @@ width: 20rem;
 height: 3.5rem;
 text-align: center;
 padding: 0px;
-font-size: 1.5rem;
+font-size: 1.2rem;
   
 }
 
@@ -595,7 +623,7 @@ width: 100%;
     top: 0;
     left: 0;
     display: none;
-    transform: translateY(0%);
+    transform: translateX(-30%);
    }
 
   nav {
@@ -646,7 +674,7 @@ width: 100%;
 
    .hamburger {
     display: block;
-    transform: translate(0px, 6px);
+    transform: translate(0px, 3px);
 
    }
 

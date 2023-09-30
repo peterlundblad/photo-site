@@ -1,15 +1,21 @@
 $(document).on('click', '.hamburger', function () {
     $('.menu').show();
 
-    // $(".menu").animate({
-    //   left: '250px',
-    //   opacity: '0.5',
-    // });
+    $(".menu").animate({
+      left: '30%',
+      opacity: '1',
+    },
+    );
 
   });
 
 
   $(document).on('click', '.menu-esc', function () {
-    $('.menu').hide();
+    $(".menu").animate({
+      left: '-30%',
+      opacity: '0',
+    },
+    );
+    // $('.menu').hide();
 
   });
