@@ -267,7 +267,6 @@ th {
 .menu {
   display: block;
   z-index: 1;
-  display: none;
 }
 
 .menu-esc {
@@ -757,6 +756,7 @@ label {
     left: 0;
     opacity: 0;
     transform: translateX(-10%);
+    display: none;
   }
   nav {
     display: flex;

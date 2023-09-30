@@ -85,7 +85,7 @@ $typepography: Space Mono, Courier;
  .menu {
   display: block;
   z-index: 1;
-  display: none;
+ 
 
  }
 
@@ -647,6 +647,7 @@ width: 100%;
     left: 0;
     opacity: 0;
     transform: translateX(-10%);
+    display: none;
    }
 
   nav {
