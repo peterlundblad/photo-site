@@ -17,7 +17,7 @@ const observer = new IntersectionObserver(
   {
     rootMargin: '0px',
     //this defines when to run the script from beginning to end
-    threshold: [0, 0.05, 1],
+    threshold: [0, 0.1, 1],
   },
 )
 

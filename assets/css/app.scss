@@ -23,7 +23,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .in-view {
-    animation: fade .7s .1s both;
+    // animation: fade .7s .3s both;
+    animation-name: fade;
+    animation-duration: .7s;
+    animation-delay: .1s;
+    animation-fill-mode: both;
   }
 
   .not-in-view {
@@ -455,6 +459,19 @@ footer {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
+
+  @media (prefers-reduced-motion: no-preference) {
+    .in-view {
+      animation-name: fade;
+      animation-duration: 2s;
+      animation-delay: 0s;
+      animation-fill-mode: both;
+    }
+  
+    .not-in-view {
+      opacity: 0;
+    }
+  }
 
   .logo {
   
