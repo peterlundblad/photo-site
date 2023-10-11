@@ -123,6 +123,7 @@ header, body {
 
  .hamburger {
   display: none;
+  filter: invert(1);
  }
 
 .blog-grid {
@@ -181,6 +182,12 @@ top: 30%;
 
 a {
     color: $white;
+}
+
+nav a:hover {
+  border-bottom: 5px solid #b7b7df;
+  padding-bottom: 0px;
+  transition: 0.3s;
 }
 
 nav {
@@ -275,6 +282,11 @@ nav a.selected {
   font-size: 1.6rem;
   color: $black;
   font-weight: 300;
+}
+
+.contact:hover {
+  color: $mainColor;
+  border-bottom: 5px solid $black;
 }
 
 .row {
@@ -476,6 +488,8 @@ footer {
     }
   }
 
+
+
   .logo {
   
     h2 {
@@ -524,6 +538,10 @@ footer {
   .social img {
     width: 2.5rem;
     margin: 0 .4rem;
+  }
+
+  .social a:hover {
+    border-bottom: none;
   }
   .email-list {
     margin: 3.75rem auto 2rem auto;
@@ -663,6 +681,7 @@ width: 100%;
     a {
       font-size: 3rem;
       margin: 0;
+      color: $white;
    }
     ul {
       flex-flow: column;
