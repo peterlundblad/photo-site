@@ -253,11 +253,11 @@ th {
 }
 .logo img {
   transform: translateY(5px);
-  filter: drop-shadow(0px 2px 20px #2F22C8);
+  filter: invert(1);
 }
 .logo h2 {
   font-size: 1.4em;
-  padding-left: 1.2em;
+  padding-left: 0.5em;
 }
 
 .menu-toggle {
@@ -274,8 +274,8 @@ th {
 }
 
 header, body {
-  background-color: #07051e;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-family: Space Mono, Courier;
   font-weight: 100;
 }
@@ -354,6 +354,7 @@ nav a {
   margin-left: 30px;
   text-decoration: none;
   font-weight: 400;
+  color: #000;
 }
 nav ul {
   display: flex;
@@ -422,6 +423,8 @@ nav a.selected {
   text-decoration: none;
   border-bottom: 5px solid #2F22C8;
   font-size: 1.6rem;
+  color: #000;
+  font-weight: 300;
 }
 
 .row {

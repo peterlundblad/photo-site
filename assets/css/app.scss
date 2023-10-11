@@ -39,12 +39,12 @@
 $purple: #2F22C8;
 //makes the main color darker or lighter
 $darkPurple: scale-color($purple, $lightness: -85%);
-$background: $darkPurple;
 $mainColor: $purple;
 $black: #000;
 $white: #fff;
 $grey: #181d3c;
 $shadow: drop-shadow(0px 2px 20px $mainColor);
+$background: $white;
 $border: 5px solid $mainColor;
 
 
@@ -66,14 +66,13 @@ $typepography: Space Mono, Courier;
 
   img {
     transform: translateY(5px);
-    filter: $shadow;
-    // filter: drop-shadow(0px 2px 20px $mainColor);
-    
+    filter: invert(1);
+  
   }
 
     h2 {
         font-size: 1.4em;
-        padding-left: 1.2em;
+        padding-left: .5em;
         
     }
 }
@@ -95,7 +94,7 @@ $typepography: Space Mono, Courier;
 
 header, body {
     background-color: $background;
-    color: $white;
+    color: $black;
     font-family: $typepography;
     font-weight: 100;
 }
@@ -190,6 +189,7 @@ nav {
     margin-left: 30px;
     text-decoration: none;
     font-weight: 400;
+    color: $black;
   }
 
   ul {
@@ -273,6 +273,8 @@ nav a.selected {
   text-decoration: none;
   border-bottom: $border;
   font-size: 1.6rem;
+  color: $black;
+  font-weight: 300;
 }
 
 .row {
