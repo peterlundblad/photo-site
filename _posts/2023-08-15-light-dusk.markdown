@@ -1,6 +1,10 @@
 ---
 title: light at dusk
 date: 2023-08-15 12:38:00
+layout: post
+categories:
+- jekyll
+- update
 featured_image: /assets/images/7Z2A2764.jpg
 ---
 As twilight's veil doth gently fall,

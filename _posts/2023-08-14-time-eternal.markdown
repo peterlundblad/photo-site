@@ -1,7 +1,11 @@
 ---
 title: time eternal
 date: 2023-08-14 12:38:00
-featured_image: /assets/images/7Z2A2764.jpg
+layout: post
+categories:
+- jekyll
+- update
+featured_image: ../assets/images/cardA-230.jpg
 ---
 As twilight's veil doth gently fall,
 A hush o'er nature starts to sprawl,
@@ -28,4 +32,4 @@ When nature dons her twilight dower,
 In dusk's embrace, we find our rest,
 As day retires to the west.
 
-![7Z2A2764.jpg](/assets/images/7Z2A2764.jpg)
+![a couple sitting in the woods](/assets/images/cardA-230.jpg)

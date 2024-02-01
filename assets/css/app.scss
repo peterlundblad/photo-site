@@ -62,20 +62,25 @@ $typepography: Space Mono, Courier;
     align-items: center;
     transform: translate(0px, 3px);
     
-
-
-  img {
-    transform: translateY(5px);
-    filter: invert(1);
-  
-  }
-
-    h2 {
-        font-size: 1.4em;
-        padding-left: .5em;
-        
+    a {
+      color: $black;
+      text-decoration: none;
+      display: inline-flex;
     }
-}
+
+    img {
+      transform: translateY(5px);
+      filter: invert(1);
+    
+    }
+
+      h2 {
+          font-size: 1.4em;
+          padding-left: .5em;
+          padding-top: 5px;
+          
+      }
+  }
 
 .menu-toggle {
   display: none;
@@ -130,7 +135,7 @@ header, body {
 display: flex;
 flex-wrap: wrap;
 align-items: flex-end;
-justify-content: center;
+justify-content: space-between;
 padding-bottom: 40px;
 }
 
@@ -139,9 +144,8 @@ text-align: center;
 margin: 10px;
 background-color: $black;
 // box-shadow: 0 10px 20px 0 rgba(167, 185, 218, 0.3);
-border-radius: 5px;
 position: relative;
-z-index: -1;
+// z-index: -1;
 
 
 img {
@@ -231,9 +235,9 @@ h2 {
 }
 
 p {
-  margin-top: 2rem;
   text-align: right;
-  padding-left: 20rem;
+  margin: 2rem 0 0 auto;
+  max-width: 44vw;
 }
 
 

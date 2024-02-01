@@ -251,6 +251,11 @@ th {
   align-items: center;
   transform: translate(0px, 3px);
 }
+.logo a {
+  color: #000;
+  text-decoration: none;
+  display: inline-flex;
+}
 .logo img {
   transform: translateY(5px);
   filter: invert(1);
@@ -258,6 +263,7 @@ th {
 .logo h2 {
   font-size: 1.4em;
   padding-left: 0.5em;
+  padding-top: 5px;
 }
 
 .menu-toggle {
@@ -307,7 +313,7 @@ header, body {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: space-between;
   padding-bottom: 40px;
 }
 
@@ -315,9 +321,7 @@ header, body {
   text-align: center;
   margin: 10px;
   background-color: #000;
-  border-radius: 5px;
   position: relative;
-  z-index: -1;
 }
 .blog-item img {
   margin: 0;
@@ -391,9 +395,9 @@ h2 {
 }
 
 p {
-  margin-top: 2rem;
   text-align: right;
-  padding-left: 20rem;
+  margin: 2rem 0 0 auto;
+  max-width: 44vw;
 }
 
 div.post p {
