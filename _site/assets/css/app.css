@@ -642,6 +642,17 @@ label {
   }
 }
 @media screen and (max-width: 900px) {
+  .blog-grid {
+    justify-content: center;
+  }
+  .blog-grid img {
+    width: 100vw;
+  }
+  .PageNavigation {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 1rem;
+  }
   .logo h2 {
     display: none;
   }
@@ -747,6 +758,7 @@ label {
   p {
     margin-left: 1rem;
     padding-left: 1rem;
+    max-width: 100vw;
   }
   .email-list {
     margin: 3.75rem auto 0.5rem auto;
