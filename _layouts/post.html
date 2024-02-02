@@ -6,33 +6,32 @@
 
     <body>
     <div class="container-hero">
-    <!-- <h1>Blog</h1>     -->
-    <h2>{{ page.title }}</h2>
-        {{ content }}
+        <h2>{{ page.title }}</h2>
+            {{ content }}
 
-        <div class="PageNavigation">
-            {% if page.previous.url %}
-                <a class="prev" href="{{page.previous.url}}">
-                    <img src="/assets/images/previous-arrow-active.svg">
-                </a>
+            <div class="PageNavigation">
+                {% if page.previous.url %}
+                    <a class="prev" href="{{page.previous.url}}">
+                        <img src="/assets/images/previous-arrow-active.svg">
+                    </a>
 
-                {% else %}  
-       
-                    <img src="/assets/images/previous-arrow-inactive.svg">
+                    {% else %}  
         
-            {% endif %}
-            {% if page.next.url %}
-                <a class="next" href="{{page.next.url}}">
-                    <img src="/assets/images/next-arrow-active.svg">
-                </a>
-                {% else %}  
-       
-                <img src="/assets/images/next-arrow-inactive.svg">
-            {% endif %}
-        </div>
+                        <img src="/assets/images/previous-arrow-inactive.svg">
+            
+                {% endif %}
+                {% if page.next.url %}
+                    <a class="next" href="{{page.next.url}}">
+                        <img src="/assets/images/next-arrow-active.svg">
+                    </a>
+                    {% else %}  
+        
+                    <img src="/assets/images/next-arrow-inactive.svg">
+                {% endif %}
+            </div>
     </div>
 
-        {% include footer.html %}
+    {% include footer.html %}
 
     </body>
     

@@ -252,7 +252,7 @@ th {
   transform: translate(0px, 3px);
 }
 .logo a {
-  color: #000;
+  color: #07051e;
   text-decoration: none;
   display: inline-flex;
 }
@@ -264,6 +264,10 @@ th {
   font-size: 1.4em;
   padding-left: 0.5em;
   padding-top: 5px;
+}
+
+figure {
+  margin: 0;
 }
 
 .menu-toggle {
@@ -298,10 +302,13 @@ header, body {
 .container-hero {
   margin: 2rem 2rem 14rem 2rem;
 }
+.container-hero p {
+  max-width: 44vw;
+}
 .container-hero img {
   display: flex;
-  margin: 3rem auto 0rem auto;
-  width: 100%;
+  margin: 3rem 0 0 auto;
+  max-width: 70vw;
 }
 
 .hamburger {
@@ -325,7 +332,9 @@ header, body {
 }
 .blog-item img {
   margin: 0;
-  width: 500px;
+  width: 30vw;
+  height: 300px;
+  object-fit: cover;
 }
 
 .blog-item h3 {
@@ -352,7 +361,7 @@ header, body {
 }
 
 a {
-  color: #fff;
+  color: #2F22C8;
 }
 
 nav a:hover {
@@ -397,7 +406,6 @@ h2 {
 p {
   text-align: right;
   margin: 2rem 0 0 auto;
-  max-width: 44vw;
 }
 
 div.post p {
@@ -747,6 +755,9 @@ label {
   }
   .container-hero {
     margin: 2rem 1rem 14rem 1rem;
+  }
+  .container-hero p {
+    max-width: none;
   }
   .logo h2 {
     display: none;

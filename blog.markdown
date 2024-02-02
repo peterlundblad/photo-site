@@ -7,7 +7,7 @@ layout: default
 # {{ page.title }}
 
 <section class="blog-grid">
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:30 %}
         <a href="{{ post.url }}" class="blog-item">
             {% if post.featured_image %}
                 <h3>{{ post.title }}</h3>
