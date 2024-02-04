@@ -300,15 +300,15 @@ header, body {
 }
 
 .container-hero {
-  margin: 2rem 2rem 14rem 2rem;
+  margin: 2rem 2rem 7rem 2rem;
 }
 .container-hero p {
   max-width: 44vw;
 }
 .container-hero img {
   display: flex;
-  margin: 3rem 0 0 auto;
   max-width: 70vw;
+  margin-top: 3rem;
 }
 
 .hamburger {
@@ -391,7 +391,6 @@ h1 {
   font-size: 7rem;
   font-style: normal;
   font-weight: 500;
-  text-align: right;
   line-height: normal;
   letter-spacing: -0.325rem;
   align-items: flex-end;
@@ -399,13 +398,7 @@ h1 {
 
 h2 {
   font-weight: 400;
-  text-align: right;
   font-size: 3rem;
-}
-
-p {
-  text-align: right;
-  margin: 2rem 0 0 auto;
 }
 
 div.post p {
@@ -417,12 +410,8 @@ div.post img {
 
 .PageNavigation {
   font-size: 14px;
-  text-align: right;
-}
-.PageNavigation img {
-  width: 30px;
-  display: inline;
-  margin-left: 10rem;
+  display: flex;
+  justify-content: space-between;
 }
 .PageNavigation a {
   color: #fff;
@@ -512,7 +501,7 @@ footer p {
 }
 
 .footer-nav * {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   padding-top: 0.2rem;
   transform: translateY(2px);
 }

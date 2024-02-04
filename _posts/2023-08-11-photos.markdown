@@ -1,9 +1,0 @@
----
-title: beginning
-date: 2023-08-11 16:43:54
-layout: post
-featured_image: ../assets/images/IMG_0617.jpg
----
-let us begin
-
-![a field of sunflowers in France](/assets/images/IMG_0617.jpg)
