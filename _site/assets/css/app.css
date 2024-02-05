@@ -310,7 +310,7 @@ header, body {
 .container-hero img {
   display: flex;
   max-width: 85vw;
-  max-height: 97vh;
+  max-height: 91vh;
   object-fit: contain;
   margin-top: 3rem;
   margin-right: 1rem;
@@ -631,6 +631,10 @@ label {
   display: none;
 }
 
+.inactive {
+  cursor: not-allowed;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) and (prefers-reduced-motion: no-preference) {
   .in-view {
@@ -852,6 +856,9 @@ label {
   .footer-nav li {
     margin: 2.5rem 0;
     font-size: 2.5rem;
+  }
+  .inactive {
+    width: 45px;
   }
 }
 

@@ -16,17 +16,18 @@
                     </a>
 
                     {% else %}  
-        
+                    <div class="inactive">
                         <img src="/assets/images/previous-arrow-inactive.svg">
-            
+                    </div>
                 {% endif %}
                 {% if page.next.url %}
                     <a class="next" href="{{page.next.url}}">
                         <img src="/assets/images/next-arrow-active.svg">
                     </a>
                     {% else %}  
-        
-                    <img src="/assets/images/next-arrow-inactive.svg">
+                    <div class="inactive">
+                        <img src="/assets/images/next-arrow-inactive.svg">
+                    </div>
                 {% endif %}
             </div>
     </div>

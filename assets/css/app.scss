@@ -129,7 +129,7 @@ header, body {
   img {
     display: flex;
     max-width: 85vw;
-    max-height: 97vh;
+    max-height: 91vh;
     object-fit: contain;
     margin-top: 3rem;
     margin-right: 1rem;
@@ -476,6 +476,10 @@ footer {
     display: none;
   }
 
+  .inactive {
+    cursor: not-allowed;
+  }
+
   
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -506,8 +510,11 @@ footer {
 .PageNavigation {
   display: flex;
   justify-content: space-around;
-  margin-right: 1rem;
+  margin-right: 1rem; 
+
 }
+
+
 
   .logo {
   
@@ -763,6 +770,10 @@ transform: translate(0px, 0px);
 .footer-nav li {
   margin: 2.5rem 0;
   font-size: 2.5rem;
+}
+
+.inactive {
+  width: 45px;
 }
 
 }
