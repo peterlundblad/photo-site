@@ -635,6 +635,14 @@ label {
   cursor: not-allowed;
 }
 
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) and (prefers-reduced-motion: no-preference) {
   .in-view {
