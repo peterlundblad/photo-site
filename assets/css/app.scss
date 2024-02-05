@@ -118,10 +118,10 @@ header, body {
 }
 
 .container-hero {
-  margin: 2rem 2rem 7rem 2rem;
+  margin: 12rem 2rem 7rem 2rem;
 
   p {
-    max-width: 44vw;
+    max-width: 70vw;
   }
   
   img {
@@ -230,7 +230,6 @@ h1 {
   font-size: 7rem;
   font-style: normal;
   font-weight: 500;
-  // text-align: right;
   line-height: normal;
   letter-spacing: -0.325rem;
   align-items: flex-end;
@@ -239,12 +238,6 @@ h1 {
 h2 {
   font-weight: 400;
   font-size: 3rem;
-}
-
-p {
-  // text-align: right;
-  // margin: 2rem 0 0 auto;
-  // max-width: 44vw;
 }
 
 
@@ -590,11 +583,6 @@ footer {
     width: 375px;
   }    
   
-p {
-  text-align: right;
-  padding-left: 2rem;
-}
-
 
 #bd-email{
 width: 20rem;
@@ -651,8 +639,6 @@ h1 {
 }
 
 p {
-  margin-left: 1rem;
-  padding-left: 1rem;
   max-width: 100vw;
 }
 .email-list {
