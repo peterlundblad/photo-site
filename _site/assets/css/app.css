@@ -268,6 +268,8 @@ th {
 
 figure {
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .menu-toggle {
@@ -307,8 +309,11 @@ header, body {
 }
 .container-hero img {
   display: flex;
-  max-width: 70vw;
+  max-width: 85vw;
+  max-height: 97vh;
+  object-fit: contain;
   margin-top: 3rem;
+  margin-right: 1rem;
 }
 
 .hamburger {
@@ -740,6 +745,10 @@ label {
   }
   .container-hero {
     margin: 2rem 1rem 14rem 1rem;
+  }
+  .container-hero img {
+    max-width: none;
+    width: 100%;
   }
   .container-hero p {
     max-width: none;
