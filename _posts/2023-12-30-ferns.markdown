@@ -1,0 +1,28 @@
+---
+title: laurels in the rain
+date: 2023-12-30 12:38:00
+layout: post
+featured_image: ../assets/images/ferns/ferns-4.jpg
+---
+Towering redwoods cloaked in emerald ferns, the air alive with the scent of freshly washed earth - Sonoma Creek Falls wasn't just a hike, it was an adventure in a rain-kissed wonderland. My wife, inspired by the vibrant California Bay Laurels, crafted whimsical crowns, transforming us into nature's royalty.
+
+Laughter echoed through the damp forest as we followed the gurgling creek, the bright light filtering through the leaves in soft elegance. The falls themselves were a masterpiece – cascading water veiling a moss-covered rock face, its roar filling the air with raw power.
+
+As the day continued, we reluctantly left, but the magic remained in our thoughts. The scent of damp earth, the echo of laughter, the cool spray of the falls – all crowned by the simple joy of connection and nature's wonder, even on a rainy day.
+
+<figure>
+<img src="/assets/images/ferns/ferns-4.jpg" alt="a woman wearing a crown of Laurels">
+<img src="/assets/images/ferns/ferns-1.jpg" alt="a California Bay Laurel Tree">
+<img src="/assets/images/ferns/ferns-14.jpg" alt="Sonoma Creek Falls">
+<img src="/assets/images/ferns/ferns-2.jpg" alt="a lush creekbed with flowing water">
+<img src="/assets/images/ferns/ferns-5.jpg" alt="a woman wearing a wreath as a crown">
+<img src="/assets/images/ferns/ferns-3.jpg" alt="moss growing toward the light">
+<img src="/assets/images/ferns/ferns-12.jpg" alt="a waterfall in the forest">
+<img src="/assets/images/ferns/ferns-13.jpg" alt="steps through the woods">
+<img src="/assets/images/ferns/ferns-6.jpg" alt="a closeup of green moss">
+<img src="/assets/images/ferns/ferns-8.jpg" alt="mushrooms growing on a log">
+<img src="/assets/images/ferns/ferns-9.jpg" alt="ferns growing above a creek">
+<img src="/assets/images/ferns/ferns-7.jpg" alt="a grove of ferns">
+<img src="/assets/images/ferns/ferns-10.jpg" alt="a woman wearing bay leaves">
+<img src="/assets/images/ferns/ferns-11.jpg" alt="a closeup of a fern">
+</figure>
