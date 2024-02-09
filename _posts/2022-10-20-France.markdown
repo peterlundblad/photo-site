@@ -1,0 +1,23 @@
+---
+title: France on film
+date: 2022-10-20 11:38:00
+layout: post
+categories:
+- travel
+- film
+featured_image: ../assets/images/france-film/france22_10.jpg
+---
+A few lovely scences from a recent trip to Paris and Semur-en-Auxois.
+
+<figure>
+<img src="/assets/images/france-film/france22_01.jpg" alt="a couple eating at a bistro in Paris">
+<img src="/assets/images/france-film/france22_02.jpg" alt="a woman sitting at french café">
+<img src="/assets/images/france-film/france22_03.jpg" alt="a side street in paris">
+<img src="/assets/images/france-film/france22_04.jpg" alt="a painting instruction in a parisian park">
+<img src="/assets/images/france-film/france22_05.jpg" alt="a woman enjoying a cappuccino">
+<img src="/assets/images/france-film/france22_06.jpg" alt="a couple walking an old cobblestone streen in Semur-en-Auxois">
+<img src="/assets/images/france-film/france22_07.jpg" alt="a crowded street in montmartre paris">
+<img src="/assets/images/france-film/france22_08.jpg" alt="a woman sitting on the banks of the seine">
+<img src="/assets/images/france-film/france22_09.jpg" alt="a woman looking out a window of an apartment">
+<img src="/assets/images/france-film/france22_10.jpg" alt="an old french car">
+</figure>

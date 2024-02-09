@@ -1,5 +1,5 @@
 ---
-title: laurels in the rain
+title: queen of the laurels
 date: 2023-12-30 12:38:00
 layout: post
 featured_image: ../assets/images/ferns/ferns-4.jpg
