@@ -643,6 +643,11 @@ iframe {
   height: 100%;
 }
 
+@media screen and (max-width: 1240px) {
+  .blog-item img {
+    width: 28vw;
+  }
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) and (prefers-reduced-motion: no-preference) {
   .in-view {
