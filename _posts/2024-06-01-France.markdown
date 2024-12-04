@@ -1,0 +1,30 @@
+---
+title: Back to France
+date: 2024-06-01 10:30:00
+layout: post
+categories:
+- summer
+- landscape
+featured_image: ../assets/images/2024/france/IMG_3176.webp
+---
+Hope and I have been spending a lot of time in France this year! From vide grenier (flee markets) to secret gardens, we have loved exploring and connecting with this vibrant country. Lot more to come!
+
+<figure class="masonry">
+    <img src="/assets/images/2024/france/IMG_2998.webp" alt="old wine bottles in a crate">
+    <img src="/assets/images/2024/france/IMG_2953.webp" alt="flee market in france">
+    <img src="/assets/images/2024/france/IMG_2991.webp" alt="hiver sign">
+    <img src="/assets/images/2024/france/IMG_2965.webp" alt="">
+    <img class="two" src="/assets/images/2024/france/IMG_3275.webp" alt="Semur-en-Auxois France">
+    <img class="two" src="/assets/images/2024/france/IMG_3101.webp" alt="sunset">
+    <img src="/assets/images/2024/france/IMG_2964.webp" alt="">
+    <img src="/assets/images/2024/france/IMG_3176.webp" alt="a medieval tower in france">
+    <img class="two" src="/assets/images/2024/france/IMG_3255.webp" alt="a forest at sunset">
+    <img src="/assets/images/2024/france/IMG_3225.webp" alt="the leaf of a tree">
+    <img src="/assets/images/2024/france/IMG_3119.webp" alt="a pink rose">
+    <img src="/assets/images/2024/france/IMG_3203.webp" alt="a rustic fence in tall grass">
+    <img class="two" src="/assets/images/2024/france/IMG_3062.webp" alt="a building shining in the sun">
+    <img src="/assets/images/2024/france/IMG_3102.webp" alt="a mass inside a cathedral">
+    <img src="/assets/images/2024/france/IMG_3305.webp" alt="old european streets of cobblestone">
+    <img src="/assets/images/2024/france/IMG_3304.webp" alt="a woman's shadow">
+    <img src="/assets/images/2024/france/IMG_3344.webp" alt="a bearded man">
+</figure>

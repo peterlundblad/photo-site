@@ -1,45 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-01T16:27:30+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lundblad Studios</title><subtitle>The photographic portfolio of Lundblad Studios. </subtitle><entry><title type="html">Southwest Road Trip</title><link href="http://localhost:4000/spring/landscape/2024/05/01/Southwest.html" rel="alternate" type="text/html" title="Southwest Road Trip" /><published>2024-05-01T10:30:00+00:00</published><updated>2024-05-01T10:30:00+00:00</updated><id>http://localhost:4000/spring/landscape/2024/05/01/Southwest</id><content type="html" xml:base="http://localhost:4000/spring/landscape/2024/05/01/Southwest.html"><![CDATA[<p>Recently, Hope and I embarked on an epic road trip through the American Southwest, a region brimming with breathtaking beauty. From the fiery sunsets over Arizona’s deserts to the rugged charm of Texas highlands, every moment was unforgettable. Here’s a glimpse into our incredible journey.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-04T17:27:08+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lundblad Studios</title><subtitle>The photographic portfolio of Lundblad Studios. </subtitle><entry><title type="html">Back to France</title><link href="http://localhost:4000/summer/landscape/2024/06/01/France.html" rel="alternate" type="text/html" title="Back to France" /><published>2024-06-01T10:30:00+00:00</published><updated>2024-06-01T10:30:00+00:00</updated><id>http://localhost:4000/summer/landscape/2024/06/01/France</id><content type="html" xml:base="http://localhost:4000/summer/landscape/2024/06/01/France.html"><![CDATA[<p>Hope and I have been spending a lot of time in France this year! From vide grenier (flee markets) to secret gardens, we have loved exploring and connecting with this vibrant country. Lot more to come!</p>
 
-<figure>
+<figure class="masonry">
+    <img src="/assets/images/2024/france/IMG_2998.webp" alt="old wine bottles in a crate" />
+    <img src="/assets/images/2024/france/IMG_2953.webp" alt="flee market in france" />
+    <img src="/assets/images/2024/france/IMG_2991.webp" alt="hiver sign" />
+    <img src="/assets/images/2024/france/IMG_2965.webp" alt="" />
+    <img class="two" src="/assets/images/2024/france/IMG_3275.webp" alt="Semur-en-Auxois France" />
+    <img class="two" src="/assets/images/2024/france/IMG_3101.webp" alt="sunset" />
+    <img src="/assets/images/2024/france/IMG_2964.webp" alt="" />
+    <img src="/assets/images/2024/france/IMG_3176.webp" alt="a medieval tower in france" />
+    <img class="two" src="/assets/images/2024/france/IMG_3255.webp" alt="a forest at sunset" />
+    <img src="/assets/images/2024/france/IMG_3225.webp" alt="the leaf of a tree" />
+    <img src="/assets/images/2024/france/IMG_3119.webp" alt="a pink rose" />
+    <img src="/assets/images/2024/france/IMG_3203.webp" alt="a rustic fence in tall grass" />
+    <img class="two" src="/assets/images/2024/france/IMG_3062.webp" alt="a building shining in the sun" />
+    <img src="/assets/images/2024/france/IMG_3102.webp" alt="a mass inside a cathedral" />
+    <img src="/assets/images/2024/france/IMG_3305.webp" alt="old european streets of cobblestone" />
+    <img src="/assets/images/2024/france/IMG_3304.webp" alt="a woman's shadow" />
+    <img src="/assets/images/2024/france/IMG_3344.webp" alt="a bearded man" />
+</figure>]]></content><author><name></name></author><category term="summer" /><category term="landscape" /><summary type="html"><![CDATA[Hope and I have been spending a lot of time in France this year! From vide grenier (flee markets) to secret gardens, we have loved exploring and connecting with this vibrant country. Lot more to come!]]></summary></entry><entry><title type="html">Southwest Road Trip</title><link href="http://localhost:4000/spring/landscape/2024/05/01/Southwest.html" rel="alternate" type="text/html" title="Southwest Road Trip" /><published>2024-05-01T10:30:00+00:00</published><updated>2024-05-01T10:30:00+00:00</updated><id>http://localhost:4000/spring/landscape/2024/05/01/Southwest</id><content type="html" xml:base="http://localhost:4000/spring/landscape/2024/05/01/Southwest.html"><![CDATA[<p>Recently, Hope and I embarked on an epic road trip through the American Southwest, a region brimming with breathtaking beauty. From the fiery sunsets over Arizona’s deserts to the rugged charm of Texas highlands, every moment was unforgettable. Here’s a glimpse into our incredible journey.</p>
+
+<figure class="masonry">
     <img src="/assets/images/2024/roadtrip/IMG_1548.webp" alt="" />
     <img src="/assets/images/2024/roadtrip/IMG_1567.webp" alt="a green spotted cactus" />
-    <img src="/assets/images/2024/roadtrip/IMG_2032.webp" alt="desert sunset" />
-    <img src="/assets/images/2024/roadtrip/IMG_1592.webp" alt="classic teal car by palm trees" />
-    <img src="/assets/images/2024/roadtrip/IMG_1596.webp" alt="young woman at sunset" />
     <img src="/assets/images/2024/roadtrip/IMG_1613.webp" alt="red building" />
+    <img src="/assets/images/2024/roadtrip/IMG_1592.webp" alt="classic teal car by palm trees" />
+    <img class="two" src="/assets/images/2024/roadtrip/IMG_2032.webp" alt="desert sunset" />
+    <img src="/assets/images/2024/roadtrip/IMG_1596.webp" alt="young woman at sunset" />
     <img src="/assets/images/2024/roadtrip/IMG_1647.webp" alt="plant outside of San Xavier" />
     <img src="/assets/images/2024/roadtrip/IMG_1666.webp" alt="interior of San Xavier" />
     <img src="/assets/images/2024/roadtrip/IMG_1689.webp" alt="door of San Xavier" />
-    <img src="/assets/images/2024/roadtrip/IMG_2186.webp" alt="saguaro cactus" />
+    <img class="two" src="/assets/images/2024/roadtrip/IMG_2186.webp" alt="saguaro cactus" />
     <img src="/assets/images/2024/roadtrip/IMG_1695.webp" alt="blooming cactus" />
     <img src="/assets/images/2024/roadtrip/IMG_1759.webp" alt="red plant outside of San Xavier" />
     <img src="/assets/images/2024/roadtrip/IMG_1740.webp" alt="bell tower of San Xavier" />
+    <img class="two" src="/assets/images/2024/roadtrip/IMG_2191.webp" alt="group of saguaro cactus plants" />
     <img src="/assets/images/2024/roadtrip/IMG_1704.webp" alt="tower of San Xavier" />
-    <img src="/assets/images/2024/roadtrip/IMG_2191.webp" alt="group of saguaro cactus plants" />
     <img src="/assets/images/2024/roadtrip/IMG_6463.webp" alt="" />
-    <img src="/assets/images/2024/roadtrip/IMG_6485.webp" alt="" />
-    <img src="/assets/images/2024/roadtrip/IMG_7109.webp" alt="golden light at sunset" />
-    <img src="/assets/images/2024/roadtrip/IMG_6834.webp" alt="southwest style ranch house" />
+    <img src="/assets/images/2024/roadtrip/IMG_6485.webp" alt="change" />
+    <img src="/assets/images/2024/roadtrip/IMG_1812.webp" alt="a man and his dog" />
+    <img class="two" src="/assets/images/2024/roadtrip/IMG_7109.webp" alt="golden light at sunset" />
+        <img src="/assets/images/2024/roadtrip/IMG_6582.webp" alt="woman in thought" />
+    <img class="two" src="/assets/images/2024/roadtrip/IMG_6834.webp" alt="southwest style ranch house" />
     <img src="/assets/images/2024/roadtrip/IMG_2268.webp" alt="courthouse butte trail" />    
     <img src="/assets/images/2024/roadtrip/IMG_6946.webp" alt="courthouse butte in monochrome" />    
-    <img src="/assets/images/2024/roadtrip/IMG_6926.webp" alt="courthouse butte in sedona arizona" />
+    <img class="two" src="/assets/images/2024/roadtrip/IMG_6926.webp" alt="courthouse butte in sedona arizona" />
 
 </figure>]]></content><author><name></name></author><category term="spring" /><category term="landscape" /><summary type="html"><![CDATA[Recently, Hope and I embarked on an epic road trip through the American Southwest, a region brimming with breathtaking beauty. From the fiery sunsets over Arizona’s deserts to the rugged charm of Texas highlands, every moment was unforgettable. Here’s a glimpse into our incredible journey.]]></summary></entry><entry><title type="html">Spring is here</title><link href="http://localhost:4000/spring/landscape/2024/03/02/Spring.html" rel="alternate" type="text/html" title="Spring is here" /><published>2024-03-02T18:44:00+00:00</published><updated>2024-03-02T18:44:00+00:00</updated><id>http://localhost:4000/spring/landscape/2024/03/02/Spring</id><content type="html" xml:base="http://localhost:4000/spring/landscape/2024/03/02/Spring.html"><![CDATA[<p>Spring is starting to show it’s colors once again here in San Francisco, CA. It always comes at such as a lovely surprise seeing the bursting of new color and growth.</p>
 
-<figure>
-<img src="/assets/images/2024/spring/24spring-3.jpg" alt="" />
-<img src="/assets/images/2024/spring/24spring-4.jpg" alt="" />
-<img src="/assets/images/2024/spring/24spring-6.jpg" alt="" />
-<img src="/assets/images/2024/spring/24spring-7.jpg" alt="" />
-<img src="/assets/images/2024/spring/24spring-9.jpg" alt="" />
-<img src="/assets/images/2024/spring/24spring-8.jpg" alt="" />
-<img src="/assets/images/2024/spring/24spring-11.jpg" alt="" />
-<img src="/assets/images/2024/spring/24spring-12.jpg" alt="" />
+<figure class="masonry">
+<img src="/assets/images/2024/spring/24spring-4.jpg" alt="nasturtium leaves with water drops" />
+<img class="two" src="/assets/images/2024/spring/24spring-12.jpg" alt="blossoms" />
+
+<img class="two" src="/assets/images/2024/spring/24spring-6.jpg" alt="thin feathery leaves" />
+<img src="/assets/images/2024/spring/24spring-3.jpg" alt="magnolia blossom" />
+
+
+<img src="/assets/images/2024/spring/24spring-7.jpg" alt="lavender closeup" />
+<img src="/assets/images/2024/spring/24spring-14.jpg" alt="cherry blossoms" />
+<img src="/assets/images/2024/spring/24spring-9.jpg" alt="rosemary" />
+<img src="/assets/images/2024/spring/24spring-8.jpg" alt="fern" />
 <img src="/assets/images/2024/spring/24spring-13.jpg" alt="" />
-<img src="/assets/images/2024/spring/24spring-14.jpg" alt="" />
-<img src="/assets/images/2024/spring/24spring-15.jpg" alt="" />
+
+<img src="/assets/images/2024/spring/24spring-18.jpg" alt="yellow mimosa tree" />
+<img class="two" src="/assets/images/2024/spring/24spring-15.jpg" alt="pink blossoms on a blue sky" />
 <img src="/assets/images/2024/spring/24spring-16.jpg" alt="" />
-<img src="/assets/images/2024/spring/24spring-18.jpg" alt="" />
 </figure>]]></content><author><name></name></author><category term="spring" /><category term="landscape" /><summary type="html"><![CDATA[Spring is starting to show it’s colors once again here in San Francisco, CA. It always comes at such as a lovely surprise seeing the bursting of new color and growth.]]></summary></entry><entry><title type="html">Ocean Beach S.F.</title><link href="http://localhost:4000/travel/winter/2024/02/07/Ocean-Beach.html" rel="alternate" type="text/html" title="Ocean Beach S.F." /><published>2024-02-07T12:38:00+00:00</published><updated>2024-02-07T12:38:00+00:00</updated><id>http://localhost:4000/travel/winter/2024/02/07/Ocean-Beach</id><content type="html" xml:base="http://localhost:4000/travel/winter/2024/02/07/Ocean-Beach.html"><![CDATA[<p>A day off, chasing the ocean and dodging the rain. Looking for the sun and dancing amoung the gulls. Though the storms assail us, we will look together towards the rising light.</p>
 
 <figure>
@@ -166,17 +191,4 @@ As day retires to the west.</p>
 <img src="/assets/images/IMG_0904.jpg" alt="a field of sunflowers" />
 <img src="/assets/images/IMG_0947.jpg" alt="a big sunflower" />
 <img src="/assets/images/IMG_0933.jpg" alt="sunflowers together in summer" />
-</figure>]]></content><author><name></name></author><summary type="html"><![CDATA[there upon the billowing earth, a voice spoke from the dirt]]></summary></entry><entry><title type="html">France on film</title><link href="http://localhost:4000/travel/film/2022/10/20/France.html" rel="alternate" type="text/html" title="France on film" /><published>2022-10-20T11:38:00+00:00</published><updated>2022-10-20T11:38:00+00:00</updated><id>http://localhost:4000/travel/film/2022/10/20/France</id><content type="html" xml:base="http://localhost:4000/travel/film/2022/10/20/France.html"><![CDATA[<p>A few lovely scences from a recent trip to Paris and Semur-en-Auxois.</p>
-
-<figure>
-<img src="/assets/images/france-film/france22_01.jpg" alt="a couple eating at a bistro in Paris" />
-<img src="/assets/images/france-film/france22_02.jpg" alt="a woman sitting at french café" />
-<img src="/assets/images/france-film/france22_03.jpg" alt="a side street in paris" />
-<img src="/assets/images/france-film/france22_04.jpg" alt="a painting instruction in a parisian park" />
-<img src="/assets/images/france-film/france22_05.jpg" alt="a woman enjoying a cappuccino" />
-<img src="/assets/images/france-film/france22_06.jpg" alt="a couple walking an old cobblestone streen in Semur-en-Auxois" />
-<img src="/assets/images/france-film/france22_07.jpg" alt="a crowded street in montmartre paris" />
-<img src="/assets/images/france-film/france22_08.jpg" alt="a woman sitting on the banks of the seine" />
-<img src="/assets/images/france-film/france22_09.jpg" alt="a woman looking out a window of an apartment" />
-<img src="/assets/images/france-film/france22_10.jpg" alt="an old french car" />
-</figure>]]></content><author><name></name></author><category term="travel" /><category term="film" /><summary type="html"><![CDATA[A few lovely scences from a recent trip to Paris and Semur-en-Auxois.]]></summary></entry></feed>
+</figure>]]></content><author><name></name></author><summary type="html"><![CDATA[there upon the billowing earth, a voice spoke from the dirt]]></summary></entry></feed>

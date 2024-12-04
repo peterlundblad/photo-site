@@ -13,16 +13,23 @@
                 {% if page.previous.url %}
                     <a class="prev" href="{{page.previous.url}}">
                         <img src="/assets/images/previous-arrow-active.svg">
+                        <p>Previous Post</p>
                     </a>
 
                     {% else %}  
                     <div class="inactive">
+                        <p>Next Post</p>
                         <img src="/assets/images/previous-arrow-inactive.svg">
                     </div>
                 {% endif %}
+
+                <a class="blog-home" href="/blog">Blog Home</a>
+
                 {% if page.next.url %}
                     <a class="next" href="{{page.next.url}}">
+                        <p>Next Post</p>
                         <img src="/assets/images/next-arrow-active.svg">
+                        
                     </a>
                     {% else %}  
                     <div class="inactive">
