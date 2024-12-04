@@ -5,6 +5,7 @@ layout: post
 categories:
 - spring
 - landscape
+- north america
 featured_image: ../assets/images/2024/roadtrip/IMG_2186.webp
 ---
 Recently, Hope and I embarked on an epic road trip through the American Southwest, a region brimming with breathtaking beauty. From the fiery sunsets over Arizona’s deserts to the rugged charm of Texas highlands, every moment was unforgettable. Here’s a glimpse into our incredible journey.

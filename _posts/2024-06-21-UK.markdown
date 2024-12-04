@@ -1,0 +1,62 @@
+---
+title: Scotland
+date: 2024-06-21 10:30:00
+layout: post
+categories:
+- summer
+- landscape
+- europe
+featured_image: ../assets/images/2024/france/IMG_3600.webp
+---
+We explored the breathtaking coasts of Scotland, a land of rich history and natural beauty. From strolling through the charming streets of Edinburgh to standing atop the windswept cliffs of the far north, every moment was an adventure. Here’s a glimpse of our unforgettable journey.
+
+<figure class="masonry">
+<img class="two" src="/assets/images/2024/uk/IMG_3600.webp" alt="scottish castle on a cliff">
+<img src="/assets/images/2024/UK/IMG_3559.webp" alt="a whimsical candelabra">
+   
+<img src="/assets/images/2024/UK/IMG_3565.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_3617.webp" alt="gothic lettering">
+<img src="/assets/images/2024/UK/IMG_3571.webp" alt="a group of swans in a river">
+
+<img src="/assets/images/2024/UK/IMG_3626.webp" alt="a park with lots of people hanging out">
+<img class="two" src="/assets/images/2024/UK/IMG_3629.webp" alt="street art and greenry">
+
+<img src="/assets/images/2024/UK/IMG_3665.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_3671.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_3672.webp" alt="change">
+
+<img src="/assets/images/2024/UK/IMG_3817.webp" alt="the cliffs of Wick Scotland">
+<img class="two" src="/assets/images/2024/UK/IMG_3775.webp" alt="shells on a beach">
+
+<img class="two" src="/assets/images/2024/UK/IMG_3785.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_3832.webp" alt="gothic lettering">
+
+<img src="/assets/images/2024/UK/IMG_3869.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_4003.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_4025.webp" alt="change">
+
+<img class="two" src="/assets/images/2024/UK/IMG_4043.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_4097.webp" alt="change">
+
+<img class="three" src="/assets/images/2024/UK/IMG_4083.webp" alt="change">
+
+<img src="/assets/images/2024/UK/IMG_4226.webp" alt="change">
+<img class="two" src="/assets/images/2024/UK/IMG_4237.webp" alt="change">
+ 
+<img src="/assets/images/2024/UK/IMG_4257.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_4287.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_4338.webp" alt="change">
+
+<img class="two" src="/assets/images/2024/UK/IMG_4405.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_4480.webp" alt="change">
+
+<img src="/assets/images/2024/UK/IMG_4515.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_4500.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_4447.webp" alt="change">
+
+<img class="three" src="/assets/images/2024/UK/IMG_4597.webp" alt="change">
+
+<img class="two" src="/assets/images/2024/UK/IMG_4677.webp" alt="change">
+<img src="/assets/images/2024/UK/IMG_4641.webp" alt="change">
+
+</figure>
