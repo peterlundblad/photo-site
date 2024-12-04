@@ -743,10 +743,11 @@ width: 100%;
 .masonry {
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 0rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
 }
 
+figure img {
+  padding-right: .5rem;
+}
 
 
 }
