@@ -22,11 +22,18 @@
         </a>
         <nav>
             <ul>
-            {% for item in site.data.navigation %}
-            <li><a href="{{ item.link }}" {% if page.url == item.link %} class="selected" {% endif %}>{{ item.name }}</a></li>
-            {% endfor %}
+                {% for item in site.data.navigation %}
+                <li>
+                    <a href="{{ item.link }}" 
+                       {% if page.url == item.link or 
+                             (item.link == "/blog/" and (page.url contains "/blog/" or page.collection == "posts")) %}
+                       class="selected" 
+                       {% endif %}>
+                       {{ item.name }}
+                    </a>
+                </li>
+                {% endfor %}
             </ul>
-
         </nav>
     </div>
        
