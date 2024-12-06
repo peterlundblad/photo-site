@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-04T22:14:02+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lundblad Studios</title><subtitle>The photographic portfolio of Lundblad Studios. </subtitle><entry><title type="html">Scotland</title><link href="http://localhost:4000/blog/2024/UK/" rel="alternate" type="text/html" title="Scotland" /><published>2024-06-21T10:30:00+00:00</published><updated>2024-06-21T10:30:00+00:00</updated><id>http://localhost:4000/blog/2024/UK</id><content type="html" xml:base="http://localhost:4000/blog/2024/UK/"><![CDATA[<p>We explored the breathtaking coasts of Scotland, a land of rich history and natural beauty. From strolling through the charming streets of Edinburgh to standing atop the windswept cliffs of the far north, every moment was an adventure. Here’s a glimpse of our unforgettable journey.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-06T12:18:08+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lundblad Studios</title><subtitle>The photographic portfolio of Lundblad Studios. </subtitle><entry><title type="html">Scotland</title><link href="http://localhost:4000/blog/2024/UK/" rel="alternate" type="text/html" title="Scotland" /><published>2024-06-21T10:30:00+00:00</published><updated>2024-06-21T10:30:00+00:00</updated><id>http://localhost:4000/blog/2024/UK</id><content type="html" xml:base="http://localhost:4000/blog/2024/UK/"><![CDATA[<p>We explored the breathtaking coasts of Scotland, a land of rich history and natural beauty. From strolling through the charming streets of Edinburgh to standing atop the windswept cliffs of the far north, every moment was an adventure. Here’s a glimpse of our unforgettable journey.</p>
 
 <figure class="masonry">
-<img class="two" src="/assets/images/2024/uk/IMG_3600.webp" alt="scottish castle on a cliff" />
-<img src="/assets/images/2024/UK/IMG_3559.webp" alt="a whimsical candelabra" />
+<img class="two" src="/assets/images/2024/uk/IMG_3600.webp" alt="scottish castle on a cliff" loading="eager" />
+<img src="/assets/images/2024/UK/IMG_3559.webp" alt="a whimsical candelabra" loading="eager" />
    
-<img src="/assets/images/2024/UK/IMG_3565.webp" alt="change" />
-<img src="/assets/images/2024/UK/IMG_3617.webp" alt="gothic lettering" />
-<img src="/assets/images/2024/UK/IMG_3571.webp" alt="a group of swans in a river" />
+<img src="/assets/images/2024/UK/IMG_3565.webp" alt="change" loading="lazy" />
+<img src="/assets/images/2024/UK/IMG_3617.webp" alt="gothic lettering" loading="lazy" />
+<img src="/assets/images/2024/UK/IMG_3571.webp" alt="a group of swans in a river" loading="lazy" />
 
-<img src="/assets/images/2024/UK/IMG_3626.webp" alt="a park with lots of people hanging out" />
-<img class="two" src="/assets/images/2024/UK/IMG_3629.webp" alt="street art and greenry" />
+<img src="/assets/images/2024/UK/IMG_3626.webp" alt="a park with lots of people hanging out" loading="lazy" />
+<img class="two" src="/assets/images/2024/UK/IMG_3629.webp" alt="street art and greenry" loading="lazy" />
 
-<img src="/assets/images/2024/UK/IMG_3665.webp" alt="change" />
-<img src="/assets/images/2024/UK/IMG_3671.webp" alt="change" />
-<img src="/assets/images/2024/UK/IMG_3672.webp" alt="change" />
+<img src="/assets/images/2024/UK/IMG_3665.webp" alt="change" loading="lazy" />
+<img src="/assets/images/2024/UK/IMG_3671.webp" alt="change" loading="lazy" />
+<img src="/assets/images/2024/UK/IMG_3672.webp" alt="change" loading="lazy" />
 
 <img src="/assets/images/2024/UK/IMG_3817.webp" alt="the cliffs of Wick Scotland" />
 <img class="two" src="/assets/images/2024/UK/IMG_3775.webp" alt="shells on a beach" />
@@ -193,23 +193,23 @@
 </figure>]]></content><author><name></name></author><summary type="html"><![CDATA[Towering redwoods cloaked in emerald ferns, the air alive with the scent of freshly washed earth - Sonoma Creek Falls wasn’t just a hike, it was an adventure in a rain-kissed wonderland. My wife, inspired by the vibrant California Bay Laurels, crafted whimsical crowns, transforming us into nature’s royalty.]]></summary></entry><entry><title type="html">Big Sur Camping</title><link href="http://localhost:4000/blog/2023/BigSur/" rel="alternate" type="text/html" title="Big Sur Camping" /><published>2023-09-27T11:38:00+00:00</published><updated>2023-09-27T11:38:00+00:00</updated><id>http://localhost:4000/blog/2023/BigSur</id><content type="html" xml:base="http://localhost:4000/blog/2023/BigSur/"><![CDATA[<p>An epic camping trip down the coast to Big Sur. We lucked with out the most epic sunset and incredible views from the bluffs and cliffs. Definitly want to go back.</p>
 
 <figure>
-<img src="/assets/images/23-Big-Sur/big-sur01.jpg" alt="a dramatic cliff at Big Sur" />
-<img src="/assets/images/23-Big-Sur/big-sur02.jpg" alt="a set of waves in the ocean" />
-<img src="/assets/images/23-Big-Sur/big-sur04.jpg" alt="a woman making bubbles" />
-<img src="/assets/images/23-Big-Sur/big-sur05.jpg" alt="twigs on a cliff with the beach below" />
-<img src="/assets/images/23-Big-Sur/big-sur06.jpg" alt="plants overlooking the ocean" />
-<img src="/assets/images/23-Big-Sur/big-sur07.jpg" alt="a dramatic wave in the ocean" />
-<img src="/assets/images/23-Big-Sur/big-sur08.jpg" alt="a women making bubbles" />
-<img src="/assets/images/23-Big-Sur/big-sur10.jpg" alt="campers enjoying sunset" />
-<img src="/assets/images/23-Big-Sur/big-sur09.jpg" alt="fennel plants at sunset" />
-<img src="/assets/images/23-Big-Sur/big-sur11.jpg" alt="the sunset over the Pacific" />
-<img src="/assets/images/23-Big-Sur/big-sur12.jpg" alt="two people point to the sea" />
-<img src="/assets/images/23-Big-Sur/big-sur13.jpg" alt="a wave crashing on the surf" />
-<img src="/assets/images/23-Big-Sur/big-sur15.jpg" alt="a person journaling on the rocks" />
-<img src="/assets/images/23-Big-Sur/big-sur16.jpg" alt="pampas grass at sunset" />
-<img src="/assets/images/23-Big-Sur/big-sur17.jpg" alt="fennel plants at sunset" />
-<img src="/assets/images/23-Big-Sur/big-sur18.jpg" alt="pampas grass on the cliffs ofBig Sur" />
-<img src="/assets/images/23-Big-Sur/big-sur19.jpg" alt="pampas grass on the coast" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur01.jpg" alt="a dramatic cliff at Big Sur" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur02.jpg" alt="a set of waves in the ocean" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur04.jpg" alt="a woman making bubbles" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur05.jpg" alt="twigs on a cliff with the beach below" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur06.jpg" alt="plants overlooking the ocean" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur07.jpg" alt="a dramatic wave in the ocean" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur08.jpg" alt="a women making bubbles" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur10.jpg" alt="campers enjoying sunset" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur09.jpg" alt="fennel plants at sunset" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur11.jpg" alt="the sunset over the Pacific" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur12.jpg" alt="two people point to the sea" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur13.jpg" alt="a wave crashing on the surf" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur15.jpg" alt="a person journaling on the rocks" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur16.jpg" alt="pampas grass at sunset" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur17.jpg" alt="fennel plants at sunset" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur18.jpg" alt="pampas grass on the cliffs ofBig Sur" />
+<img src="/assets/images/2023/23-Big-Sur/big-sur19.jpg" alt="pampas grass on the coast" />
 
 </figure>]]></content><author><name></name></author><category term="travel" /><summary type="html"><![CDATA[An epic camping trip down the coast to Big Sur. We lucked with out the most epic sunset and incredible views from the bluffs and cliffs. Definitly want to go back.]]></summary></entry><entry><title type="html">light at dusk</title><link href="http://localhost:4000/blog/2023/light-dusk/" rel="alternate" type="text/html" title="light at dusk" /><published>2023-08-15T12:38:00+00:00</published><updated>2023-08-15T12:38:00+00:00</updated><id>http://localhost:4000/blog/2023/light-dusk</id><content type="html" xml:base="http://localhost:4000/blog/2023/light-dusk/"><![CDATA[<p>As twilight’s veil doth gently fall,
 A hush o’er nature starts to sprawl,
@@ -236,4 +236,4 @@ When nature dons her twilight dower,
 In dusk’s embrace, we find our rest,
 As day retires to the west.</p>
 
-<img src="/assets/images/7Z2A2764.jpg" alt="blades of grass" />]]></content><author><name></name></author><summary type="html"><![CDATA[As twilight’s veil doth gently fall, A hush o’er nature starts to sprawl, The sun’s warm kiss begins to wane, And shadows dance upon the lane.]]></summary></entry></feed>
+<img src="/assets/images/2019/7Z2A2764.jpg" alt="blades of grass" />]]></content><author><name></name></author><summary type="html"><![CDATA[As twilight’s veil doth gently fall, A hush o’er nature starts to sprawl, The sun’s warm kiss begins to wane, And shadows dance upon the lane.]]></summary></entry></feed>

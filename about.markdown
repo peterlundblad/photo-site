@@ -10,7 +10,7 @@ Lundblad Studios is a multidisciplinary atelier led by Peter Lundblad. He is dri
 Hailing from Santa Rosa and being a fifth-generation Californian, he is enthralled by the natural realm. He spends his limited free time cycling, baking, and dreaming.
 
 <section>
-    <img class="hero-photo" src="/assets/images/IMG_1135-crop.jpg" alt="portrait of peter with sunglass">
+    <img class="hero-photo" src="/assets/images/2023/IMG_1135-crop.jpg" alt="portrait of peter with sunglass">
 </section>
 
 

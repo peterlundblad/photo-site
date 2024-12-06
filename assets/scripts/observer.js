@@ -21,7 +21,7 @@ const observer = new IntersectionObserver(
   },
 )
 
-const tags = document.querySelectorAll('.container-hero,.row img, footer')
+const tags = document.querySelectorAll('.container-hero,.row img, .masonry img, footer')
 
 tags.forEach((tag) => {
   observer.observe(tag)
