@@ -833,8 +833,8 @@ iframe {
     width: 100%;
   }
   .masonry {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 0rem;
+    display: flex;
+    grid-gap: 1.5rem;
   }
   figure img {
     padding-right: 0.5rem;
