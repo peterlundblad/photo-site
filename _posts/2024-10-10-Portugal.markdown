@@ -23,14 +23,13 @@ Lastly, we spent a few days visiting the stunning city of Porto, where we indulg
 <img src="/assets/images/2024/portugal/portugal-6.webp" alt="a very ripe persimmon">
 <img class ="two" src="/assets/images/2024/portugal/portugal-7.webp" alt="a portuguese village at sunset">
 
-<img class ="three" src="/assets/images/2024/portugal/portugal-9.webp" alt="dramatic clouds below a mountain village">
+<img class="three" src="/assets/images/2024/portugal/portugal-13.webp" alt="sunset in the portuguese hills">
 
-<img class ="two" src="/assets/images/2024/portugal/portugal-8.webp" alt="sunrise behind a tree">
+<img class ="two" src="/assets/images/2024/portugal/portugal-9.webp" alt="dramatic clouds below a mountain village">
 <img src="/assets/images/2024/portugal/portugal-12.webp" alt="the portuguese flag">
 
-
 <img src="/assets/images/2024/portugal/portugal-15.webp" alt="an old wine house">
-<img class="two" src="/assets/images/2024/portugal/portugal-13.webp" alt="sunset in the portuguese hills">
+<img class ="two" src="/assets/images/2024/portugal/portugal-8.webp" alt="sunrise behind a tree">
 
 <img src="/assets/images/2024/portugal/portugal-11.webp" alt="raindrops on grass">
 <img src="/assets/images/2024/portugal/portugal-14.webp" alt="watercolor pages">
