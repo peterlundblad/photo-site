@@ -6,7 +6,7 @@ categories:
 - summer
 - landscape
 - europe
-featured_image: ../assets/images/2024/france/IMG_3600.webp
+featured_image: ../assets/images/2024/portugal/portugal-19.webp
 ---
 In October, Hope and I took a brief trip down to Portugal for an artist retreat at [O Refugio.](https://orefugio.org/en/home/) Surrounded by a community of fellow artists, we had the chance to dive into watercolor workshops and explore new creative ideas. We even helped collect chestnuts, olives, and persimmons, which I loved.
 

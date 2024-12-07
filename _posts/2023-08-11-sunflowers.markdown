@@ -2,7 +2,7 @@
 title: sunflowers
 date: 2023-08-11 16:43:00
 layout: post
-featured_image: ../assets/images/IMG_0735.jpg
+featured_image: ../assets/images/2023/IMG_0735.jpg
 ---
 there upon the billowing earth, a voice spoke from the dirt
 
