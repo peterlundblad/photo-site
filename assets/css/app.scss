@@ -36,9 +36,9 @@
 }
 
 //SCSS Variables
-$purple: #2F22C8;
+$purple: #2f22c8;
 //makes the main color darker or lighter
-$darkPurple: scale-color($purple, $lightness: -85%);
+$darkPurple: hsl(245, 71%, 36%);
 $mainColor: $purple;
 $black: #000;
 $white: #fff;

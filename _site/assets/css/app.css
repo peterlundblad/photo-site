@@ -252,7 +252,7 @@ th {
   transform: translate(0px, 3px);
 }
 .logo a {
-  color: #07051e;
+  color: hsl(245, 71%, 36%);
   text-decoration: none;
   display: inline-flex;
 }
@@ -390,7 +390,7 @@ header, body {
 }
 
 a {
-  color: #2F22C8;
+  color: #2f22c8;
 }
 
 nav a:hover {
@@ -458,19 +458,19 @@ div.post img {
 
 nav a.selected {
   text-decoration: none;
-  border-bottom: 5px solid #2F22C8;
+  border-bottom: 5px solid #2f22c8;
 }
 
 .contact {
   text-decoration: none;
-  border-bottom: 5px solid #2F22C8;
+  border-bottom: 5px solid #2f22c8;
   font-size: 1.6rem;
   color: #000;
   font-weight: 300;
 }
 
 .contact:hover {
-  color: #2F22C8;
+  color: #2f22c8;
   border-bottom: 5px solid #000;
 }
 
@@ -532,7 +532,7 @@ footer p {
 }
 
 .footer-nav a:hover {
-  border-bottom: 5px solid #2F22C8;
+  border-bottom: 5px solid #2f22c8;
   padding-bottom: 2px;
   transition: padding-bottom 0.3s;
   padding-left: initial;
@@ -581,7 +581,7 @@ footer p {
 }
 
 .button {
-  background-color: #2F22C8;
+  background-color: #2f22c8;
   box-shadow: 0 2px 2px 0 rgba(17, 64, 87, 0.1), 0 10px 20px 0 rgba(3, 48, 29, 0.09);
   font-family: "Work Sans", Helvectia, Arial, sans-serif;
   text-decoration: none;
@@ -842,7 +842,7 @@ iframe {
 }
 @media screen and (max-width: 450px) {
   .menu {
-    background-color: #07051e;
+    background-color: hsl(245, 71%, 36%);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -875,7 +875,7 @@ iframe {
     margin-bottom: 3rem;
   }
   nav a:hover {
-    border-bottom: 5px solid #2F22C8;
+    border-bottom: 5px solid #2f22c8;
     padding-bottom: 2px;
     transition: padding-bottom 0.3s;
     padding-left: initial;
