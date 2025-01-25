@@ -11,10 +11,22 @@ published: true
 meta: {}
 featured_image: ../assets/images/MD-IMG_6113.jpg
 ---
-I think I have a new favorite spot in San Francisco. 
+Think San Francisco is all bustling streets and cable cars? Think again! I recently discovered a new favorite spot in the city – Mount Davidson, a hidden gem offering a complete escape from the urban energy.
 
-It's called [Mt. Davidson](http://www.mtdavidson.org), and it couldn't be more of a departure from the bustling nature of city life. Every time I go there, I feel a strange sensation because this park does not at all feel like it's in the middle of the city.  It's extremely dense with vegetation and on foggy days almost as an other worldly feeling.
+This isn't your typical city park. Mount Davidson boasts a dense tapestry of vegetation, transporting you to a world seemingly untouched by the metropolis. On foggy days, the atmosphere takes on an almost otherworldly feel, shrouded in an ethereal mist. It's a sensory experience that will leave you feeling refreshed and rejuvenated.
 
-You have to visit it for yourself.
+The hike itself is a rewarding adventure. As you ascend the trails, the cityscape gradually unfolds before you, offering breathtaking panoramic views. It's a powerful reminder of the natural beauty that coexists alongside the urban landscape.
 
-![Trees in Mt Davidson](/assets/images/MD-IMG_6113.jpg)
+Whether you're seeking a peaceful escape or a challenging hike with stunning vistas, Mount Davidson has something for everyone.  So lace up your boots and discover this hidden treasure in the heart of San Francisco!
+
+<figure class="masonry">
+<img class="two" src="/assets/images/2013/MD-IMG_6113.jpg" alt="Mt. Davidson in San Francisco">
+<img src="/assets/images/2013/MD-IMG_6214.jpg" alt="fog surrounds eucalyptus trees">
+
+<img src="/assets/images/2013/MD-IMG_6222.jpg" alt="green plants climbing trees">
+<img class="two" src="/assets/images/2013/MD-IMG_6211.jpg" alt="a foggy forest">
+
+<img class="two" src="/assets/images/2013/MD-IMG_6232.jpg" alt="lush green ivy">
+<img src="/assets/images/2013/MD-IMG_6146.jpg" alt="wild fuchsias in San Francisco">
+
+</figure>

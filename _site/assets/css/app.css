@@ -252,7 +252,7 @@ th {
   transform: translate(0px, 3px);
 }
 .logo a {
-  color: hsl(245, 71%, 36%);
+  color: #000;
   text-decoration: none;
   display: inline-flex;
 }

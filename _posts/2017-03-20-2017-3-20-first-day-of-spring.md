@@ -7,7 +7,7 @@ tags:
 - plants
 status: publish
 type: post
-published: true
+published: false
 meta: {}
 featured_image: ../assets/images/blossoms-spring-pink-tree.jpeg
 ---
