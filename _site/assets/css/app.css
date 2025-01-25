@@ -441,21 +441,31 @@ div.post img {
 
 .PageNavigation {
   font-size: 14px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
 }
 .PageNavigation a {
   display: flex;
   color: #000;
   text-decoration: none;
 }
-.PageNavigation a p {
-  padding: 0 2rem;
+.PageNavigation p {
+  padding: 0 20px;
+}
+.PageNavigation a:hover {
+  color: #2f22c8;
+  font-weight: 800;
+}
+
+.blog-home {
+  justify-content: center;
 }
 
 .PageNavigation .next {
   text-align: right;
+  justify-content: right;
 }
 
 nav a.selected {
@@ -668,6 +678,7 @@ label {
 
 .inactive {
   cursor: not-allowed;
+  display: grid;
 }
 
 iframe {
@@ -709,9 +720,9 @@ iframe {
     font-size: 1.2rem;
   }
   .PageNavigation {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
   }
   .logo h2 {
     display: none;
@@ -802,11 +813,11 @@ iframe {
     padding: 0 1.2rem;
   }
   .container-hero {
-    margin: 2rem 1rem 14rem 1rem;
+    margin: 2rem 1rem 4rem 1rem;
   }
   .container-hero img {
     max-width: none;
-    width: 100%;
+    padding: 0;
   }
   .container-hero p {
     max-width: none;
@@ -917,9 +928,6 @@ iframe {
   .footer-nav li {
     margin: 2.5rem 0;
     font-size: 2.5rem;
-  }
-  .inactive {
-    width: 45px;
   }
 }
 

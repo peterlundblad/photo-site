@@ -9,7 +9,7 @@ status: publish
 type: post
 published: true
 meta: {}
-featured_image: ../assets/images/MD-IMG_6113.jpg
+featured_image: ../assets/images/2013/MD-IMG_6113.jpg
 ---
 Think San Francisco is all bustling streets and cable cars? Think again! I recently discovered a new favorite spot in the city – Mount Davidson, a hidden gem offering a complete escape from the urban energy.
 
