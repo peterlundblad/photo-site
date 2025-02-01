@@ -1,0 +1,40 @@
+---
+title: South of France
+date: 2024-10-25 10:30:00
+layout: post
+categories:
+- fall
+- landscape
+- europe
+- travel
+featured_image: ../assets/images/2024/South-France/IMG_8949.webp
+---
+This past fall, I embarked on a journey to Southern France for a memorable French wedding. Our itinerary included the city of Nîmes, the iconic Pont du Gard, and the charming town of Arles.
+
+While the weather was a bit unpredictable, we enjoyed a delightful picnic in a local vineyard, savoring the regional wines and soaking up the autumnal atmosphere. Nîmes didn't quite live up to our expectations, but the other destinations were truly captivating. The Pont du Gard, an awe-inspiring Roman aqueduct, remains an engineering masterpiece. We marveled at its grandeur and enjoyed a leisurely stroll along the river.
+
+Arles, with its rich history and artistic heritage, stole our hearts. We explored the Roman ruins, strolled along the Rhône River, and soaked up the unique atmosphere of the town. This trip was a feast for the senses, despite the occasional rain showers. We savored delicious local cuisine, enjoyed the fragrance of autumnal blooms, and captured the warm, soft light of the fading sun in our photographs.
+
+<figure class="masonry">
+<img class="two" src="/assets/images/2024/South-France/IMG_8949.webp" alt="Pont du Gard" loading="eager">
+<img src="/assets/images/2024/South-France/img_8873.webp" alt="an ancient olive tree">
+
+<img src="/assets/images/2024/South-France/IMG_8968-HDR.webp" alt="Pont du Gard">
+<img class="two" src="/assets/images/2024/South-France/IMG_4343.webp" alt="Pont du Gard in black & white">
+
+
+<img src="/assets/images/2024/South-France/IMG_9009.webp" alt="an old grapevine in fall">
+<img class="two" src="/assets/images/2024/South-France/IMG_9015.webp" alt="a woman standing in a dormant vineyard">
+
+<img class="two" src="/assets/images/2024/South-France/IMG_4384.webp" alt="weathered exterior wall in Arles">
+
+
+<img src="/assets/images/2024/South-France/IMG_9047.webp" alt="shutters in the town of Arles">
+<img src="/assets/images/2024/South-France/IMG_9090.webp" alt="the Hôtel-Dieu in Arles">
+
+<img src="/assets/images/2024/South-France/IMG_9109.webp" alt="pale blue shutters in Arles">
+<img src="/assets/images/2024/South-France/IMG_9148.webp" alt="an extensive root structure from a tree">
+
+<img class="two" src="/assets/images/2024/South-France/IMG_9139.webp" alt="ruines in Jardin de La Fontaine">
+<img src="/assets/images/2024/South-France/IMG_9193.webp" alt="the Amphitheatre of Nîmes">
+</figure>
