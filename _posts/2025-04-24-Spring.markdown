@@ -1,0 +1,22 @@
+---
+title: Springtime
+date: 2025-04-24 10:30:00
+layout: post
+categories:
+- spring
+- landscape
+- europe
+- flowers
+featured_image: ../assets/images/2025/spring-color/springtime-5.webp
+---
+Springtime is here, and I'm loving the bursts of warm color arriving day by day. While I'm eagerly planning my vegetable garden and dreaming of warmer weather, I'm staying busy by photographing the early rising daffodils. Their bright yellow blossoms are a perfect reminder of the beauty that arrives after a long winter.
+
+<figure class="masonry">
+<img src="/assets/images/2025/spring-color/springtime-1.webp" alt="daffodils at sunset" loading="eager">
+<img src="/assets/images/2025/spring-color/springtime-4.webp" alt="close up of daffodils" loading="eager">
+<img src="/assets/images/2025/spring-color/springtime-3.webp" alt="daffodils growing in a cluster" loading="eager">
+
+<img class="three" src="/assets/images/2025/spring-color/springtime-5.webp" alt="daffodils against a stone wall">
+
+
+</figure>
