@@ -1,0 +1,55 @@
+---
+title: Alsace
+date: 2025-04-26 10:30:00
+layout: post
+categories:
+- spring
+- landscape
+- europe
+featured_image: ../assets/images/2025/alsace/alsace-36.webp
+---
+From castles to vineyards, our trip to Alsace was a storybook adventure. We explored the enchanting towns of Scherwiller, Strasbourg, and Colmar, where colorful half-timbered houses and cobblestone streets made us feel like we had stepped back in time.
+
+Beyond the charming architecture, the region's culinary delights were a highlight. We enjoyed traditional Flammekueche and sipped on crisp Rieslings and smooth Pinot Blancs. It was a perfect blend of history and flavor.
+
+<figure class="masonry">
+<img class ="two" src="/assets/images/2025/alsace/alsace-1.webp" alt="">
+<img src="/assets/images/2025/alsace/alsace-3.webp" alt="">
+
+
+<img src="/assets/images/2025/alsace/alsace-5.webp" alt="">
+<img class ="two" src="/assets/images/2025/alsace/alsace-6.webp" alt="">
+
+<img class ="two" src="/assets/images/2025/alsace/alsace-2.webp" alt="a field in alsace">
+<img src="/assets/images/2025/alsace/alsace-8.webp" alt="woman walking the forest">
+
+
+<img src="/assets/images/2025/alsace/alsace-11.webp" alt="an ancient door">
+<img src="/assets/images/2025/alsace/alsace-9.webp" alt="">
+<img src="/assets/images/2025/alsace/alsace-10.webp" alt="">
+
+<img class ="two" src="/assets/images/2025/alsace/alsace-16.webp" alt="a view from above">
+<img src="/assets/images/2025/alsace/alsace-13.webp" alt="a woman looking out a window">
+
+<img src="/assets/images/2025/alsace/alsace-17.webp" alt="">
+<img class ="two" src="/assets/images/2025/alsace/alsace-21.webp" alt="">
+
+<img src="/assets/images/2025/alsace/alsace-28.webp" alt="a cat in a window">
+<img src="/assets/images/2025/alsace/alsace-25.webp" alt="an ancient alley">
+<img src="/assets/images/2025/alsace/alsace-27.webp" alt="">
+
+<img src="/assets/images/2025/alsace/alsace-30.webp" alt="">
+<img class ="two" src="/assets/images/2025/alsace/alsace-31.webp" alt="">
+
+<img class ="two" src="/assets/images/2025/alsace/alsace-36.webp" alt="">
+<img src="/assets/images/2025/alsace/alsace-40.webp" alt="">
+
+<img src="/assets/images/2025/alsace/alsace-32.webp" alt="">
+<img class ="two" src="/assets/images/2025/alsace/alsace-22.webp" alt="">
+
+<img src="/assets/images/2025/alsace/alsace-46.webp" alt="">
+<img class src="/assets/images/2025/alsace/alsace-43.webp" alt="">
+<img src="/assets/images/2025/alsace/alsace-45.webp" alt="">
+
+
+</figure>
