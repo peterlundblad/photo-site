@@ -1,0 +1,24 @@
+---
+title: Summer in Semur
+date: 2025-06-24 10:30:00
+layout: post
+categories:
+- summer
+- landscape
+- europe
+featured_image: ../assets/images/2025/june/june03.webp
+---
+Highlights from June: The month featured a superb dinner at Cuisine à Vue in Vézelay, the street-side celebrations of the Fête de la Musique, and an event honoring Augustin Mouchot, the man who pioneered the solar engine. Not a bad start to summer!
+<figure class="masonry">
+
+<img src="/assets/images/2025/june/june05.webp" alt="">
+<img src="/assets/images/2025/june/june06.webp" alt="">
+<img src="/assets/images/2025/june/june08.webp" alt="">
+
+<img class="three" src="/assets/images/2025/june/june03.webp" alt="">
+
+<img src="/assets/images/2025/june/june07.webp" alt="">
+<img src="/assets/images/2025/june/june09.webp" alt="">
+<img src="/assets/images/2025/june/june10.webp" alt="">
+
+</figure>
