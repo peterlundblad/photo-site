@@ -1,0 +1,22 @@
+---
+title: A wedding in Bath
+date: 2025-07-26 10:30:00
+layout: post
+categories:
+- summer
+- travel
+- UK
+- Wedding
+featured_image: /assets/images/2025/bath/bath-wedding-8.webp
+---
+A lovely trip to Bath, England for a wedding. It was a magical visit surrounded by incredible English countryside, filled with vibrant colors, lush gardens, and interesting people.
+<figure class="masonry">
+
+<img src="/assets/images/2025/bath/bath-wedding-1.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/bath/bath-wedding-2.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/bath/bath-wedding-4.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img class="two" src="/assets/images/2025/bath/bath-wedding-8.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/bath/bath-wedding-5.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+</figure>

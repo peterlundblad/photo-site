@@ -210,49 +210,73 @@ margin-top: 3rem;
 }
 
 .blog-item {
-text-align: center;
-// margin: 10px;
-background-color: $black;
-position: relative; /* Necessary for absolute positioning of hover text */
-overflow: hidden; /* To hide overflowing text initially */
-
-
-img {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  text-align: center;
+  background-color: transparent;
+  position: relative; /* Necessary for absolute positioning of hover text */
+  overflow: hidden; /* To hide overflowing text initially */
+  isolation: isolate;
   aspect-ratio: 3 / 2;
 
-}
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: $black;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1;
+    transition: opacity 0.5s ease;
+  }
 
+  img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 3 / 2;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+
+    &.is-loading {
+      opacity: 0;
+      transition: none;
+    }
+  }
 }
 
 .blog-item h3 {
-opacity: 0;
-transition: opacity 0.6s;
-font-weight: 400;
-text-align: center;
-letter-spacing: 2px;
-font-size: 1.8rem;
-color: #fff;
-pointer-events: none;
-position: absolute;
-top: 42%; 
-left: 50%; 
-transform: translate(-50%, -50%); /* Center both horizontally and vertically */
-
+  opacity: 0;
+  transition: opacity 0.6s;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+  color: #fff;
+  pointer-events: none;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+  z-index: 2;
 }
 
-.blog-item:hover h3 {
+.blog-item:hover::after,
+.blog-item:focus-visible::after {
+  opacity: 0.7;
+}
+
+.blog-item:hover h3,
+.blog-item:focus-visible h3 {
   opacity: 1;
 }
 
-
-.blog-item img:hover {
-  opacity: 0.3;
-  transition: opacity 0.5s, transform 0.6s ease-in-out;
-  // transform: scale(1.02);
+@media (prefers-reduced-motion: reduce) {
+  .blog-item::after,
+  .blog-item img,
+  .blog-item h3 {
+    transition: none;
+  }
 }
 
 

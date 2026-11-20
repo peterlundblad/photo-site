@@ -1,0 +1,39 @@
+---
+title: Avalon, NY
+date: 2025-07-19 10:30:00
+layout: post
+categories:
+- summer
+- landscape
+- USA
+featured_image: /assets/images/2025/avalon/avalon-4.webp
+---
+Highlights from July: A lovely trip to Avalon, New Jersey with the fam. We enjoyed hours on the beach, boogie boarding, a few strolls on the boardwalk, and the most magical sunset on the dunes. It was the perfect classic summer getaway.
+
+<figure class="masonry">
+
+<img src="/assets/images/2025/avalon/avalon-1.webp" alt="Blades of green grass growing in the sea dunes" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/avalon/avalon-2.webp" alt="tuffs of green grass at the beach" width="2000" height="1333" loading="lazy" decoding="async">
+
+<img src="/assets/images/2025/avalon/avalon-5.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-6.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-9.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+
+<img class="three" src="/assets/images/2025/avalon/avalon-8.webp" alt="" width="2000" height="1333" loading="lazy" decoding="async">
+
+<img src="/assets/images/2025/avalon/avalon-11.webp" alt="birds on the beach at sunset" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/avalon/avalon-14.webp" alt="a young couple embracing on the surf" width="2000" height="1333" loading="lazy" decoding="async">
+
+<img src="/assets/images/2025/avalon/avalon-23.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-21.webp" alt="a couple on the boardwalk" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-22.webp" alt="a couple on the boardwalk" width="1333" height="2000" loading="eager" decoding="async">
+
+
+<img src="/assets/images/2025/avalon/avalon-25.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-29.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-27.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+
+<img class="three" src="/assets/images/2025/avalon/avalon-30.webp" alt="sunset on a lovely vacation" width="1333" height="2000" loading="eager" decoding="async">
+
+
+</figure>

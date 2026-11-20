@@ -37,3 +37,9 @@ exclude:
 - README.md
 - .env
 - .DS_Store
+- scripts
+sass:
+  style: compressed
+  quiet_deps: true
+  silence_deprecations:
+    - import
