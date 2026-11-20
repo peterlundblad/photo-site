@@ -1,42 +1,37 @@
-<header>   
+<header>
     <div class="container upper-nav">
         <section class="logo">
             <a href="/">
                 <img src="/assets/images/LS-logomark-white.svg" alt="Lundblad Studios Logomark">
                 <h2>{{ site.title }}</h2>
             </a>
-                    
         </section>
 
-    <section class="upper-nav">
-        <a href="#" class="hamburger" alt="menu icon">
-        <img src="/assets/images/menu-hamburger.svg"> 
-        </a>
+        <section class="upper-nav">
+            <a href="#" class="hamburger" aria-label="Open menu" aria-expanded="false">
+                <img src="/assets/images/menu-hamburger.svg" alt="">
+            </a>
+        </section>
 
-    </section>
-
-    <div class="menu">
-
-        <a href="#" class="menu-esc">
-            <img src="/assets/images/menu-esc.svg"> 
-        </a>
-        <nav>
-            <ul>
-                {% for item in site.data.navigation %}
-                <li>
-                    <a href="{{ item.link }}" 
-                       {% if page.url == item.link or 
-                             (item.link == "/blog/" and (page.url contains "/blog/" or page.collection == "posts")) %}
-                       class="selected" 
-                       {% endif %}>
-                       {{ item.name }}
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
-        </nav>
-    </div>
-       
+        <div class="menu">
+            <a href="#" class="menu-esc" aria-label="Close menu">
+                <img src="/assets/images/menu-esc.svg" alt="">
+            </a>
+            <nav>
+                <ul>
+                    {% for item in site.data.navigation %}
+                    <li>
+                        <a href="{{ item.link }}"
+                           {% if page.url == item.link or
+                                 (item.link == "/blog/" and (page.url contains "/blog/" or page.collection == "posts")) %}
+                           class="selected"
+                           {% endif %}>
+                           {{ item.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
-

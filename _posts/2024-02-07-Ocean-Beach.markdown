@@ -6,27 +6,27 @@ categories:
 - travel
 - winter
 - north america
-featured_image: ../assets/images/OB/24-OB-4.jpg
+featured_image: /assets/images/OB/24-OB-4.webp
 ---
 A day off, chasing the ocean and dodging the rain. Looking for the sun and dancing amoung the gulls. Though the storms assail us, we will look together towards the rising light.
 
 <figure class="masonry">
-<img class="two" src="/assets/images/OB/24-OB-4.jpg" alt="Ocean Beach in San Francisco">
-<img src="/assets/images/OB/24-OB-1.jpg" alt="a woman in a yellow raincoat">
+<img class="two" src="/assets/images/OB/24-OB-4.webp" alt="Ocean Beach in San Francisco" width="1200" height="800" loading="eager" decoding="async">
+<img src="/assets/images/OB/24-OB-1.webp" alt="a woman in a yellow raincoat" width="800" height="1200" loading="lazy" decoding="async">
 
-<img src="/assets/images/OB/24-OB-7.jpg" alt="dramatic light and clouds over the sea">
-<img class="two" src="/assets/images/OB/24-OB-6.jpg" alt="a seagull in the air">
-<img src="/assets/images/OB/24-OB-5.jpg" alt="dramatic clouds and light over the ocean">
+<img src="/assets/images/OB/24-OB-7.webp" alt="dramatic light and clouds over the sea" width="800" height="1200" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/OB/24-OB-6.webp" alt="a seagull in the air" width="1200" height="800" loading="lazy" decoding="async">
+<img src="/assets/images/OB/24-OB-5.webp" alt="dramatic clouds and light over the ocean" width="800" height="1200" loading="lazy" decoding="async">
 
-<img src="/assets/images/OB/24-OB-3.jpg" alt="a man with a beard and sunglasses">
-<img src="/assets/images/OB/24-OB-11.jpg" alt="a person walking on the sand">
-<img src="/assets/images/OB/24-OB-2.jpg" alt="a woman in a yellow raincoat and a fisherman hat">
-<img class="two" src="/assets/images/OB/24-OB-13.jpg" alt="clouds above ocean beach">
+<img src="/assets/images/OB/24-OB-3.webp" alt="a man with a beard and sunglasses" width="800" height="1200" loading="lazy" decoding="async">
+<img src="/assets/images/OB/24-OB-11.webp" alt="a person walking on the sand" width="800" height="1200" loading="lazy" decoding="async">
+<img src="/assets/images/OB/24-OB-2.webp" alt="a woman in a yellow raincoat and a fisherman hat" width="800" height="1200" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/OB/24-OB-13.webp" alt="clouds above ocean beach" width="1200" height="800" loading="lazy" decoding="async">
 
-<img class="two" src="/assets/images/OB/24-OB-8.jpg" alt="sand cliffs">
-<img src="/assets/images/OB/24-OB-10.jpg" alt="a woman walking along the beach">
+<img class="two" src="/assets/images/OB/24-OB-8.webp" alt="sand cliffs" width="1200" height="800" loading="lazy" decoding="async">
+<img src="/assets/images/OB/24-OB-10.webp" alt="a woman walking along the beach" width="800" height="1200" loading="lazy" decoding="async">
 
-<img src="/assets/images/OB/24-OB-9.jpg" alt="a group of people at the edge of a sand cliff">
-<img class="two" src="/assets/images/OB/24-OB-12.jpg" alt="a woman running through the surf">
+<img src="/assets/images/OB/24-OB-9.webp" alt="a group of people at the edge of a sand cliff" width="800" height="1200" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/OB/24-OB-12.webp" alt="a woman running through the surf" width="1200" height="800" loading="lazy" decoding="async">
 
 </figure>

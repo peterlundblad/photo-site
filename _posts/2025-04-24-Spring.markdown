@@ -7,16 +7,16 @@ categories:
 - landscape
 - europe
 - flowers
-featured_image: ../assets/images/2025/spring-color/springtime-5.webp
+featured_image: /assets/images/2025/spring-color/springtime-5.webp
 ---
 Springtime is here, and I'm loving the bursts of warm color arriving day by day. While I'm eagerly planning my vegetable garden and dreaming of warmer weather, I'm staying busy by photographing the early rising daffodils. Their bright yellow blossoms are a perfect reminder of the beauty that arrives after a long winter.
 
 <figure class="masonry">
-<img src="/assets/images/2025/spring-color/springtime-1.webp" alt="daffodils at sunset" loading="eager">
-<img src="/assets/images/2025/spring-color/springtime-4.webp" alt="close up of daffodils" loading="eager">
-<img src="/assets/images/2025/spring-color/springtime-3.webp" alt="daffodils growing in a cluster" loading="eager">
+<img src="/assets/images/2025/spring-color/springtime-1.webp" alt="daffodils at sunset" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/spring-color/springtime-4.webp" alt="close up of daffodils" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/spring-color/springtime-3.webp" alt="daffodils growing in a cluster" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img class="three" src="/assets/images/2025/spring-color/springtime-5.webp" alt="daffodils against a stone wall">
+<img class="three" src="/assets/images/2025/spring-color/springtime-5.webp" alt="daffodils against a stone wall" width="2000" height="1333" loading="lazy" decoding="async">
 
 
 </figure>

@@ -7,7 +7,7 @@ categories:
 - landscape
 - europe
 - Paris
-featured_image: ../assets/images/2024/Paris-Fall/IMG_9245.webp
+featured_image: /assets/images/2024/Paris-Fall/IMG_9245.webp
 ---
 In late November, we traveled to Paris, where the autumn foliage in the surrounding countryside was ablaze with vibrant oranges and yellows. While in the city, we were fortunate to experience Paris Photo, an inspiring exhibition showcasing contemporary photography. The sheer breadth and creativity on display left us truly amazed.
 
@@ -16,33 +16,33 @@ A particular highlight was Hope's exciting collaboration with the talented artis
 Of course, we also spent time exploring the iconic streets of Paris, soaking up the city's undeniable charm and artistic energy.
 
 <figure class="masonry">
-<img src="/assets/images/2024/Paris-Fall/IMG_9215.webp" alt="a cyclist in paris" loading="eager">
-<img src="/assets/images/2024/Paris-Fall/IMG_9240.webp" alt="a woman and dog sitting at a bistro    " loading="eager">
-<img src="/assets/images/2024/Paris-Fall/IMG_9233.webp" alt="a man walking by a perisian restaurant" loading="eager">
+<img src="/assets/images/2024/Paris-Fall/IMG_9215.webp" alt="a cyclist in paris" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2024/Paris-Fall/IMG_9240.webp" alt="a woman and dog sitting at a bistro    " width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2024/Paris-Fall/IMG_9233.webp" alt="a man walking by a perisian restaurant" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img class ="two" src="/assets/images/2024/Paris-Fall/IMG_9245.webp" alt="petanque courts in paris">
-<img src="/assets/images/2024/Paris-Fall/IMG_9425.webp" alt="orange leaves of fall">
+<img class="two" src="/assets/images/2024/Paris-Fall/IMG_9245.webp" alt="petanque courts in paris" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2024/Paris-Fall/IMG_9425.webp" alt="orange leaves of fall" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img src="/assets/images/2024/Paris-Fall/IMG_9432.webp" alt="leaves turning golden">
-<img class ="two" src="/assets/images/2024/Paris-Fall/IMG_9427.webp" alt="a vibrant yellow tree in fall">
+<img src="/assets/images/2024/Paris-Fall/IMG_9432.webp" alt="leaves turning golden" width="1333" height="2000" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2024/Paris-Fall/IMG_9427.webp" alt="a vibrant yellow tree in fall" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img class="three" src="/assets/images/2024/Paris-Fall/IMG_9412.webp" alt="fallen leaves of autumn">
+<img class="three" src="/assets/images/2024/Paris-Fall/IMG_9412.webp" alt="fallen leaves of autumn" width="2000" height="1333" loading="lazy" decoding="async">
 
-<img src="/assets/images/2024/Paris-Fall/IMG_9279.webp" alt="a sign painter working in the evening">
-<img src="/assets/images/2024/Paris-Fall/IMG_9379.webp" alt="the eiffel tower at night">
-<img src="/assets/images/2024/Paris-Fall/IMG_9396.webp" alt="a perisian bistro at night">
+<img src="/assets/images/2024/Paris-Fall/IMG_9279.webp" alt="a sign painter working in the evening" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2024/Paris-Fall/IMG_9379.webp" alt="the eiffel tower at night" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2024/Paris-Fall/IMG_9396.webp" alt="a perisian bistro at night" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img class ="two" src="/assets/images/2024/Paris-Fall/IMG_9301.webp" alt="a reading during an art openning">
-<img src="/assets/images/2024/Paris-Fall/IMG_9286.webp" alt="two women at an art openning">
+<img class="two" src="/assets/images/2024/Paris-Fall/IMG_9301.webp" alt="a reading during an art openning" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2024/Paris-Fall/IMG_9286.webp" alt="two women at an art openning" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img src="/assets/images/2024/Paris-Fall/IMG_9317.webp" alt="a busy florist in paris">
-<img class="two" src="/assets/images/2024/Paris-Fall/IMG_9315.webp" alt="a bustling street in paris">
+<img src="/assets/images/2024/Paris-Fall/IMG_9317.webp" alt="a busy florist in paris" width="1333" height="2000" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2024/Paris-Fall/IMG_9315.webp" alt="a bustling street in paris" width="2000" height="1333" loading="lazy" decoding="async">
 
-<img src="/assets/images/2024/Paris-Fall/IMG_9347.webp" alt="inside the Grand Palais during Paris Photo">
-<img src="/assets/images/2024/Paris-Fall/IMG_9366.webp" alt="Paris Photo booths seen from above">
-<img src="/assets/images/2024/Paris-Fall/IMG_9365.webp" alt="a dimensional photo print seen from above">
+<img src="/assets/images/2024/Paris-Fall/IMG_9347.webp" alt="inside the Grand Palais during Paris Photo" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2024/Paris-Fall/IMG_9366.webp" alt="Paris Photo booths seen from above" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2024/Paris-Fall/IMG_9365.webp" alt="a dimensional photo print seen from above" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img class="two" src="/assets/images/2024/Paris-Fall/IMG_9330.webp" alt="a quiet ally in paris">
-<img src="/assets/images/2024/Paris-Fall/IMG_9323.webp" alt="red doors in paris">
+<img class="two" src="/assets/images/2024/Paris-Fall/IMG_9330.webp" alt="a quiet ally in paris" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2024/Paris-Fall/IMG_9323.webp" alt="red doors in paris" width="1333" height="2000" loading="lazy" decoding="async">
 
 </figure>

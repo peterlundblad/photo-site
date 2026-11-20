@@ -2,7 +2,7 @@
 title: Rain along the laurels
 date: 2023-12-30 12:38:00
 layout: post
-featured_image: ../assets/images/ferns/ferns-4.jpg
+featured_image: /assets/images/ferns/ferns-4.webp
 ---
 The rain fell softly as we embarked on our hike to Sonoma Creek Falls. The forest, lush and vibrant, seemed to hum with a quiet energy. My wife, inspired by the glistening California Bay Laurels, wove whimsical crowns, adding a touch of magic to our adventure.
 
@@ -11,25 +11,25 @@ We followed the gurgling creek upstream, the sound of the water a constant lulla
 The rain may have dampened the trail, but it certainly didn't dampen our spirits. We emerged from the forest feeling refreshed and invigorated, reminded that even on a less-than-perfect day, nature can offer moments of profound beauty.
 
 <figure class="masonry">
-<img src="/assets/images/ferns/ferns-4.jpg" alt="a woman wearing a crown of Laurels">
-<img class ="two" src="/assets/images/ferns/ferns-14.jpg" alt="Sonoma Creek Falls">
+<img src="/assets/images/ferns/ferns-4.webp" alt="a woman wearing a crown of Laurels" width="800" height="1200" loading="eager" decoding="async">
+<img class="two" src="/assets/images/ferns/ferns-14.webp" alt="Sonoma Creek Falls" width="1200" height="800" loading="lazy" decoding="async">
 
-<img src="/assets/images/ferns/ferns-1.jpg" alt="a California Bay Laurel Tree">
-<img src="/assets/images/ferns/ferns-13.jpg" alt="steps through the woods">
-<img src="/assets/images/ferns/ferns-5.jpg" alt="a woman wearing a wreath as a crown">
+<img src="/assets/images/ferns/ferns-1.webp" alt="a California Bay Laurel Tree" width="800" height="1200" loading="lazy" decoding="async">
+<img src="/assets/images/ferns/ferns-13.webp" alt="steps through the woods" width="800" height="1200" loading="lazy" decoding="async">
+<img src="/assets/images/ferns/ferns-5.webp" alt="a woman wearing a wreath as a crown" width="800" height="1200" loading="lazy" decoding="async">
 
-<img class ="three" src="/assets/images/ferns/ferns-3.jpg" alt="moss growing toward the light">
+<img class="three" src="/assets/images/ferns/ferns-3.webp" alt="moss growing toward the light" width="1200" height="800" loading="lazy" decoding="async">
 
-<img src="/assets/images/ferns/ferns-12.jpg" alt="a waterfall in the forest">
-<img class ="two" src="/assets/images/ferns/ferns-6.jpg" alt="a closeup of green moss">
+<img src="/assets/images/ferns/ferns-12.webp" alt="a waterfall in the forest" width="800" height="1200" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/ferns/ferns-6.webp" alt="a closeup of green moss" width="1200" height="800" loading="lazy" decoding="async">
 
-<img class ="two" src="/assets/images/ferns/ferns-8.jpg" alt="mushrooms growing on a log">
-<img src="/assets/images/ferns/ferns-9.jpg" alt="ferns growing above a creek">
+<img class="two" src="/assets/images/ferns/ferns-8.webp" alt="mushrooms growing on a log" width="800" height="1200" loading="lazy" decoding="async">
+<img src="/assets/images/ferns/ferns-9.webp" alt="ferns growing above a creek" width="800" height="1200" loading="lazy" decoding="async">
 
-<img class ="three" src="/assets/images/ferns/ferns-7.jpg" alt="a grove of ferns">
+<img class="three" src="/assets/images/ferns/ferns-7.webp" alt="a grove of ferns" width="1200" height="800" loading="lazy" decoding="async">
 
-<img src="/assets/images/ferns/ferns-11.jpg" alt="a closeup of a fern">
-<img src="/assets/images/ferns/ferns-10.jpg" alt="a woman wearing bay leaves">
-<img src="/assets/images/ferns/ferns-2.jpg" alt="a lush creekbed with flowing water">
+<img src="/assets/images/ferns/ferns-11.webp" alt="a closeup of a fern" width="800" height="1200" loading="lazy" decoding="async">
+<img src="/assets/images/ferns/ferns-10.webp" alt="a woman wearing bay leaves" width="800" height="1200" loading="lazy" decoding="async">
+<img src="/assets/images/ferns/ferns-2.webp" alt="a lush creekbed with flowing water" width="800" height="1200" loading="lazy" decoding="async">
 
 </figure>

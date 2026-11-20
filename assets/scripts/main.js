@@ -1,29 +1,29 @@
-$(document).on('click', '.hamburger', function () {
-  $(".logo").animate({
-    opacity: '0'
-  }, 200);    // Sets the duration to in milliseconds
-  $(".menu").show()
-  $(".menu").animate({
-      left: '10%',
-      opacity: '1'
-    }, 400);    // Sets the duration to in milliseconds
-    
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.querySelector('.hamburger');
+  const menuEsc = document.querySelector('.menu-esc');
+  const menu = document.querySelector('.menu');
+  const logo = document.querySelector('.logo');
+  if (!hamburger || !menuEsc || !menu) return;
 
+  const openMenu = (event) => {
+    event.preventDefault();
+    menu.classList.add('is-open');
+    if (logo) logo.classList.add('is-hidden');
+    hamburger.setAttribute('aria-expanded', 'true');
+  };
+
+  const closeMenu = (event) => {
+    if (event) event.preventDefault();
+    menu.classList.remove('is-open');
+    if (logo) logo.classList.remove('is-hidden');
+    hamburger.setAttribute('aria-expanded', 'false');
+  };
+
+  hamburger.addEventListener('click', openMenu);
+  menuEsc.addEventListener('click', closeMenu);
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && menu.classList.contains('is-open')) {
+      closeMenu();
+    }
   });
-  
-
-
-
-
-  $(document).on('click', '.menu-esc', function () {
-    
-    $(".logo").animate({
-      opacity: '1'
-    }, 400);    // Sets the duration to in milliseconds 
-    $(".menu").animate({
-      left: '-10%',
-      opacity: '0'
-    }, 400);    // Sets the duration in milliseconds
-    // $(".menu").hide()
-
-  });
+});

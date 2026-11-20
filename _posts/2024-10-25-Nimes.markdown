@@ -7,7 +7,7 @@ categories:
 - landscape
 - europe
 - travel
-featured_image: ../assets/images/2024/South-France/IMG_8949.webp
+featured_image: /assets/images/2024/South-France/IMG_8949.webp
 ---
 This past fall, I embarked on a journey to Southern France for a memorable French wedding. Our itinerary included the city of Nîmes, the iconic Pont du Gard, and the charming town of Arles.
 
@@ -16,25 +16,25 @@ While the weather was a bit unpredictable, we enjoyed a delightful picnic in a l
 Arles, with its rich history and artistic heritage, stole our hearts. We explored the Roman ruins, strolled along the Rhône River, and soaked up the unique atmosphere of the town. This trip was a feast for the senses, despite the occasional rain showers. We savored delicious local cuisine, enjoyed the fragrance of autumnal blooms, and captured the warm, soft light of the fading sun in our photographs.
 
 <figure class="masonry">
-<img class="two" src="/assets/images/2024/South-France/IMG_8949.webp" alt="Pont du Gard" loading="eager">
-<img src="/assets/images/2024/South-France/img_8873.webp" alt="an ancient olive tree">
+<img class="two" src="/assets/images/2024/South-France/IMG_8949.webp" alt="Pont du Gard" width="2000" height="1333" loading="eager" decoding="async">
+<img src="/assets/images/2024/South-France/img_8873.webp" alt="an ancient olive tree" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img src="/assets/images/2024/South-France/IMG_8968-HDR.webp" alt="Pont du Gard">
-<img class="two" src="/assets/images/2024/South-France/IMG_4343.webp" alt="Pont du Gard in black & white">
-
-
-<img src="/assets/images/2024/South-France/IMG_9009.webp" alt="an old grapevine in fall">
-<img class="two" src="/assets/images/2024/South-France/IMG_9015.webp" alt="a woman standing in a dormant vineyard">
-
-<img class="two" src="/assets/images/2024/South-France/IMG_4384.webp" alt="weathered exterior wall in Arles">
+<img src="/assets/images/2024/South-France/IMG_8968-HDR.webp" alt="Pont du Gard" width="1333" height="2000" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2024/South-France/IMG_4343.webp" alt="Pont du Gard in black & white" width="2500" height="1875" loading="lazy" decoding="async">
 
 
-<img src="/assets/images/2024/South-France/IMG_9047.webp" alt="shutters in the town of Arles">
-<img src="/assets/images/2024/South-France/IMG_9090.webp" alt="the Hôtel-Dieu in Arles">
+<img src="/assets/images/2024/South-France/IMG_9009.webp" alt="an old grapevine in fall" width="1333" height="2000" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2024/South-France/IMG_9015.webp" alt="a woman standing in a dormant vineyard" width="2000" height="1333" loading="lazy" decoding="async">
 
-<img src="/assets/images/2024/South-France/IMG_9109.webp" alt="pale blue shutters in Arles">
-<img src="/assets/images/2024/South-France/IMG_9148.webp" alt="an extensive root structure from a tree">
+<img class="two" src="/assets/images/2024/South-France/IMG_4384.webp" alt="weathered exterior wall in Arles" width="2500" height="1875" loading="lazy" decoding="async">
 
-<img class="two" src="/assets/images/2024/South-France/IMG_9139.webp" alt="ruines in Jardin de La Fontaine">
-<img src="/assets/images/2024/South-France/IMG_9193.webp" alt="the Amphitheatre of Nîmes">
+
+<img src="/assets/images/2024/South-France/IMG_9047.webp" alt="shutters in the town of Arles" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2024/South-France/IMG_9090.webp" alt="the Hôtel-Dieu in Arles" width="1333" height="2000" loading="lazy" decoding="async">
+
+<img src="/assets/images/2024/South-France/IMG_9109.webp" alt="pale blue shutters in Arles" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2024/South-France/IMG_9148.webp" alt="an extensive root structure from a tree" width="1333" height="2000" loading="lazy" decoding="async">
+
+<img class="two" src="/assets/images/2024/South-France/IMG_9139.webp" alt="ruines in Jardin de La Fontaine" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2024/South-France/IMG_9193.webp" alt="the Amphitheatre of Nîmes" width="1333" height="2000" loading="lazy" decoding="async">
 </figure>

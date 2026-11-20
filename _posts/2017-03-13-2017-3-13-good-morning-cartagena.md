@@ -8,8 +8,8 @@ status: publish
 type: post
 published: true
 meta: {}
-featured_image: ../assets/images/woman-sweeping-cartegena.jpeg
+featured_image: /assets/images/woman-sweeping-cartegena.webp
 ---
-![Alt text](/assets/images/woman-sweeping-cartegena.jpeg)
+<img src="/assets/images/woman-sweeping-cartegena.webp" alt="Alt text" width="1500" height="1000" loading="eager" decoding="async">
 
 beauty in the mundane 

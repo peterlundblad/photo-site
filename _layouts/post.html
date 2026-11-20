@@ -1,48 +1,43 @@
 <!doctype html>
 <html lang="en">
-    {% include head.html %}
+{% include head.html %}
 
+<body>
     {% include header.html %}
 
-    <body>
     <div class="container-hero">
         <h2>{{ page.title }}</h2>
-            {{ content }}
+        {{ content }}
 
-            <div class="PageNavigation">
-                {% if page.previous.url %}
-                    <a class="prev" href="{{page.previous.url}}">
-                        <img src="/assets/images/previous-arrow-active.svg">
-                        <p>Previous Post</p>
-                    </a>
+        <div class="PageNavigation">
+            {% if page.previous.url %}
+                <a class="prev" href="{{ page.previous.url }}">
+                    <img src="/assets/images/previous-arrow-active.svg" alt="">
+                    <p>Previous Post</p>
+                </a>
+            {% else %}
+                <div class="inactive">
+                    <p>Previous Post</p>
+                    <img src="/assets/images/previous-arrow-inactive.svg" alt="">
+                </div>
+            {% endif %}
 
-                    {% else %}  
-                    <div class="inactive">
-                        <p>Next Post</p>
-                        <img src="/assets/images/previous-arrow-inactive.svg">
-                    </div>
-                {% endif %}
+            <a class="blog-home" href="/blog/">Blog Home</a>
 
-                <a class="blog-home" href="/blog">Blog Home</a>
-
-                {% if page.next.url %}
-                    <a class="next" href="{{page.next.url}}">
-                        <p>Next Post</p>
-                        <img src="/assets/images/next-arrow-active.svg">
-                        
-                    </a>
-                    {% else %}  
-                    <div class="next inactive">
-                        <img src="/assets/images/next-arrow-inactive.svg">
-                    </div>
-                {% endif %}
-            </div>
+            {% if page.next.url %}
+                <a class="next" href="{{ page.next.url }}">
+                    <p>Next Post</p>
+                    <img src="/assets/images/next-arrow-active.svg" alt="">
+                </a>
+            {% else %}
+                <div class="next inactive">
+                    <img src="/assets/images/next-arrow-inactive.svg" alt="No next post">
+                </div>
+            {% endif %}
+        </div>
     </div>
 
     {% include footer.html %}
-
-    </body>
-    
-    
+</body>
 
 </html>

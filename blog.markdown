@@ -8,12 +8,11 @@ layout: default
 
 <section class="blog-grid">
     {% for post in site.posts limit:40 %}
-        <a href="{{ post.url }}" class="blog-item">
-            {% if post.featured_image %}
+        {% if post.featured_image %}
+            <a href="{{ post.url }}" class="blog-item">
                 <h3>{{ post.title }}</h3>
-                <img src="{{ post.featured_image }}" alt="{{ post.title }}" />
-            {% endif %}
-        </a>
+                <img src="{{ post.featured_image | replace: '../assets/', '/assets/' }}" alt="{{ post.title | escape }}" loading="{% if forloop.index <= 3 %}eager{% else %}lazy{% endif %}" decoding="async" />
+            </a>
+        {% endif %}
     {% endfor %}
 </section>
-

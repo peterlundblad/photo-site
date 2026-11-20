@@ -3,8 +3,6 @@
 
 {% include norms.css %}
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 // this is the control for the JS loading feature
 @keyframes fade {
   0% {
@@ -61,7 +59,14 @@ $typepography: Space Mono, Courier;
     display: flex;
     align-items: center;
     transform: translate(0px, 3px);
+    transition: opacity 0.4s ease;
     
+    &.is-hidden {
+      opacity: 0;
+      pointer-events: none;
+      transition-duration: 0.2s;
+    }
+
     a {
       color: $black;
       text-decoration: none;
@@ -153,11 +158,21 @@ header, body {
 }
 
 
+figure:not(.masonry) img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container-hero {
   margin: 12rem 2rem 7rem 2rem;
 
   p {
     max-width: 70vw;
+  }
+
+  > img {
+    max-width: 100%;
+    height: auto;
   }
   
   //turning flex off gives the black border to blog thumbs
@@ -375,10 +390,12 @@ margin-bottom: 12px;
 margin-top: 12px;
 vertical-align: middle;
 width: 100%;
+height: auto;
 }
 
 .hero-photo {
   max-width: 85vw;
+  height: auto;
 }
 
 
@@ -551,6 +568,15 @@ footer {
     height:100%;
   }
 
+  .video-embed {
+    padding: 56.25% 0 0 0;
+    position: relative;
+  }
+
+  .spotify-embed {
+    border-radius: 12px;
+  }
+
 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -716,8 +742,14 @@ font-size: 1.2rem;
   margin: 2rem 1rem 4rem 1rem;
 
   img {
-    max-width: none;
     padding: 0;
+  }
+
+  > img,
+  .hero-photo,
+  figure:not(.masonry) img {
+    max-width: 100%;
+    height: auto;
   }
 
   p {
@@ -793,7 +825,17 @@ figure img {
     left: 0;
     opacity: 0;
     transform: translateX(-10%);
-    display: none;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0s linear 0.4s;
+
+    &.is-open {
+      opacity: 1;
+      transform: translateX(0);
+      visibility: visible;
+      pointer-events: auto;
+      transition: opacity 0.4s ease, transform 0.4s ease, visibility 0s linear 0s;
+    }
    }
 
   nav {
@@ -846,14 +888,7 @@ figure img {
 .hamburger {
   display: block;
   transform: translate(0px, 3px);
-
  }
-
-   .hamburger {
-    display: block;
-    transform: translate(0px, 3px);
-
-   }
 
 .logo {
 z-index: 2;  

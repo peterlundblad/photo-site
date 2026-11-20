@@ -15,7 +15,7 @@ Let's start dreaming.
 <a class="contact" href="mailto:contact@peterlundblad.com">contact@peterlundblad</a>
 
 <section>
-    <img class="hero-photo" src="/assets/images/9130316955_7130398a2a_h.jpg" alt="triptych of grainy photographs">
+    <img class="hero-photo" src="/assets/images/9130316955_7130398a2a_h.webp" alt="triptych of grainy photographs" width="1600" height="622" loading="eager" decoding="async">
 </section>
 
 

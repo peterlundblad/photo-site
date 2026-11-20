@@ -6,9 +6,6 @@ collections:
     title: Posts
     output: true
     permalink: /blog/:year/:title/
-  uploads:
-    title: Uploads
-    output: true
 defaults:
 - scope:
     path: ''
@@ -21,11 +18,22 @@ defaults:
   values:
     layout: post
 email: contact@peterlundblad.com
-description: 'The photographic portfolio of Lundblad Studios. '
+description: 'The photographic portfolio of Lundblad Studios.'
 baseurl: ''
-url: ''
+url: 'https://peterlundblad.com'
 twitter_username: peterlundblad
 github_username: peterlundblad
 theme: minima
 plugins:
 - jekyll-feed
+sass:
+  style: compressed
+exclude:
+- archive
+- _uploads
+- Gemfile
+- Gemfile.lock
+- netlify.toml
+- README.md
+- .env
+- .DS_Store

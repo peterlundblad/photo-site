@@ -9,7 +9,7 @@ status: publish
 type: post
 published: true
 meta: {}
-featured_image: ../assets/images/2013/MD-IMG_6113.jpg
+featured_image: /assets/images/2013/MD-IMG_6113.webp
 ---
 Think San Francisco is all bustling streets and cable cars? Think again! I recently discovered a new favorite spot in the city – Mount Davidson, a hidden gem offering a complete escape from the urban energy.
 
@@ -20,13 +20,13 @@ The hike itself is a rewarding adventure. As you ascend the trails, the cityscap
 Whether you're seeking a peaceful escape or a challenging hike with stunning vistas, Mount Davidson has something for everyone.  So lace up your boots and discover this hidden treasure in the heart of San Francisco!
 
 <figure class="masonry">
-<img class="two" src="/assets/images/2013/MD-IMG_6113.jpg" alt="Mt. Davidson in San Francisco">
-<img src="/assets/images/2013/MD-IMG_6214.jpg" alt="fog surrounds eucalyptus trees">
+<img class="two" src="/assets/images/2013/MD-IMG_6113.webp" alt="Mt. Davidson in San Francisco" width="1024" height="683" loading="eager" decoding="async">
+<img src="/assets/images/2013/MD-IMG_6214.webp" alt="fog surrounds eucalyptus trees" width="683" height="1024" loading="lazy" decoding="async">
 
-<img src="/assets/images/2013/MD-IMG_6222.jpg" alt="green plants climbing trees">
-<img class="two" src="/assets/images/2013/MD-IMG_6211.jpg" alt="a foggy forest">
+<img src="/assets/images/2013/MD-IMG_6222.webp" alt="green plants climbing trees" width="683" height="1024" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2013/MD-IMG_6211.webp" alt="a foggy forest" width="1024" height="683" loading="lazy" decoding="async">
 
-<img class="two" src="/assets/images/2013/MD-IMG_6232.jpg" alt="lush green ivy">
-<img src="/assets/images/2013/MD-IMG_6146.jpg" alt="wild fuchsias in San Francisco">
+<img class="two" src="/assets/images/2013/MD-IMG_6232.webp" alt="lush green ivy" width="1024" height="683" loading="lazy" decoding="async">
+<img src="/assets/images/2013/MD-IMG_6146.webp" alt="wild fuchsias in San Francisco" width="1024" height="683" loading="lazy" decoding="async">
 
 </figure>

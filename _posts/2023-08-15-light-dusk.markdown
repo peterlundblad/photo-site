@@ -2,7 +2,7 @@
 title: light at dusk
 date: 2023-08-15 12:38:00
 layout: post
-featured_image: /assets/images/2019/7Z2A2764.jpg
+featured_image: /assets/images/2019/7Z2A2764.webp
 published: false
 ---
 As twilight's veil doth gently fall,
@@ -30,4 +30,4 @@ When nature dons her twilight dower,
 In dusk's embrace, we find our rest,
 As day retires to the west.
 
-![blades of grass](/assets/images/2019/7Z2A2764.jpg)
+<img src="/assets/images/2019/7Z2A2764.webp" alt="blades of grass" width="2000" height="1333" loading="eager" decoding="async">

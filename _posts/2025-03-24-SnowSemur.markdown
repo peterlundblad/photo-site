@@ -6,7 +6,7 @@ categories:
 - winter
 - landscape
 - europe
-featured_image: ../assets/images/2025/semur25-7.webp
+featured_image: /assets/images/2025/semur25-7.webp
 ---
 In mid-March, we woke up to a sight that felt like a dream – snow! For two Californians, accustomed to sunshine and mild winters, it was a delightful surprise. A proper snow day, right here in the medieval town of Semur-en-Auxois, France!
 
@@ -17,19 +17,19 @@ The ancient cobblestone streets were quiet, save for the crunch of our boots on 
 It was a simple pleasure, but one we won't soon forget. May today bring a fresh dusting of delight, whatever the weather brings.
 
 <figure class="masonry">
-<img src="/assets/images/2025/semur25-8.webp" alt="snow day covering the tours" loading="eager">
-<img src="/assets/images/2025/semur25-10.webp" alt="a women walking in the snow" loading="eager">
-<img src="/assets/images/2025/semur25-9.webp" alt="an old red building in switzerland" loading="eager">
+<img src="/assets/images/2025/semur25-8.webp" alt="snow day covering the tours" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/semur25-10.webp" alt="a women walking in the snow" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/semur25-9.webp" alt="an old red building in switzerland" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img class ="two" src="/assets/images/2025/semur25-7.webp" alt="snow covered semur-en-auxois">
-<img src="/assets/images/2025/semur25-12.webp" alt="Notra Dame blanketed in snow">
+<img class="two" src="/assets/images/2025/semur25-7.webp" alt="snow covered semur-en-auxois" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2025/semur25-12.webp" alt="Notra Dame blanketed in snow" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img src="/assets/images/2025/semur25-14.webp" alt="snow day covering the tours">
-<img src="/assets/images/2025/semur25-17.webp" alt="a women walking in the snow">
-<img src="/assets/images/2025/semur25-19.webp" alt="an old red building in switzerland">
+<img src="/assets/images/2025/semur25-14.webp" alt="snow day covering the tours" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/semur25-17.webp" alt="a women walking in the snow" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/semur25-19.webp" alt="an old red building in switzerland" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img class ="two" src="/assets/images/2025/semur25-18.webp" alt="snow covered semur-en-auxois">
-<img src="/assets/images/2025/semur25-20.webp" alt="Notra Dame blanketed in snow">
+<img class="two" src="/assets/images/2025/semur25-18.webp" alt="snow covered semur-en-auxois" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/semur25-20.webp" alt="Notra Dame blanketed in snow" width="1333" height="2000" loading="lazy" decoding="async">
 
 
 
