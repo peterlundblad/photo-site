@@ -623,7 +623,7 @@ footer {
     border-radius: 12px;
   }
 
-  @media screen and (min-width: 901px) {
+  @media screen and (min-width: 601px) {
     .lightbox-trigger {
       cursor: zoom-in;
     }
@@ -642,6 +642,7 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 2.5rem;
+    touch-action: none;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -694,10 +695,16 @@ footer {
     outline: none;
     transition: transform 0.2s ease, opacity 0.2s ease;
 
-    &:hover,
     &:focus-visible {
       opacity: 1;
       transform: scale(1.12);
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 1;
+        transform: scale(1.12);
+      }
     }
 
     svg {
@@ -719,10 +726,16 @@ footer {
     outline: none;
     transition: opacity 0.2s ease, transform 0.2s ease;
 
-    &:hover,
     &:focus-visible {
       opacity: 1;
       transform: translateY(-50%) scale(1.08);
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 1;
+        transform: translateY(-50%) scale(1.08);
+      }
     }
 
     svg {
@@ -738,6 +751,29 @@ footer {
     right: 2.2rem;
   }
 
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    .lightbox {
+      padding: 1.5rem;
+    }
+
+    .lightbox-img {
+      max-width: calc(100vw - 8rem);
+    }
+
+    .lightbox-close {
+      top: 1.25rem;
+      right: 1.25rem;
+    }
+
+    .lightbox-prev {
+      left: 1.25rem;
+    }
+
+    .lightbox-next {
+      right: 1.25rem;
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .lightbox,
     .lightbox-img,
@@ -748,6 +784,12 @@ footer {
   }
 
 
+
+@media screen and (max-width: 1180px) {
+  .masonry {
+    grid-gap: 2rem;
+  }
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {

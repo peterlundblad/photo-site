@@ -53,27 +53,45 @@ document.addEventListener('DOMContentLoaded', () => {
     img.addEventListener('error', reveal, { once: true });
   });
 
-  // Desktop-only fullscreen image lightbox
-  const desktopMedia = window.matchMedia('(min-width: 901px)');
+  // Tablet & desktop fullscreen image lightbox (min-width: 601px)
+  const lightboxMedia = window.matchMedia('(min-width: 601px)');
   const columns = Array.from(document.querySelectorAll('.row .column'));
-  let galleryImages = [];
 
-  if (columns.length > 0) {
-    // Interleave across columns for left-to-right visual row order
-    const colImages = columns.map((col) => Array.from(col.querySelectorAll('img')));
-    const maxRows = Math.max(0, ...colImages.map((imgs) => imgs.length));
-    for (let r = 0; r < maxRows; r += 1) {
-      for (let c = 0; c < colImages.length; c += 1) {
-        if (colImages[c][r]) {
-          galleryImages.push(colImages[c][r]);
+  const getOrderedGalleryImages = () => {
+    if (columns.length > 0) {
+      const colImages = columns.map((col) => Array.from(col.querySelectorAll('img')));
+      const ordered = [];
+      const interleaveGroup = (group) => {
+        const maxRows = Math.max(0, ...group.map((imgs) => imgs.length));
+        for (let r = 0; r < maxRows; r += 1) {
+          for (let c = 0; c < group.length; c += 1) {
+            if (group[c][r]) {
+              ordered.push(group[c][r]);
+            }
+          }
         }
+      };
+
+      // At <= 900px, the 4 columns wrap into 2x2 (Col 1 & 2 above Col 3 & 4)
+      if (window.innerWidth <= 900 && colImages.length === 4) {
+        interleaveGroup(colImages.slice(0, 2));
+        interleaveGroup(colImages.slice(2, 4));
+      } else {
+        interleaveGroup(colImages);
       }
+      return ordered;
     }
-  } else if (document.body.classList.contains('layout-post')) {
-    galleryImages = Array.from(
-      document.querySelectorAll('body.layout-post .container-hero img')
-    ).filter((img) => !img.closest('.PageNavigation'));
-  }
+
+    if (document.body.classList.contains('layout-post')) {
+      return Array.from(
+        document.querySelectorAll('body.layout-post .container-hero img')
+      ).filter((img) => !img.closest('.PageNavigation'));
+    }
+
+    return [];
+  };
+
+  let galleryImages = getOrderedGalleryImages();
 
   if (galleryImages.length > 0) {
     const lightbox = document.createElement('div');
@@ -180,8 +198,11 @@ document.addEventListener('DOMContentLoaded', () => {
       preloadAdjacent(currentIndex);
     };
 
-    const openLightbox = (index, triggerEl) => {
-      if (!desktopMedia.matches) return;
+    const openLightbox = (triggerEl) => {
+      if (!lightboxMedia.matches) return;
+      galleryImages = getOrderedGalleryImages();
+      const index = galleryImages.indexOf(triggerEl);
+      if (index === -1) return;
       activeTrigger = triggerEl;
       showImage(index);
       isOpen = true;
@@ -203,22 +224,58 @@ document.addEventListener('DOMContentLoaded', () => {
       activeTrigger = null;
     };
 
-    galleryImages.forEach((img, index) => {
+    galleryImages.forEach((img) => {
       img.classList.add('lightbox-trigger');
       img.addEventListener('click', (event) => {
-        if (!desktopMedia.matches) return;
+        if (!lightboxMedia.matches) return;
         event.preventDefault();
-        openLightbox(index, img);
+        openLightbox(img);
       });
     });
 
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let justSwiped = false;
+    let swipeTimer = null;
+
+    lightbox.addEventListener(
+      'touchstart',
+      (event) => {
+        if (!isOpen || event.touches.length !== 1) return;
+        touchStartX = event.touches[0].clientX;
+        touchStartY = event.touches[0].clientY;
+      },
+      { passive: true }
+    );
+
+    lightbox.addEventListener(
+      'touchend',
+      (event) => {
+        if (!isOpen || event.changedTouches.length !== 1 || galleryImages.length <= 1) return;
+        const deltaX = event.changedTouches[0].clientX - touchStartX;
+        const deltaY = event.changedTouches[0].clientY - touchStartY;
+
+        if (Math.abs(deltaX) > 40 && Math.abs(deltaX) > Math.abs(deltaY)) {
+          justSwiped = true;
+          if (swipeTimer) window.clearTimeout(swipeTimer);
+          swipeTimer = window.setTimeout(() => {
+            justSwiped = false;
+          }, 300);
+          showImage(deltaX < 0 ? currentIndex + 1 : currentIndex - 1);
+        }
+      },
+      { passive: true }
+    );
+
     closeBtn.addEventListener('click', (event) => {
       event.stopPropagation();
+      if (justSwiped) return;
       closeLightbox();
     });
 
     prevBtn.addEventListener('click', (event) => {
       event.stopPropagation();
+      if (justSwiped) return;
       if (galleryImages.length > 1) {
         showImage(currentIndex - 1);
       }
@@ -226,12 +283,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     nextBtn.addEventListener('click', (event) => {
       event.stopPropagation();
+      if (justSwiped) return;
       if (galleryImages.length > 1) {
         showImage(currentIndex + 1);
       }
     });
 
     lightbox.addEventListener('click', (event) => {
+      if (justSwiped) return;
       if (event.target === lightbox) {
         closeLightbox();
       }
@@ -239,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     lightboxImg.addEventListener('click', (event) => {
       event.stopPropagation();
-      if (galleryImages.length <= 1) return;
+      if (justSwiped || galleryImages.length <= 1) return;
       const rect = lightboxImg.getBoundingClientRect();
       const clickedLeftHalf = event.clientX < rect.left + rect.width / 2;
       showImage(clickedLeftHalf ? currentIndex - 1 : currentIndex + 1);
@@ -259,8 +318,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    if (typeof desktopMedia.addEventListener === 'function') {
-      desktopMedia.addEventListener('change', (event) => {
+    if (typeof lightboxMedia.addEventListener === 'function') {
+      lightboxMedia.addEventListener('change', (event) => {
         if (!event.matches && isOpen) {
           closeLightbox();
         }
