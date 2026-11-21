@@ -4,7 +4,6 @@ date: 2025-07-26 10:30:00
 layout: post
 categories:
 - summer
-- travel
 - UK
 - Wedding
 featured_image: /assets/images/2025/bath/bath-wedding-8.webp

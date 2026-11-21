@@ -4,8 +4,8 @@ date: 2025-04-26 10:30:00
 layout: post
 categories:
 - spring
-- landscape
-- europe
+- travel
+- france
 featured_image: /assets/images/2025/alsace/alsace-36.webp
 ---
 From castles to vineyards, our trip to Alsace was a storybook adventure. We explored the enchanting towns of Scherwiller, Strasbourg, and Colmar, where colorful half-timbered houses and cobblestone streets made us feel like we had stepped back in time.

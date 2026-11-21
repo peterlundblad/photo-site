@@ -2,11 +2,20 @@
 <html lang="en">
 {% include head.html %}
 
-<body>
+<body class="layout-post">
     {% include header.html %}
 
     <div class="container-hero">
         <h2>{{ page.title }}</h2>
+        {% if page.date %}
+            <div class="post-meta">
+                <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+                {% if page.categories and page.categories.size > 0 %}
+                    <span class="post-meta-divider" aria-hidden="true">//</span>
+                    <span class="post-categories">{{ page.categories | join: ", " }}</span>
+                {% endif %}
+            </div>
+        {% endif %}
         {{ content }}
 
         <div class="PageNavigation">

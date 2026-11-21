@@ -4,7 +4,7 @@ date: 2024-05-01 10:30:00
 layout: post
 categories:
 - spring
-- landscape
+- travel
 - north america
 featured_image: /assets/images/2024/roadtrip/IMG_2186.webp
 ---

@@ -5,7 +5,6 @@ layout: post
 categories:
 - fall
 - landscape
-- europe
 - Paris
 featured_image: /assets/images/2024/Paris-Fall/IMG_9245.webp
 ---

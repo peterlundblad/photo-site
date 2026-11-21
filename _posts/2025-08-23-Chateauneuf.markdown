@@ -1,10 +1,10 @@
 ---
 title: Chateauneuf
-date: 2025-08-23 14:30:00
+date: 2025-08-24 14:30:00
 layout: post
 categories:
 - summer
-- burgandy
+- burgundy
 - France
 featured_image: /assets/images/2025/chateauneuf/chateauneuf-25-1.webp
 ---

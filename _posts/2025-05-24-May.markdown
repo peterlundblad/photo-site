@@ -4,13 +4,13 @@ date: 2025-05-24 10:30:00
 layout: post
 categories:
 - spring
-- landscape
-- europe
+- burgundy
+- france
 featured_image: /assets/images/2025/may/perle-mai-27.webp
 ---
-Tart cherries straight from the tree, poets reciting their work, and bagpipes from the morvan forest. These are the moments that make memories!
+Tart cherries straight from the tree, poets reciting their work, and bagpipes from the Morvan forest. These are the moments that make memories!
 
-Special thanks to [the perle](https://la-perle.org){:target="_blank" rel="noopener noreferrer"} for hosting this lovely gathering.
+Special thanks to [la perle](https://la-perle.org){:target="_blank" rel="noopener noreferrer"} for hosting this lovely gathering.
 
 <figure class="masonry">
 

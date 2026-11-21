@@ -5,7 +5,7 @@ layout: post
 categories:
 - winter
 - landscape
-- europe
+- france
 featured_image: /assets/images/2025/semur25-7.webp
 ---
 In mid-March, we woke up to a sight that felt like a dream – snow! For two Californians, accustomed to sunshine and mild winters, it was a delightful surprise. A proper snow day, right here in the medieval town of Semur-en-Auxois, France!
