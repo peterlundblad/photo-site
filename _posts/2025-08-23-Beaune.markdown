@@ -1,0 +1,39 @@
+---
+title: Beaune
+date: 2025-08-23 10:30:00
+layout: post
+categories:
+- summer
+- burgandy
+- France
+featured_image: /assets/images/2025/Beaune/beaune-25-3.webp
+---
+A lovely trip to Beaune to see the historic Hospices de Beaune. This medieval hospital is a must-see for anyone visiting the area. The multi-colored tile roof is stunning, and the interior is an important site for both art and the history of medicine. I love all the ancient details, especially the gothic typography spread throughout the building—particularly in the apothecary.
+<figure class="masonry">
+
+<img src="/assets/images/2025/Beaune/beaune-25-3.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/Beaune/beaune-25-5.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img src="/assets/images/2025/Beaune/beaune-25-1.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-2.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-4.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img src="/assets/images/2025/Beaune/beaune-25-6.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/Beaune/beaune-25-7.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img class="two" src="/assets/images/2025/Beaune/beaune-25-8.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-9.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img src="/assets/images/2025/Beaune/beaune-25-14.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-13.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-12.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img src="/assets/images/2025/Beaune/beaune-25-11.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/Beaune/beaune-25-10.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img src="/assets/images/2025/Beaune/beaune-25-15.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-16.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-17.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+
+</figure>
