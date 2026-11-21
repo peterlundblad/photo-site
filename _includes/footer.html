@@ -43,5 +43,5 @@
     <p id="copyright">&copy; {{ 'now' | date: "%Y" }} PCL. All Rights Reserved. <span>Made in SF, CA.</span></p>
 </footer>
 
-<script defer src="/assets/scripts/main.js"></script>
-<script defer src="/assets/scripts/observer.js"></script>
+<script defer src="/assets/scripts/main.js?v={{ site.time | date: '%s' }}"></script>
+<script defer src="/assets/scripts/observer.js?v={{ site.time | date: '%s' }}"></script>
