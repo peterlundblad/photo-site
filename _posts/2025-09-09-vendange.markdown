@@ -1,0 +1,41 @@
+---
+title: Vendange
+date: 2025-09-09 07:30:00
+layout: post
+categories:
+- burgundy
+- France
+- wine
+featured_image: /assets/images/2025/vendange/vendange25-6.webp
+---
+What a wild week doing *vendange* in Chambolle-Musigny, in the heart of Burgundy. It was probably the hardest work I’ve ever done, but also an experience I’ll cherish for a lifetime. As a lifelong learner, getting to pick grapes in France and then seeing them get crushed and fermented was a bucket-list moment for sure. We even got to open a bottle from 1934, and remarkably, it had held up. It felt like time traveling—suddenly I found myself thinking about the people who worked that harvest nearly a century ago and turned those grapes into wine. Now, each bottle will taste a little more special knowing the laborers, artisans, and friendly dog who helped make it happen. 
+
+*Santé!*
+
+<figure class="masonry">
+
+<img src="/assets/images/2025/vendange/vendange25-3.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/vendange/vendange25-2.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img src="/assets/images/2025/vendange/vendange25-13.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/vendange/vendange25-1.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/vendange/vendange25-19.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img src="/assets/images/2025/vendange/vendange25-7.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/vendange/vendange25-6.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img class="two" src="/assets/images/2025/vendange/vendange25-12.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/vendange/vendange25-5.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img src="/assets/images/2025/vendange/vendange25-10.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/vendange/vendange25-11.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+<img src="/assets/images/2025/vendange/vendange25-22.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/vendange/vendange25-20.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/vendange/vendange25-17.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+
+<img src="/assets/images/2025/vendange/vendange25-18.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/vendange/vendange25-23.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+
+</figure>
