@@ -155,14 +155,14 @@ body {
 
 figure.masonry.video {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(var(--cols, 3), 1fr);
   gap: 2rem;
+  align-items: start;
 
   img {
     width: 100%;
     height: auto;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
+    display: block;
     grid-column: auto;
     padding: 0;
   }
@@ -666,6 +666,8 @@ iframe {
 
 .video-facade {
   width: 100%;
+  max-width: calc(82vh * var(--aspect-ratio, 16 / 9));
+  max-height: 82vh;
   aspect-ratio: 16 / 9;
   position: relative;
   overflow: hidden;

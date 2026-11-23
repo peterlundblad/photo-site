@@ -11,7 +11,8 @@
 {%- if style == "" and page.youtube_id -%}
   {%- assign style = "video" -%}
 {%- endif -%}
-<figure class="masonry{% if style == 'video' %} video{% endif %}">
+{%- assign cols = include.columns | default: page.gallery_columns | strip -%}
+<figure class="masonry{% if style == 'video' %} video{% endif %}"{% if cols != "" %} style="--cols: {{ cols | escape }};"{% endif %}>
 {%- for entry in page.gallery -%}
   {%- if entry.first -%}
     {%- assign row = entry -%}
