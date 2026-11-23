@@ -14,4 +14,4 @@ featured_image: /assets/images/blossoms-spring-pink-tree.webp
 enjoy the bolossoms!
 
 
-<img src="/assets/images/blossoms-spring-pink-tree.webp" alt="Alt text" width="1500" height="1000" loading="eager" decoding="async">
+<img src="/assets/images/blossoms-spring-pink-tree.webp" alt="Sunlit pink cherry blossoms blooming densely across slender dark branches against a spring sky" width="1500" height="1000" loading="eager" decoding="async">

@@ -339,15 +339,13 @@ document.addEventListener('DOMContentLoaded', () => {
         facade.classList.add('is-playing');
 
         const iframe = document.createElement('iframe');
-        iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&rel=0`;
         iframe.title = 'YouTube video player';
         iframe.setAttribute('frameborder', '0');
-        iframe.setAttribute(
-          'allow',
-          'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-        );
+        iframe.allow =
+          'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
         iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
         iframe.allowFullscreen = true;
+        iframe.src = `https://www.youtube.com/embed/${encodeURIComponent(id)}?autoplay=1&playsinline=1&rel=0`;
 
         facade.appendChild(iframe);
       },

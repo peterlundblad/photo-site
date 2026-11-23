@@ -14,10 +14,10 @@ Hope and I have been spending a lot of time in France this year! From vide greni
     <img src="/assets/images/2024/france/IMG_2998.webp" alt="old wine bottles in a crate" width="867" height="1300" loading="eager" decoding="async">
     <img src="/assets/images/2024/france/IMG_2953.webp" alt="flee market in france" width="867" height="1300" loading="lazy" decoding="async">
     <img src="/assets/images/2024/france/IMG_2991.webp" alt="hiver sign" width="867" height="1300" loading="lazy" decoding="async">
-    <img src="/assets/images/2024/france/IMG_2965.webp" alt="" width="867" height="1300" loading="lazy" decoding="async">
+    <img src="/assets/images/2024/france/IMG_2965.webp" alt="Stained-glass window glowing in warm light inside a darkened stone church in France" width="867" height="1300" loading="lazy" decoding="async">
     <img class="two" src="/assets/images/2024/france/IMG_3275.webp" alt="Semur-en-Auxois France" width="1300" height="867" loading="lazy" decoding="async">
     <img class="two" src="/assets/images/2024/france/IMG_3101.webp" alt="sunset" width="1300" height="867" loading="lazy" decoding="async">
-    <img src="/assets/images/2024/france/IMG_2964.webp" alt="" width="867" height="1300" loading="lazy" decoding="async">
+    <img src="/assets/images/2024/france/IMG_2964.webp" alt="Carved wooden altar, statue of a saint, and ornate sanctuary railing inside a French church" width="867" height="1300" loading="lazy" decoding="async">
     <img src="/assets/images/2024/france/IMG_3176.webp" alt="a medieval tower in france" width="867" height="1300" loading="lazy" decoding="async">
     <img class="two" src="/assets/images/2024/france/IMG_3255.webp" alt="a forest at sunset" width="1300" height="867" loading="lazy" decoding="async">
     <img src="/assets/images/2024/france/IMG_3225.webp" alt="the leaf of a tree" width="867" height="1300" loading="lazy" decoding="async">

@@ -13,43 +13,43 @@ From castles to vineyards, our trip to Alsace was a storybook adventure. We expl
 Beyond the charming architecture, the region's culinary delights were a highlight. We enjoyed traditional Flammekueche and sipped on crisp Rieslings and smooth Pinot Blancs. It was a perfect blend of history and flavor.
 
 <figure class="masonry">
-<img class="two" src="/assets/images/2025/alsace/alsace-1.webp" alt="" width="2000" height="1333" loading="eager" decoding="async">
-<img src="/assets/images/2025/alsace/alsace-3.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2025/alsace/alsace-1.webp" alt="Bright yellow rapeseed field and green meadow framed through a car window in Alsace" width="2000" height="1333" loading="eager" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-3.webp" alt="Brick water tower with a copper spire rising above spring trees under an overcast sky" width="1333" height="2000" loading="lazy" decoding="async">
 
 
-<img src="/assets/images/2025/alsace/alsace-5.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img class="two" src="/assets/images/2025/alsace/alsace-6.webp" alt="" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-5.webp" alt="Historic Alsatian watchtower with twin turrets and carved stone balustrade above tiled roofs" width="1333" height="2000" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2025/alsace/alsace-6.webp" alt="Medieval fresco of townsfolk and a black heraldic eagle painted across an arched stone wall" width="2000" height="1333" loading="lazy" decoding="async">
 
 <img class="two" src="/assets/images/2025/alsace/alsace-2.webp" alt="a field in alsace" width="2000" height="1333" loading="lazy" decoding="async">
 <img src="/assets/images/2025/alsace/alsace-8.webp" alt="woman walking the forest" width="1333" height="2000" loading="lazy" decoding="async">
 
 
 <img src="/assets/images/2025/alsace/alsace-11.webp" alt="an ancient door" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/alsace/alsace-9.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/alsace/alsace-10.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-9.webp" alt="Two visitors in medieval cloaks and headdresses standing beside a mossy stone wall" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-10.webp" alt="Carved red sandstone imperial coat of arms and knights on Haut-Koenigsbourg castle wall" width="1333" height="2000" loading="lazy" decoding="async">
 
 <img class="two" src="/assets/images/2025/alsace/alsace-16.webp" alt="a view from above" width="2000" height="1333" loading="lazy" decoding="async">
 <img src="/assets/images/2025/alsace/alsace-13.webp" alt="a woman looking out a window" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img src="/assets/images/2025/alsace/alsace-17.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img class="two" src="/assets/images/2025/alsace/alsace-21.webp" alt="" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-17.webp" alt="Adult lifting a child to peer into a stone courtyard fountain at Haut-Koenigsbourg" width="1333" height="2000" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2025/alsace/alsace-21.webp" alt="Vibrant green moss and pale lichen growing across dark weathered castle rock in Alsace" width="2000" height="1333" loading="lazy" decoding="async">
 
 <img src="/assets/images/2025/alsace/alsace-28.webp" alt="a cat in a window" width="1333" height="2000" loading="lazy" decoding="async">
 <img src="/assets/images/2025/alsace/alsace-25.webp" alt="an ancient alley" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/alsace/alsace-27.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-27.webp" alt="People in medieval costumes gathering beneath a half-timbered stone archway on cobblestone" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img src="/assets/images/2025/alsace/alsace-30.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img class="two" src="/assets/images/2025/alsace/alsace-31.webp" alt="" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-30.webp" alt="Fragrant purple lilac blossoms and deep green leaves blooming in soft spring shade" width="1333" height="2000" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2025/alsace/alsace-31.webp" alt="Steep hillside vineyard rows dotted with white dandelion puffs in spring Alsace" width="2000" height="1333" loading="lazy" decoding="async">
 
-<img class="two" src="/assets/images/2025/alsace/alsace-36.webp" alt="" width="2000" height="1333" loading="lazy" decoding="async">
-<img src="/assets/images/2025/alsace/alsace-40.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2025/alsace/alsace-36.webp" alt="Gnarled grapevines budding above a carpet of white dandelion seed heads in spring" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-40.webp" alt="Tattered French tricolor flag fluttering from a terracotta-tiled rooftop against a pale sky" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img src="/assets/images/2025/alsace/alsace-32.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img class="two" src="/assets/images/2025/alsace/alsace-22.webp" alt="" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-32.webp" alt="Twisted old vine trunk sprouting fresh green spring shoots along wire trellises in Alsace" width="1333" height="2000" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2025/alsace/alsace-22.webp" alt="Bold black lettering for Domaines Dopff Au Moulin painted on a white winery wall" width="2000" height="1333" loading="lazy" decoding="async">
 
-<img src="/assets/images/2025/alsace/alsace-46.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/alsace/alsace-43.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/alsace/alsace-45.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-46.webp" alt="Sunlit cream-stucco facade with tall white louvered shutters and wrought-iron window grilles in Colmar" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-43.webp" alt="Tourists admiring a bronze sculpture of figures hoisting a celestial globe in Colmar" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/alsace/alsace-45.webp" alt="Flat-bottomed wooden boat carrying passengers along the Petite Venise canal in Colmar" width="1333" height="2000" loading="lazy" decoding="async">
 
 
 </figure>

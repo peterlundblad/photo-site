@@ -12,7 +12,7 @@ featured_image: /assets/images/seattle-public-market-pikes-place.webp
 ---
 Finally made it up to visit Seattle! and yes, it did rain :)
 
-<img src="/assets/images/seattle-public-market-pikes-place.webp" alt="Alt text" width="1000" height="1500" loading="eager" decoding="async">
+<img src="/assets/images/seattle-public-market-pikes-place.webp" alt="Red neon Public Market sign rising above bustling outdoor stalls at Pike Place in Seattle" width="1000" height="1500" loading="eager" decoding="async">
 
 
 
