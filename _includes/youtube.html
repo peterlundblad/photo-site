@@ -3,7 +3,7 @@
   {%- assign ratio = include.aspect_ratio | default: page.aspect_ratio | default: "16/9" | strip -%}
   {%- assign poster_src = include.poster | default: page.poster | default: page.featured_image | default: "" | strip -%}
   {%- assign poster_alt = include.alt | default: page.title | default: "Video poster" -%}
-  <div class="video-facade" data-youtube-id="{{ video_id | escape }}" style="aspect-ratio: {{ ratio | escape }};">
+  <div class="video-facade" data-youtube-id="{{ video_id | escape }}">
     {%- if poster_src != "" -%}
       <img src="{{ poster_src | escape }}" alt="{{ poster_alt | escape }}" loading="eager" decoding="async">
     {%- endif -%}
