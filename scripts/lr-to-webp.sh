@@ -11,9 +11,20 @@ else
 fi
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
+VIDEO_MODE=false
+POSITIONAL=()
+for arg in "$@"; do
+  if [ "$arg" = "--video" ]; then
+    VIDEO_MODE=true
+  else
+    POSITIONAL+=("$arg")
+  fi
+done
+set -- ${POSITIONAL[@]+"${POSITIONAL[@]}"}
+
 if [ $# -eq 0 ]; then
-  echo "Usage: $0 <image_directory> [Title] [YYYY-MM-DD]" >&2
-  echo "   or: $0 <file1.jpg> [file2.jpg ...]" >&2
+  echo "Usage: $0 [--video] <image_directory> [Title] [YYYY-MM-DD]" >&2
+  echo "   or: $0 [--video] <file1.jpg> [file2.jpg ...]" >&2
   exit 1
 fi
 
@@ -157,26 +168,32 @@ PYEOF
 GALLERY_LINES=()
 PORTRAIT_BUFFER=()
 
-for webp in "${WEBP_FILES[@]}"; do
-  dims=$(get_webp_dimensions "${ABS_TARGET_DIR}/${webp}")
-  width=$(printf "%s" "$dims" | awk '{print $1}')
-  height=$(printf "%s" "$dims" | awk '{print $2}')
+if [ "$VIDEO_MODE" = true ]; then
+  for webp in "${WEBP_FILES[@]}"; do
+    GALLERY_LINES+=("  - ${webp}")
+  done
+else
+  for webp in "${WEBP_FILES[@]}"; do
+    dims=$(get_webp_dimensions "${ABS_TARGET_DIR}/${webp}")
+    width=$(printf "%s" "$dims" | awk '{print $1}')
+    height=$(printf "%s" "$dims" | awk '{print $2}')
 
-  if [ -n "$width" ] && [ -n "$height" ] && [ "$width" -gt "$height" ]; then
-    GALLERY_LINES+=("  - [${webp}:three]")
-  else
-    PORTRAIT_BUFFER+=("$webp")
-    if [ ${#PORTRAIT_BUFFER[@]} -eq 3 ]; then
-      GALLERY_LINES+=("  - [${PORTRAIT_BUFFER[0]}, ${PORTRAIT_BUFFER[1]}, ${PORTRAIT_BUFFER[2]}]")
-      PORTRAIT_BUFFER=()
+    if [ -n "$width" ] && [ -n "$height" ] && [ "$width" -gt "$height" ]; then
+      GALLERY_LINES+=("  - [${webp}:three]")
+    else
+      PORTRAIT_BUFFER+=("$webp")
+      if [ ${#PORTRAIT_BUFFER[@]} -eq 3 ]; then
+        GALLERY_LINES+=("  - [${PORTRAIT_BUFFER[0]}, ${PORTRAIT_BUFFER[1]}, ${PORTRAIT_BUFFER[2]}]")
+        PORTRAIT_BUFFER=()
+      fi
     fi
-  fi
-done
+  done
 
-if [ ${#PORTRAIT_BUFFER[@]} -eq 2 ]; then
-  GALLERY_LINES+=("  - [${PORTRAIT_BUFFER[0]}, ${PORTRAIT_BUFFER[1]}]")
-elif [ ${#PORTRAIT_BUFFER[@]} -eq 1 ]; then
-  GALLERY_LINES+=("  - [${PORTRAIT_BUFFER[0]}]")
+  if [ ${#PORTRAIT_BUFFER[@]} -eq 2 ]; then
+    GALLERY_LINES+=("  - [${PORTRAIT_BUFFER[0]}, ${PORTRAIT_BUFFER[1]}]")
+  elif [ ${#PORTRAIT_BUFFER[@]} -eq 1 ]; then
+    GALLERY_LINES+=("  - [${PORTRAIT_BUFFER[0]}]")
+  fi
 fi
 
 {
@@ -188,6 +205,9 @@ fi
   echo "  - photography"
   echo "image_dir: ${IMAGE_DIR}"
   echo "featured_image: ${FIRST_IMAGE}"
+  if [ "$VIDEO_MODE" = true ]; then
+    echo "gallery_style: video"
+  fi
   echo "gallery:"
   for line in "${GALLERY_LINES[@]}"; do
     echo "$line"

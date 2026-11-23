@@ -1,0 +1,16 @@
+{%- assign video_id = include.id | default: page.youtube_id | default: "" | strip -%}
+{%- if video_id != "" -%}
+  {%- assign ratio = include.aspect_ratio | default: page.aspect_ratio | default: "16/9" | strip -%}
+  {%- assign poster_src = include.poster | default: page.poster | default: page.featured_image | default: "" | strip -%}
+  {%- assign poster_alt = include.alt | default: page.title | default: "Video poster" -%}
+  <div class="video-facade" data-youtube-id="{{ video_id | escape }}" style="aspect-ratio: {{ ratio | escape }};">
+    {%- if poster_src != "" -%}
+      <img src="{{ poster_src | escape }}" alt="{{ poster_alt | escape }}" loading="eager" decoding="async">
+    {%- endif -%}
+    <button type="button" class="video-play" aria-label="Play video">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <polygon points="8,5 19,12 8,19" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+      </svg>
+    </button>
+  </div>
+{%- endif -%}

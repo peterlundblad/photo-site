@@ -11,14 +11,14 @@ featured_image: /assets/images/2025/june/june03.webp
 Highlights from June: The month featured a superb dinner at Cuisine à Vue in Vézelay, the street-side celebrations of the Fête de la Musique, and an event honoring Augustin Mouchot, the man who pioneered the solar engine. Not a bad start to summer!
 <figure class="masonry">
 
-<img src="/assets/images/2025/june/june05.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/june/june06.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/june/june08.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/june/june05.webp" alt="Dark bronze horse sculpture standing in a sunlit stone courtyard with weathered white shutters" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/june/june06.webp" alt="Green scallop shell sign hanging from a black iron lantern bracket beside mint wooden shutters" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/june/june08.webp" alt="Monochrome shot of a chef plating dinner in the kitchen at Cuisine à Vue in Vézelay" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img class="three" src="/assets/images/2025/june/june03.webp" alt="" width="2000" height="1333" loading="lazy" decoding="async">
+<img class="three" src="/assets/images/2025/june/june03.webp" alt="Golden wheat field swaying beneath brooding storm clouds across the summer Burgundy countryside" width="2000" height="1333" loading="lazy" decoding="async">
 
-<img src="/assets/images/2025/june/june07.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/june/june09.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/june/june10.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/june/june07.webp" alt="Weathered rust-red wooden door and dusty paned window set into an old stone facade" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/june/june09.webp" alt="Flutist and drummer performing from a sunlit wrought-iron balcony during Fête de la Musique" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/june/june10.webp" alt="Curved mirrored solar concentrator sculpture glowing in warm red light honoring Augustin Mouchot" width="1333" height="2000" loading="lazy" decoding="async">
 
 </figure>

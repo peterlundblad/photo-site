@@ -1,0 +1,27 @@
+---
+title: A Trip to Annecy
+date: 2026-09-13 09:00:00
+layout: post
+categories:
+  - filmmaking
+  - France
+  - Alps
+youtube_id: 9JSCBH2nVYQ
+poster: /assets/images/2026/Annecy/Cut 2_01_00_14_11.webp
+image_dir: /assets/images/2026/Annecy/
+featured_image: /assets/images/2026/Annecy/Cut 2_01_00_14_11.webp
+aspect_ratio: 16/9
+gallery:
+  - [Cut 2_01_00_03_12.webp]
+  - [Cut 2_01_00_23_07.webp]
+  - [Cut 2_01_00_42_14.webp]
+  - [Cut 2_01_01_22_07.webp]
+  - [Cut 2_01_01_39_04.webp]
+  - [Cut 2_01_01_44_11.webp]
+  - [Cut 2_01_02_04_22.webp]
+  - [Cut 2_01_00_14_11.webp]
+  - [Main_01_02_33_13.webp]
+---
+A short visual travelogue from Annecy, capturing the mountain light, sun-drenched swims, and quiet moments along the canals. I also composed the music for this short film and decided a slow ambient track best captured the rest and peace we found in the mountain air. In my art, I am increasingly looking to convey feeling over information—to transport the viewer to a memory or a distant place, and perhaps even form a connection with a stranger across space and time.
+
+{% include masonry.html %}

@@ -11,29 +11,29 @@ featured_image: /assets/images/2025/Beaune/beaune-25-3.webp
 A lovely trip to Beaune to see the historic Hospices de Beaune. This medieval hospital is a must-see for anyone visiting the area. The multi-colored tile roof is stunning, and the interior is an important site for both art and the history of medicine. I love all the ancient details, especially the gothic typography spread throughout the building—particularly in the apothecary.
 <figure class="masonry">
 
-<img src="/assets/images/2025/Beaune/beaune-25-3.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img class="two" src="/assets/images/2025/Beaune/beaune-25-5.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-3.webp" alt="Half-timbered gable and geometric glazed tile roof of Hospices de Beaune under a blue sky" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/Beaune/beaune-25-5.webp" alt="Carved stone gargoyle projecting from the timber eaves of Hospices de Beaune" width="1333" height="2000" loading="eager" decoding="async">
 
-<img src="/assets/images/2025/Beaune/beaune-25-1.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/Beaune/beaune-25-2.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/Beaune/beaune-25-4.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-1.webp" alt="Gothic stone archway inscribed with gilded Hostel-Dieu 1443 lettering at the entrance in Beaune" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-2.webp" alt="Timber-framed courtyard gallery and colorful diamond-patterned tile roof at Hospices de Beaune" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-4.webp" alt="Intricate red, yellow, green, and black glazed roof tiles forming geometric patterns in sunlit Beaune" width="1333" height="2000" loading="eager" decoding="async">
 
-<img src="/assets/images/2025/Beaune/beaune-25-6.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img class="two" src="/assets/images/2025/Beaune/beaune-25-7.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-6.webp" alt="Ornate metal finials and weathervanes rising above the polychrome tiled roofs of Hospices de Beaune" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/Beaune/beaune-25-7.webp" alt="Gilded Gothic calligraphy reading Salle Saint Nicolas crowned above an interior stone doorway" width="1333" height="2000" loading="eager" decoding="async">
 
-<img class="two" src="/assets/images/2025/Beaune/beaune-25-8.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/Beaune/beaune-25-9.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/Beaune/beaune-25-8.webp" alt="Stained-glass window pane with medieval blackletter inscription glowing inside Hospices de Beaune" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-9.webp" alt="Weathered stone statue of the crowned Virgin and Child against a warm plaster wall" width="1333" height="2000" loading="eager" decoding="async">
 
-<img src="/assets/images/2025/Beaune/beaune-25-14.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/Beaune/beaune-25-13.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/Beaune/beaune-25-12.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-14.webp" alt="Leaded glass door with red iron security bars and ogee stone arch framing garden greenery" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-13.webp" alt="Green grapevines climbing a carved stone pillar and ornate wrought-iron gate in Beaune" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-12.webp" alt="Stone statue of founder Nicolas Rolin standing above a blooming rose garden in Beaune" width="1333" height="2000" loading="eager" decoding="async">
 
-<img src="/assets/images/2025/Beaune/beaune-25-11.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img class="two" src="/assets/images/2025/Beaune/beaune-25-10.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-11.webp" alt="Close-up of a classical oil painting showing Christ in a red robe with golden halo" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/Beaune/beaune-25-10.webp" alt="Gilded crucifix and six candlesticks arranged before a large religious painting inside Hospices de Beaune" width="1333" height="2000" loading="eager" decoding="async">
 
-<img src="/assets/images/2025/Beaune/beaune-25-15.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/Beaune/beaune-25-16.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/Beaune/beaune-25-17.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-15.webp" alt="Antique glass apothecary jar labeled Pierre Divine filled with turquoise mineral crystals" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-16.webp" alt="Ornate circular metal pendant with embossed petal border and polished dark stone center on display" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/Beaune/beaune-25-17.webp" alt="Grisaille panel painting of Saint Sebastian pierced with arrows on the Beaune altarpiece" width="1333" height="2000" loading="eager" decoding="async">
 
 
 </figure>

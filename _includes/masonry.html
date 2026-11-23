@@ -7,7 +7,11 @@
   {%- unless last_char == "/" -%}{%- assign dir = dir | append: "/" -%}{%- endunless -%}
 {%- endif -%}
 {%- assign img_count = 0 -%}
-<figure class="masonry">
+{%- assign style = include.style | default: page.gallery_style | strip -%}
+{%- if style == "" and page.youtube_id -%}
+  {%- assign style = "video" -%}
+{%- endif -%}
+<figure class="masonry{% if style == 'video' %} video{% endif %}">
 {%- for entry in page.gallery -%}
   {%- if entry.first -%}
     {%- assign row = entry -%}
@@ -37,6 +41,9 @@
       {%- else -%}
         {%- assign alt_text = parts | slice: 1, parts.size | join: ":" | strip -%}
       {%- endif -%}
+    {%- endif -%}
+    {%- if style == "video" -%}
+      {%- assign span_class = "" -%}
     {%- endif -%}
     {%- assign fn_first = filename | slice: 0, 1 -%}
     {%- if fn_first == "/" -%}

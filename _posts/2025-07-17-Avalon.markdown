@@ -12,28 +12,28 @@ Highlights from July: A lovely trip to Avalon, New Jersey with the fam. We enjoy
 
 <figure class="masonry">
 
-<img src="/assets/images/2025/avalon/avalon-1.webp" alt="Blades of green grass growing in the sea dunes" width="1333" height="2000" loading="eager" decoding="async">
-<img class="two" src="/assets/images/2025/avalon/avalon-2.webp" alt="tuffs of green grass at the beach" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-1.webp" alt="Green dune grass blades rising from pale coastal sand in soft summer light" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/avalon/avalon-2.webp" alt="Tufts of green sea grass scattered across wind-rippled sand dunes in Avalon, New Jersey" width="2000" height="1333" loading="lazy" decoding="async">
 
-<img src="/assets/images/2025/avalon/avalon-5.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/avalon/avalon-6.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/avalon/avalon-9.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-5.webp" alt="White wooden Avalon Beach Patrol rowboat resting on empty sand beneath a warm evening sky" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-6.webp" alt="Weathered white wooden lifeguard stand sitting on the quiet Avalon beach at dusk" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-9.webp" alt="Sparse green beach grass growing across pale, footprint-dotted coastal sand dunes at twilight" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img class="three" src="/assets/images/2025/avalon/avalon-8.webp" alt="" width="2000" height="1333" loading="lazy" decoding="async">
+<img class="three" src="/assets/images/2025/avalon/avalon-8.webp" alt="Wide grassy sand dunes beneath a soft overcast summer sky with a distant bird" width="2000" height="1333" loading="lazy" decoding="async">
 
-<img src="/assets/images/2025/avalon/avalon-11.webp" alt="birds on the beach at sunset" width="1333" height="2000" loading="eager" decoding="async">
-<img class="two" src="/assets/images/2025/avalon/avalon-14.webp" alt="a young couple embracing on the surf" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-11.webp" alt="Shorebirds standing along wet reflective sand as gentle waves roll in at pink dusk" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/avalon/avalon-14.webp" alt="Smiling barefoot couple standing together in the shallow surf along the Atlantic shoreline" width="2000" height="1333" loading="lazy" decoding="async">
 
-<img src="/assets/images/2025/avalon/avalon-23.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/avalon/avalon-21.webp" alt="a couple on the boardwalk" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/avalon/avalon-22.webp" alt="a couple on the boardwalk" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-23.webp" alt="Evening strollers along the Jersey Shore boardwalk beneath a glowing Ferris wheel and shops" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-21.webp" alt="Older couple holding hands while walking past a glowing marquee pizza shop on the boardwalk" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-22.webp" alt="Giant fiberglass great white shark sculpture mounted above a seaside miniature golf sign" width="1333" height="2000" loading="eager" decoding="async">
 
 
-<img src="/assets/images/2025/avalon/avalon-25.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/avalon/avalon-29.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
-<img src="/assets/images/2025/avalon/avalon-27.webp" alt="" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-25.webp" alt="Glowing red neon Johnson's Popcorn sign mounted above a boardwalk storefront at dusk" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-29.webp" alt="Red-and-white polka-dot gondolas of a classic Ferris wheel silhouetted against a twilight sky" width="1333" height="2000" loading="lazy" decoding="async">
+<img src="/assets/images/2025/avalon/avalon-27.webp" alt="Striped lighthouse tower and colorful vintage signage at Tee Time Golf on the boardwalk" width="1333" height="2000" loading="lazy" decoding="async">
 
-<img class="three" src="/assets/images/2025/avalon/avalon-30.webp" alt="sunset on a lovely vacation" width="1333" height="2000" loading="eager" decoding="async">
+<img class="three" src="/assets/images/2025/avalon/avalon-30.webp" alt="Fiery orange sunset glowing down a quiet residential street lined with parked cars and utility poles" width="1333" height="2000" loading="eager" decoding="async">
 
 
 </figure>

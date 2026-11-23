@@ -11,11 +11,11 @@ featured_image: /assets/images/2025/bath/bath-wedding-8.webp
 A lovely trip to Bath, England for a wedding. It was a magical visit surrounded by incredible English countryside, filled with vibrant colors, lush gardens, and interesting people.
 <figure class="masonry">
 
-<img src="/assets/images/2025/bath/bath-wedding-1.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/bath/bath-wedding-2.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/bath/bath-wedding-4.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/bath/bath-wedding-1.webp" alt="Smiling woman in a pink floral dress and fascinator standing before an English manor in Bath" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/bath/bath-wedding-2.webp" alt="Wedding guests mingling beneath striped parasols on a sunny manor lawn in Bath, England" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/bath/bath-wedding-4.webp" alt="Sunlit crenellated stone turret and flying banner atop a historic country manor near Bath" width="1333" height="2000" loading="eager" decoding="async">
 
-<img class="two" src="/assets/images/2025/bath/bath-wedding-8.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img src="/assets/images/2025/bath/bath-wedding-5.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/bath/bath-wedding-8.webp" alt="Grand English stone manor house with crenellated towers rising behind manicured green hedges in summer" width="1333" height="2000" loading="eager" decoding="async">
+<img src="/assets/images/2025/bath/bath-wedding-5.webp" alt="Close-up portrait of a woman in a pastel floral dress smelling a pale garden rose" width="1333" height="2000" loading="eager" decoding="async">
 
 </figure>
