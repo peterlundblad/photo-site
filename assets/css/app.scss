@@ -159,6 +159,12 @@ figure.masonry.video {
   gap: 2rem;
   align-items: start;
 
+  &[data-columns="2"] { --cols: 2; }
+  &[data-columns="3"] { --cols: 3; }
+  &[data-columns="4"] { --cols: 4; }
+  &[data-columns="5"] { --cols: 5; }
+  &[data-columns="6"] { --cols: 6; }
+
   img {
     width: 100%;
     height: auto;
@@ -674,6 +680,46 @@ iframe {
   background: #111;
   margin: 1.5rem auto;
   cursor: pointer;
+
+  &[data-aspect-ratio="16/9"] {
+    --aspect-ratio: calc(16 / 9);
+    aspect-ratio: 16 / 9;
+  }
+
+  &[data-aspect-ratio="2560/1080"] {
+    --aspect-ratio: calc(2560 / 1080);
+    aspect-ratio: 2560 / 1080;
+  }
+
+  &[data-aspect-ratio="21/9"] {
+    --aspect-ratio: calc(21 / 9);
+    aspect-ratio: 21 / 9;
+  }
+
+  &[data-aspect-ratio="9/16"] {
+    --aspect-ratio: calc(9 / 16);
+    aspect-ratio: 9 / 16;
+  }
+
+  &[data-aspect-ratio="4/3"] {
+    --aspect-ratio: calc(4 / 3);
+    aspect-ratio: 4 / 3;
+  }
+
+  &[data-aspect-ratio="3/2"] {
+    --aspect-ratio: calc(3 / 2);
+    aspect-ratio: 3 / 2;
+  }
+
+  &[data-aspect-ratio="1/1"] {
+    --aspect-ratio: 1;
+    aspect-ratio: 1 / 1;
+  }
+
+  &[data-aspect-ratio="4/5"] {
+    --aspect-ratio: calc(4 / 5);
+    aspect-ratio: 4 / 5;
+  }
 
   &.is-playing {
     cursor: default;

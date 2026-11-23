@@ -1,6 +1,6 @@
 ---
 title: Les Vendanges de Semur
-date: 2026-09-25 10:00:00
+date: 2026-09-06 10:00:00
 layout: post
 categories:
   - filmmaking
