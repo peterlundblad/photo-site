@@ -1,0 +1,57 @@
+{%- if page.gallery and page.gallery.size > 0 -%}
+{%- assign dir = page.image_dir | default: "" | strip -%}
+{%- if dir != "" -%}
+  {%- assign first_char = dir | slice: 0, 1 -%}
+  {%- unless first_char == "/" -%}{%- assign dir = "/" | append: dir -%}{%- endunless -%}
+  {%- assign last_char = dir | slice: -1, 1 -%}
+  {%- unless last_char == "/" -%}{%- assign dir = dir | append: "/" -%}{%- endunless -%}
+{%- endif -%}
+{%- assign img_count = 0 -%}
+<figure class="masonry">
+{%- for entry in page.gallery -%}
+  {%- if entry.first -%}
+    {%- assign row = entry -%}
+  {%- else -%}
+    {%- assign row = entry | split: "|||" -%}
+  {%- endif %}
+
+{% for item in row -%}
+  {%- assign raw_item = item | strip -%}
+  {%- if raw_item != "" -%}
+    {%- assign img_count = img_count | plus: 1 -%}
+    {%- assign parts = raw_item | split: ":" -%}
+    {%- assign filename = parts[0] | strip -%}
+    {%- assign span_class = "" -%}
+    {%- assign alt_text = "" -%}
+    {%- if parts.size > 1 -%}
+      {%- assign second = parts[1] | strip -%}
+      {%- if second == "two" or second == "three" -%}
+        {%- assign span_class = second -%}
+        {%- if parts.size > 2 -%}
+          {%- assign alt_text = parts | slice: 2, parts.size | join: ":" | strip -%}
+        {%- endif -%}
+      {%- elsif second == "" or second == "one" -%}
+        {%- if parts.size > 2 -%}
+          {%- assign alt_text = parts | slice: 2, parts.size | join: ":" | strip -%}
+        {%- endif -%}
+      {%- else -%}
+        {%- assign alt_text = parts | slice: 1, parts.size | join: ":" | strip -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- assign fn_first = filename | slice: 0, 1 -%}
+    {%- if fn_first == "/" -%}
+      {%- assign img_src = filename -%}
+    {%- else -%}
+      {%- assign img_src = dir | append: filename -%}
+    {%- endif -%}
+    {%- if img_count <= 4 -%}
+      {%- assign loading_attr = "eager" -%}
+    {%- else -%}
+      {%- assign loading_attr = "lazy" -%}
+    {%- endif %}
+<img{% if span_class != "" %} class="{{ span_class }}"{% endif %} src="{{ img_src }}" alt="{{ alt_text | escape }}" loading="{{ loading_attr }}" decoding="async">
+  {%- endif -%}
+{%- endfor -%}
+{%- endfor %}
+</figure>
+{%- endif -%}
