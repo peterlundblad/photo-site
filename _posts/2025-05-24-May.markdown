@@ -14,10 +14,10 @@ Special thanks to [la perle](https://la-perle.org){:target="_blank" rel="noopene
 
 <figure class="masonry">
 
-<img src="/assets/images/2025/may/perle-mai-22.webp" alt="" width="1333" height="2000" loading="eager" decoding="async">
-<img class="two" src="/assets/images/2025/may/perle-mai-21.webp" alt="" width="2000" height="1333" loading="lazy" decoding="async">
+<img src="/assets/images/2025/may/perle-mai-22.webp" alt="Man in a flat cap and glasses reading poetry outdoors on a bright red hammock in Burgundy" width="1333" height="2000" loading="eager" decoding="async">
+<img class="two" src="/assets/images/2025/may/perle-mai-21.webp" alt="Woman reciting poetry beside an acoustic guitarist kneeling on lush green grass in the Morvan" width="2000" height="1333" loading="lazy" decoding="async">
 
-<img class="two" src="/assets/images/2025/may/perle-mai-5.webp" alt="" width="2000" height="1333" loading="lazy" decoding="async">
+<img class="two" src="/assets/images/2025/may/perle-mai-5.webp" alt="Bearded man in a knit beanie reading aloud to smiling friends beneath cherry trees in spring" width="2000" height="1333" loading="lazy" decoding="async">
 <img src="/assets/images/2025/may/perle-mai-1.webp" alt="a bearded man picking cherries" width="1333" height="2000" loading="lazy" decoding="async">
 
 
