@@ -1,0 +1,25 @@
+---
+title: Into the Alps
+date: 2025-10-14 10:00:00
+layout: post
+categories:
+  - mountains
+  - autumn
+  - france
+image_dir: /assets/images/2025/alps/
+featured_image: /assets/images/2025/alps/alps-dad-9.webp
+gallery:
+  - [alps-dad-1.webp, alps-dad-6.webp, alps-dad-3.webp]
+  - [alps-dad-4.webp:three]
+  - [alps-dad-5.webp:two, alps-dad-2.webp]
+  - [alps-dad-7.webp:three]
+  - [alps-dad-12.webp, alps-dad-9.webp:two]
+  - [alps-dad-11.webp:three]
+  - [alps-dad-13.webp, alps-dad-8.webp, alps-dad-10.webp]
+---
+
+My dad and I had been dreaming of hiking in the Alps for a few years, but we never found the time—until we did! This October we took off from Burgundy and headed south, first to Lyon, then Lake Annecy, and finally to Chamonix, the heart of the French Alps.
+
+We had a blast hiking in the thin air and finally making this trip happen. To top it all off, I introduced my dad to the joys of raclette.
+
+{% include masonry.html %}

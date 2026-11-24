@@ -3,7 +3,7 @@ title: An Ode to Autumn
 date: 2025-11-06 09:00:00
 layout: post
 categories:
-  - filmmaking
+  - video
   - Burgundy
   - France
 youtube_id: 4rbtwIHZN9s

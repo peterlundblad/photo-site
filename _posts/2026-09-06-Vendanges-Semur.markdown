@@ -3,7 +3,7 @@ title: Les Vendanges de Semur
 date: 2026-09-06 10:00:00
 layout: post
 categories:
-  - filmmaking
+  - video
   - wine
   - france
 youtube_id: bHoDTPHhIJo
